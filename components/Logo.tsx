@@ -1,6 +1,6 @@
 import { View, Image, StyleSheet } from 'react-native';
 
-const LOGO_ASPECT = 813 / 270;
+const LOGO_ASPECT = 810 / 246;
 
 interface LogoProps {
   width?: number;
