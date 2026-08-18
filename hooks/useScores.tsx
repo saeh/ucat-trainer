@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useUser } from '@clerk/react';
 
@@ -12,13 +12,19 @@ export interface QuizResult {
   percentage: number;
 }
 
-const GENERIC_KEY = 'ucat_scores_guest';
-
-function getStorageKey(userId: string | undefined) {
-  return userId ? `ucat_scores_${userId}` : GENERIC_KEY;
+interface ScoresContextValue {
+  results: QuizResult[];
+  loading: boolean;
+  addResult: (result: QuizResult) => Promise<void>;
+  clearScores: () => Promise<void>;
+  getSectionResults: (section: string) => QuizResult[];
+  getOverallStats: () => { totalQuizzes: number; avgPercentage: number; totalQuestions: number; totalCorrect: number };
+  getSectionStats: (section: string) => { quizzes: number; avgPercentage: number; bestPercentage: number; totalQuestions: number; totalCorrect: number };
 }
 
-export function useScores() {
+const ScoresContext = createContext<ScoresContextValue | null>(null);
+
+export function ScoresProvider({ children }: { children: ReactNode }) {
   const { user } = useUser();
   const userId = user?.id;
   const [results, setResults] = useState<QuizResult[]>([]);
@@ -30,13 +36,9 @@ export function useScores() {
 
   const loadScores = async () => {
     try {
-      const key = getStorageKey(userId);
+      const key = userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
       const data = await AsyncStorage.getItem(key);
-      if (data) {
-        setResults(JSON.parse(data));
-      } else {
-        setResults([]);
-      }
+      setResults(data ? JSON.parse(data) : []);
     } catch (e) {
       console.error('Failed to load scores:', e);
     } finally {
@@ -48,7 +50,7 @@ export function useScores() {
     const updated = [result, ...results];
     setResults(updated);
     try {
-      const key = getStorageKey(userId);
+      const key = userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
       await AsyncStorage.setItem(key, JSON.stringify(updated));
     } catch (e) {
       console.error('Failed to save score:', e);
@@ -58,7 +60,7 @@ export function useScores() {
   const clearScores = useCallback(async () => {
     setResults([]);
     try {
-      const key = getStorageKey(userId);
+      const key = userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
       await AsyncStorage.removeItem(key);
     } catch (e) {
       console.error('Failed to clear scores:', e);
@@ -99,5 +101,15 @@ export function useScores() {
     };
   }, [getSectionResults]);
 
-  return { results, loading, addResult, clearScores, getSectionResults, getOverallStats, getSectionStats };
+  return (
+    <ScoresContext.Provider value={{ results, loading, addResult, clearScores, getSectionResults, getOverallStats, getSectionStats }}>
+      {children}
+    </ScoresContext.Provider>
+  );
+}
+
+export function useScores() {
+  const ctx = useContext(ScoresContext);
+  if (!ctx) throw new Error('useScores must be used within ScoresProvider');
+  return ctx;
 }
