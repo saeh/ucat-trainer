@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Link, Redirect } from 'expo-router';
 import { Show } from '@clerk/react';
 import { Colors } from '../constants/colors';
+import { Logo } from '../components/Logo';
 
 export default function RootIndex() {
   return (
@@ -11,8 +12,7 @@ export default function RootIndex() {
       </Show>
       <Show when="signed-out">
         <View style={styles.container}>
-          <Text style={styles.icon}>🎓</Text>
-          <Text style={styles.title}>UCAT Trainer</Text>
+          <Logo width={260} />
           <Text style={styles.subtitle}>
             Practise for the University Clinical Aptitude Test
           </Text>
@@ -47,21 +47,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 30,
   },
-  icon: {
-    fontSize: 72,
-    marginBottom: 16,
-  },
-  title: {
-    fontSize: 36,
-    fontWeight: '800',
-    color: Colors.text,
-    marginBottom: 8,
-  },
   subtitle: {
     fontSize: 16,
     color: Colors.textSecondary,
     textAlign: 'center',
     marginBottom: 50,
+    marginTop: 24,
     lineHeight: 22,
   },
   buttons: {

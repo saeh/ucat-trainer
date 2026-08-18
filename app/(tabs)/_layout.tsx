@@ -2,11 +2,16 @@ import { Tabs } from 'expo-router';
 import { Show } from '@clerk/react';
 import { Colors } from '../../constants/colors';
 import { Text } from 'react-native';
+import { Logo } from '../../components/Logo';
 
 function TabIcon({ icon, focused }: { icon: string; focused: boolean }) {
   return (
     <Text style={{ fontSize: 22, opacity: focused ? 1 : 0.5 }}>{icon}</Text>
   );
+}
+
+function HeaderLogo() {
+  return <Logo width={120} compact />;
 }
 
 export default function TabLayout() {
@@ -26,6 +31,7 @@ export default function TabLayout() {
           headerStyle: { backgroundColor: Colors.background },
           headerTintColor: Colors.text,
           headerTitleStyle: { fontWeight: '700' },
+          headerTitle: HeaderLogo,
         }}
       >
         <Tabs.Screen
