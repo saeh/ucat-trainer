@@ -19,7 +19,7 @@ export const SECTIONS: SectionInfo[] = [
     description: 'Read passages and evaluate statements as True, False, or Can\'t Tell. ~28 seconds per question.',
     questions: 44,
     timeMinutes: 22,
-    color: '#FF6B6B',
+    color: '#F15A2B',
     icon: '📖',
   },
   {
@@ -29,7 +29,7 @@ export const SECTIONS: SectionInfo[] = [
     description: 'Logical puzzles, Venn diagrams, syllogisms, and chart interpretation. ~62 seconds per question.',
     questions: 35,
     timeMinutes: 37,
-    color: '#4ECDC4',
+    color: '#2AB7A8',
     icon: '🧩',
   },
   {
@@ -39,7 +39,7 @@ export const SECTIONS: SectionInfo[] = [
     description: 'Numerical problem-solving with tables, charts, and graphs. ~42 seconds per question.',
     questions: 36,
     timeMinutes: 26,
-    color: '#45B7D1',
+    color: '#4DA6E8',
     icon: '📊',
   },
   {
@@ -49,7 +49,7 @@ export const SECTIONS: SectionInfo[] = [
     description: 'Rate appropriateness and importance of responses in healthcare scenarios. ~22 seconds per question.',
     questions: 69,
     timeMinutes: 27,
-    color: '#FFA07A',
+    color: '#F9B233',
     icon: '🏥',
   },
 ];
