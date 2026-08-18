@@ -12,11 +12,6 @@
     </style>
     <link rel="icon" href="/favicon.ico" />
     <script>
-      if (typeof process === 'undefined') window.process = { env: {} };
-      if (!process.env) process.env = {};
-      process.env.CLERK_DISABLE_AUTO_PROXY = '1';
-    </script>
-    <script>
       // Patch CSSStyleDeclaration to silently accept indexed property assignments.
       // React 19's DOM reconciler sets style[n] where n is numeric ("0", "1", etc.)
       // but modern browsers throw on indexed setters for CSSStyleDeclaration.
