@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useAuth } from '@clerk/react';
 
 export interface QuizResult {
   id: string;
@@ -11,21 +12,32 @@ export interface QuizResult {
   percentage: number;
 }
 
-const STORAGE_KEY = 'ucat_scores';
+function getStorageKey(userId: string) {
+  return `ucat_scores_${userId}`;
+}
 
 export function useScores() {
+  const { userId } = useAuth();
   const [results, setResults] = useState<QuizResult[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!userId) {
+      setResults([]);
+      setLoading(false);
+      return;
+    }
     loadScores();
-  }, []);
+  }, [userId]);
 
   const loadScores = async () => {
+    if (!userId) return;
     try {
-      const data = await AsyncStorage.getItem(STORAGE_KEY);
+      const data = await AsyncStorage.getItem(getStorageKey(userId));
       if (data) {
         setResults(JSON.parse(data));
+      } else {
+        setResults([]);
       }
     } catch (e) {
       console.error('Failed to load scores:', e);
@@ -35,23 +47,25 @@ export function useScores() {
   };
 
   const addResult = useCallback(async (result: QuizResult) => {
+    if (!userId) return;
     const updated = [result, ...results];
     setResults(updated);
     try {
-      await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      await AsyncStorage.setItem(getStorageKey(userId), JSON.stringify(updated));
     } catch (e) {
       console.error('Failed to save score:', e);
     }
-  }, [results]);
+  }, [results, userId]);
 
   const clearScores = useCallback(async () => {
+    if (!userId) return;
     setResults([]);
     try {
-      await AsyncStorage.removeItem(STORAGE_KEY);
+      await AsyncStorage.removeItem(getStorageKey(userId));
     } catch (e) {
       console.error('Failed to clear scores:', e);
     }
-  }, []);
+  }, [userId]);
 
   const getSectionResults = useCallback((section: string) => {
     return results.filter((r) => r.section === section);
