@@ -8,7 +8,7 @@ export default function SignInScreen() {
     <View style={styles.container}>
       <SignIn
         routing="hash"
-        fallbackRedirectUrl="/"
+        fallbackRedirectUrl="/(tabs)/home"
         appearance={clerkAppearance}
       />
     </View>
