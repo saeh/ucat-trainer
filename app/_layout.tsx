@@ -12,7 +12,7 @@ export default function RootLayout() {
   }
 
   return (
-    <ClerkProvider publishableKey={publishableKey}>
+    <ClerkProvider publishableKey={publishableKey} __internal_clerkJsUrl="https://cdn.jsdelivr.net/npm/@clerk/clerk-js@6/dist/clerk.browser.js">
       <ScoresProvider>
         <StatusBar style="light" />
         <Stack
