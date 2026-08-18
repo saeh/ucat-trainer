@@ -6,53 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>UCAT Trainer</title>
     <style id="expo-reset">
-      html,
-      body {
-        height: 100%;
-      }
-      body {
-        overflow: hidden;
-        background-color: #0f0f23;
-      }
-      #root {
-        display: flex;
-        height: 100%;
-        flex: 1;
-      }
+      html, body { height: 100%; }
+      body { overflow: hidden; background-color: #0f0f23; }
+      #root { display: flex; height: 100%; flex: 1; }
     </style>
     <link rel="icon" href="/favicon.ico" />
     <script>
+      // Patch CSSStyleDeclaration to silently accept indexed property assignments.
+      // React 19's DOM reconciler sets style[n] where n is numeric ("0", "1", etc.)
+      // but modern browsers throw on indexed setters for CSSStyleDeclaration.
       (function () {
+        if (typeof window === 'undefined' || typeof HTMLElement === 'undefined') return;
         try {
-          var origCreateElement = document.createElement.bind(document);
-          document.createElement = function (tagName, options) {
-            var el = origCreateElement(tagName, options);
-            if (el && el.style && el.style.constructor && el.style.constructor.name === 'CSSStyleDeclaration') {
-              var origStyle = el.style;
-              el.style = new Proxy(origStyle, {
-                set: function (target, prop, value) {
-                  if (typeof prop === 'string' && /^\d+$/.test(prop)) {
+          var desc = Object.getOwnPropertyDescriptor(HTMLElement.prototype, 'style');
+          if (!desc || !desc.get) return;
+          var cache = new WeakMap();
+          Object.defineProperty(HTMLElement.prototype, 'style', {
+            get: function () {
+              var real = desc.get.call(this);
+              if (!real) return real;
+              var proxy = cache.get(real);
+              if (!proxy) {
+                proxy = new Proxy(real, {
+                  set: function (target, prop, value) {
+                    if (typeof prop === 'string' && /^[0-9]+$/.test(prop)) {
+                      return true;
+                    }
+                    try { target[prop] = value; } catch (e) {}
                     return true;
+                  },
+                  get: function (target, prop) {
+                    if (typeof prop === 'string' && /^[0-9]+$/.test(prop)) {
+                      return undefined;
+                    }
+                    var val = target[prop];
+                    if (typeof val === 'function') return val.bind(target);
+                    return val;
+                  },
+                  has: function (target, prop) {
+                    if (typeof prop === 'string' && /^[0-9]+$/.test(prop)) return false;
+                    return prop in target;
                   }
-                  try {
-                    target[prop] = value;
-                  } catch (e) {}
-                  return true;
-                },
-                get: function (target, prop) {
-                  if (typeof prop === 'string' && /^\d+$/.test(prop)) {
-                    return undefined;
-                  }
-                  var val = target[prop];
-                  if (typeof val === 'function') {
-                    return val.bind(target);
-                  }
-                  return val;
-                },
-              });
-            }
-            return el;
-          };
+                });
+                cache.set(real, proxy);
+              }
+              return proxy;
+            },
+            set: desc.set
+              ? function (v) { return desc.set.call(this, v); }
+              : function () {},
+            configurable: true,
+            enumerable: true,
+          });
         } catch (e) {}
       })();
     </script>
