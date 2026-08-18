@@ -1,0 +1,35 @@
+{
+  "section": "qr",
+  "cards": [
+    {
+      "id": "qr-fc-001",
+      "front": "Quick Percentage Calculations",
+      "back": "10% = ÷10\n5% = 10% ÷ 2\n1% = ÷100\n25% = ÷4\n33% = ÷3\n50% = ÷2\n75% = 50% + 25%"
+    },
+    {
+      "id": "qr-fc-002",
+      "front": "QR Time Management",
+      "back": "36 questions in 26 minutes ≈ 43 seconds per question. Use the on-screen calculator wisely — it's slow, so do mental maths for simple calculations."
+    },
+    {
+      "id": "qr-fc-003",
+      "front": "Ratio Problems",
+      "back": "To find a share: Total ÷ Sum of ratio parts × Individual part\n\nExample: Ratio 3:2:1, Total 36 → Each part = 36÷6 = 6\nFirst group = 3×6 = 18"
+    },
+    {
+      "id": "qr-fc-004",
+      "front": "Common QR Formulae",
+      "back": "Percentage change = (New - Old) / Old × 100\n\nCompound interest: A = P(1 + r/100)^n\n\nSpeed = Distance / Time\n\nDensity = Mass / Volume"
+    },
+    {
+      "id": "qr-fc-005",
+      "front": "Data Interpretation Tips",
+      "back": "1. Read the question FIRST, then look at the data\n2. Identify the relevant rows/columns\n3. Estimate before calculating — eliminate impossible answers\n4. Check units carefully (mg vs g, mL vs L)"
+    },
+    {
+      "id": "qr-fc-006",
+      "front": "Drug Dosage Calculation",
+      "back": "Dose = Weight (kg) × Dose per kg\nVolume = Dose ÷ Concentration\n\nExample: 25kg child, 10mg/kg, 125mg/5mL\nDose = 25 × 10 = 250mg\nVolume = 250 ÷ (125/5) = 10mL"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "section": "sjt",
+  "cards": [
+    {
+      "id": "sjt-fc-001",
+      "front": "SJT Golden Rule",
+      "back": "Answer what you SHOULD do professionally, not what you personally WOULD do. The test assesses professional judgement, not personal opinion."
+    },
+    {
+      "id": "sjt-fc-002",
+      "front": "SJT Hierarchy of Priorities",
+      "back": "1. Patient safety (always top)\n2. Patient dignity and consent\n3. Honesty and integrity\n4. Working within competence\n5. Knowing when to escalate\n6. Supporting colleagues"
+    },
+    {
+      "id": "sjt-fc-003",
+      "front": "Appropriateness Scale",
+      "back": "Very appropriate — ideal response, best practice\nAppropriate — acceptable, though not optimal\nInappropriate — not recommended, potential harm\nVery inappropriate — dangerous or unethical"
+    },
+    {
+      "id": "sjt-fc-004",
+      "front": "Confidentiality Exceptions",
+      "back": "Confidentiality CAN be broken when:\n- Risk of serious harm to self or others\n- Court order or legal requirement\n- Child or vulnerable adult protection\n- Notifiable infectious diseases"
+    },
+    {
+      "id": "sjt-fc-005",
+      "front": "SJT Time Management",
+      "back": "69 questions in 27 minutes ≈ 23 seconds per question. Fastest section — don't overthink. Your first instinct is usually correct."
+    },
+    {
+      "id": "sjt-fc-006",
+      "front": "Common SJT Scenarios",
+      "back": "• Colleague impairment → patient safety first\n• Incomplete information → communicate gaps clearly\n• Patient requests secrecy → assess risk\n• Unprofessional behaviour → address directly but respectfully\n• Language barriers → arrange interpreter ASAP"
+    }
+  ]
+}

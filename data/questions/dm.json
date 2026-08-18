@@ -1,0 +1,115 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-001",
+      "type": "syllogism",
+      "passage": "All doctors have completed a university degree. Some university degree holders have studied abroad. No one who has studied abroad speaks fewer than two languages.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All doctors speak at least two languages",
+        "Some doctors have studied abroad",
+        "Some university degree holders speak at least two languages",
+        "All who have studied abroad are doctors"
+      ],
+      "correct": "Some university degree holders speak at least two languages",
+      "explanation": "Since some degree holders studied abroad, and no one who studied abroad speaks fewer than two languages, some degree holders speak at least two languages. We cannot conclude all doctors do (they may not have studied abroad), nor that some doctors studied abroad."
+    },
+    {
+      "id": "dm-002",
+      "type": "syllogism",
+      "passage": "All nurses wear scrubs. Some people who wear scrubs work in hospitals. Everyone who works in hospitals has a security badge.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All nurses have a security badge",
+        "Some nurses work in hospitals",
+        "Some people who wear scrubs have a security badge",
+        "All people with security badges wear scrubs"
+      ],
+      "correct": "Some people who wear scrubs have a security badge",
+      "explanation": "Some scrubs-wearers work in hospitals, and all hospital workers have security badges, so some scrubs-wearers have security badges. We cannot conclude all nurses have one (some nurses may not work in hospitals)."
+    },
+    {
+      "id": "dm-003",
+      "type": "logic-puzzle",
+      "passage": "Five students — Amy, Ben, Carol, David, and Emma — are sitting in a row of five seats, numbered 1 to 5 from left to right. Amy sits next to Ben. Carol sits in seat 3. David does not sit at either end. Emma sits to the right of Carol.",
+      "question": "Who must be sitting in seat 5?",
+      "options": ["Amy", "Ben", "David", "Emma"],
+      "correct": "Emma",
+      "explanation": "Emma must be in seat 4 or 5 (right of Carol in seat 3). David can't be in seats 1 or 5. Amy and Ben sit together. If Emma is in seat 4, then seat 5 must be filled by someone — but David can't be there, and Amy/Ben need adjacent seats. Emma must be in seat 5 to allow Amy/Ben to occupy seats 1-2 with David in seat 4."
+    },
+    {
+      "id": "dm-004",
+      "type": "venn-diagram",
+      "passage": "In a survey of 100 medical students: 60 study Pharmacology, 45 study Physiology, 30 study both Pharmacology and Physiology, 15 study neither subject.",
+      "question": "How many students study Pharmacology but not Physiology?",
+      "options": ["15", "25", "30", "35"],
+      "correct": "30",
+      "explanation": "Students studying Pharmacology but not Physiology = Total studying Pharmacology - Those studying both = 60 - 30 = 30."
+    },
+    {
+      "id": "dm-005",
+      "type": "chart-interpretation",
+      "passage": "A hospital tracks patient admissions by department over a week:\n\n| Day | Emergency | Surgery | Paediatrics |\n|-----|-----------|---------|-------------|\n| Mon | 45        | 20      | 15          |\n| Tue | 50        | 25      | 12          |\n| Wed | 35        | 30      | 18          |\n| Thu | 40        | 22      | 14          |\n| Fri | 55        | 28      | 16          |",
+      "question": "On which day did the fewest total admissions occur across all three departments?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "correct": "Thursday",
+      "explanation": "Mon: 45+20+15=80, Tue: 50+25+12=87, Wed: 35+30+18=83, Thu: 40+22+14=76, Fri: 55+28+16=99. Thursday had the fewest at 76."
+    },
+    {
+      "id": "dm-006",
+      "type": "strongest-argument",
+      "passage": "Should universities make all lectures available online for remote learning?",
+      "question": "Which is the strongest argument FOR online lectures?",
+      "options": [
+        "Online lectures allow students to replay content at their own pace, improving retention",
+        "Some students prefer the social experience of attending lectures in person",
+        "Universities have invested heavily in physical lecture theatres",
+        "Online lectures require significant IT infrastructure investment"
+      ],
+      "correct": "Online lectures allow students to replay content at their own pace, improving retention",
+      "explanation": "This directly supports the benefit of online lectures. The other options either argue against, are neutral, or raise concerns."
+    },
+    {
+      "id": "dm-007",
+      "type": "probabilistic-reasoning",
+      "passage": "A genetic test for a rare condition has a sensitivity of 99% (correctly identifies 99% of those with the condition) and a specificity of 95% (correctly identifies 95% of those without the condition). The condition affects 1 in 1,000 people in the population.",
+      "question": "If a person tests positive, approximately what is the probability they actually have the condition?",
+      "options": ["About 2%", "About 10%", "About 20%", "About 50%"],
+      "correct": "About 2%",
+      "explanation": "Using Bayes' theorem: Of 10,000 people, ~10 have the condition (9.9 test positive). ~9,990 don't have it (~499.5 false positives). P(condition|positive) = 9.9/(9.9+499.5) ≈ 1.94%, roughly 2%."
+    },
+    {
+      "id": "dm-008",
+      "type": "venn-diagram",
+      "passage": "In a group of 80 medical students: 50 can speak French, 35 can speak Mandarin, 20 can speak both French and Mandarin, and 10 can speak neither language.",
+      "question": "How many students can speak French but not Mandarin?",
+      "options": ["20", "25", "30", "35"],
+      "correct": "30",
+      "explanation": "French only = Total speaking French - Those speaking both = 50 - 20 = 30."
+    },
+    {
+      "id": "dm-009",
+      "type": "inference",
+      "passage": "A pharmaceutical company's annual report shows:\n- Revenue increased 8% year-on-year\n- R&D spending decreased by 12%\n- Two new drugs were approved by the TGA\n- Staff numbers remained stable\n- Operating profit margin improved from 18% to 22%",
+      "question": "Which inference is best supported by the data?",
+      "options": [
+        "The company is likely to develop fewer new drugs in the future",
+        "The company reduced costs while maintaining revenue growth",
+        "The new drugs were responsible for all revenue growth",
+        "The company plans to increase hiring next year"
+      ],
+      "correct": "The company reduced costs while maintaining revenue growth",
+      "explanation": "Revenue grew 8% while R&D spending decreased 12% and staff remained stable, indicating cost reduction alongside revenue growth. Other inferences go beyond what the data supports."
+    },
+    {
+      "id": "dm-010",
+      "type": "logic-puzzle",
+      "passage": "Four patients — P, Q, R, S — are scheduled for surgery on four consecutive days (Monday to Thursday), one per day. R's surgery is on a day before S's. P's surgery is not on Monday or Thursday. Q's surgery is on Wednesday.",
+      "question": "On which day is R's surgery?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "correct": "Monday",
+      "explanation": "Q is on Wednesday. P can't be Monday or Thursday, so P is Tuesday or Thursday. R is before S. If P is Tuesday: R must be Monday, S is Thursday. If P is Thursday: R and S must be Mon/Tue (R before S). In both cases, R is on Monday."
+    }
+  ]
+}

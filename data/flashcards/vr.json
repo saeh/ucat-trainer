@@ -1,0 +1,35 @@
+{
+  "section": "vr",
+  "cards": [
+    {
+      "id": "vr-fc-001",
+      "front": "True / False / Can't Tell",
+      "back": "True: passage explicitly confirms the statement.\nFalse: passage contradicts the statement.\nCan't Tell: passage doesn't give enough information — you're guessing."
+    },
+    {
+      "id": "vr-fc-002",
+      "front": "Key VR Strategy: Scan, Don't Read",
+      "back": "Read the question first, then scan the passage for keywords. Don't read the whole passage before seeing the question — it wastes precious time (~28 seconds per question)."
+    },
+    {
+      "id": "vr-fc-003",
+      "front": "The 'Can't Tell' Trap",
+      "back": "'Can't Tell' doesn't mean 'I don't know the answer.' It means the passage doesn't provide enough information to determine whether the statement is true or false."
+    },
+    {
+      "id": "vr-fc-004",
+      "front": "VR Time Management",
+      "back": "44 questions in 22 minutes = ~30 seconds per question. If a passage is too difficult, flag it and move on. Never leave questions blank — always guess."
+    },
+    {
+      "id": "vr-fc-005",
+      "front": "Common VR Trick Words",
+      "back": "Watch for: 'all' vs 'some', 'always' vs 'sometimes', 'causes' vs 'associated with', 'most' vs 'all'. These qualifiers change whether a statement is true, false, or can't tell."
+    },
+    {
+      "id": "vr-fc-006",
+      "front": "Passage Types in VR",
+      "back": "Passages cover: philosophy, economics, sociology, science, history, social issues. You don't need prior knowledge — all answers are found in the passage itself."
+    }
+  ]
+}

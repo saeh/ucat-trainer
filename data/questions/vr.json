@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-001",
+      "type": "true-false-cant-tell",
+      "passage": "A recent study conducted by researchers at the University of Melbourne examined the relationship between sleep duration and academic performance among 1,200 undergraduate students. The study found that students who consistently slept between 7-9 hours per night scored an average of 12% higher on examinations compared to those who slept fewer than 6 hours. Interestingly, students who slept more than 10 hours performed similarly to those sleeping fewer than 6 hours. The researchers controlled for variables including course difficulty, prior academic achievement, and socioeconomic status. Lead author Dr. Sarah Chen noted that the findings suggest a 'Goldilocks zone' for sleep, where both too little and too much can be detrimental to cognitive function.",
+      "question": "Students who slept more than 10 hours performed worse than those sleeping 7-9 hours.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states students who slept more than 10 hours 'performed similarly to those sleeping fewer than 6 hours,' and those sleeping fewer than 6 hours scored 12% lower than the 7-9 hour group. So sleeping 10+ hours did result in worse performance compared to 7-9 hours."
+    },
+    {
+      "id": "vr-002",
+      "type": "true-false-cant-tell",
+      "passage": "A recent study conducted by researchers at the University of Melbourne examined the relationship between sleep duration and academic performance among 1,200 undergraduate students. The study found that students who consistently slept between 7-9 hours per night scored an average of 12% higher on examinations compared to those who slept fewer than 6 hours. Interestingly, students who slept more than 10 hours performed similarly to those sleeping fewer than 6 hours. The researchers controlled for variables including course difficulty, prior academic achievement, and socioeconomic status. Lead author Dr. Sarah Chen noted that the findings suggest a 'Goldilocks zone' for sleep, where both too little and too much can be detrimental to cognitive function.",
+      "question": "The study was conducted at the University of Sydney.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage clearly states the study was conducted at the University of Melbourne, not the University of Sydney."
+    },
+    {
+      "id": "vr-003",
+      "type": "true-false-cant-tell",
+      "passage": "A recent study conducted by researchers at the University of Melbourne examined the relationship between sleep duration and academic performance among 1,200 undergraduate students. The study found that students who consistently slept between 7-9 hours per night scored an average of 12% higher on examinations compared to those who slept fewer than 6 hours. Interestingly, students who slept more than 10 hours performed similarly to those sleeping fewer than 6 hours. The researchers controlled for variables including course difficulty, prior academic achievement, and socioeconomic status. Lead author Dr. Sarah Chen noted that the findings suggest a 'Goldilocks zone' for sleep, where both too little and too much can be detrimental to cognitive function.",
+      "question": "The study included postgraduate students in its sample.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states the study examined 'undergraduate students' but does not explicitly state whether postgraduate students were included or excluded from the sample."
+    },
+    {
+      "id": "vr-004",
+      "type": "true-false-cant-tell",
+      "passage": "A recent study conducted by researchers at the University of Melbourne examined the relationship between sleep duration and academic performance among 1,200 undergraduate students. The study found that students who consistently slept between 7-9 hours per night scored an average of 12% higher on examinations compared to those who slept fewer than 6 hours. Interestingly, students who slept more than 10 hours performed similarly to those sleeping fewer than 6 hours. The researchers controlled for variables including course difficulty, prior academic achievement, and socioeconomic status. Lead author Dr. Sarah Chen noted that the findings suggest a 'Goldilocks zone' for sleep, where both too little and too much can be detrimental to cognitive function.",
+      "question": "Dr. Chen believes that sleep deprivation is the primary cause of poor academic performance.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "Dr. Chen's quoted comment refers to a 'Goldilocks zone' for sleep and its effect on cognitive function, but does not claim sleep deprivation is the primary cause of poor academic performance overall."
+    },
+    {
+      "id": "vr-005",
+      "type": "true-false-cant-tell",
+      "passage": "The Great Barrier Reef, the world's largest coral reef system, has experienced significant bleaching events over the past decade. Marine biologists from James Cook University have been monitoring reef health since 2016 and report that approximately 50% of coral cover has been lost in the most affected areas. However, some sections of the reef in the northernmost regions have shown surprising resilience, with coral recovery rates of up to 20% annually. The researchers attribute this recovery to localised upwelling of cooler deep-sea water, which provides temporary relief from elevated sea surface temperatures. Despite these positive signs, the overall trajectory remains concerning, with climate models predicting continued warming of the Coral Sea.",
+      "question": "The Great Barrier Reef is the largest coral reef system in the world.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage explicitly states the Great Barrier Reef is 'the world's largest coral reef system.'"
+    },
+    {
+      "id": "vr-006",
+      "type": "true-false-cant-tell",
+      "passage": "The Great Barrier Reef, the world's largest coral reef system, has experienced significant bleaching events over the past decade. Marine biologists from James Cook University have been monitoring reef health since 2016 and report that approximately 50% of coral cover has been lost in the most affected areas. However, some sections of the reef in the northernmost regions have shown surprising resilience, with coral recovery rates of up to 20% annually. The researchers attribute this recovery to localised upwelling of cooler deep-sea water, which provides temporary relief from elevated sea surface temperatures. Despite these positive signs, the overall trajectory remains concerning, with climate models predicting continued warming of the Coral Sea.",
+      "question": "More than half of the total Great Barrier Reef has been lost.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states that approximately 50% of coral cover has been lost 'in the most affected areas,' not across the entire reef. We cannot determine the total loss across the whole reef system."
+    },
+    {
+      "id": "vr-007",
+      "type": "true-false-cant-tell",
+      "passage": "The Great Barrier Reef, the world's largest coral reef system, has experienced significant bleaching events over the past decade. Marine biologists from James Cook University have been monitoring reef health since 2016 and report that approximately 50% of coral cover has been lost in the most affected areas. However, some sections of the reef in the northernmost regions have shown surprising resilience, with coral recovery rates of up to 20% annually. The researchers attribute this recovery to localised upwelling of cooler deep-sea water, which provides temporary relief from elevated sea surface temperatures. Despite these positive signs, the overall trajectory remains concerning, with climate models predicting continued warming of the Coral Sea.",
+      "question": "The coral recovery in northern regions is caused by reduced tourist activity.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage attributes recovery to 'localised upwelling of cooler deep-sea water,' not reduced tourist activity."
+    },
+    {
+      "id": "vr-008",
+      "type": "true-false-cant-tell",
+      "passage": "The Great Barrier Reef, the world's largest coral reef system, has experienced significant bleaching events over the past decade. Marine biologists from James Cook University have been monitoring reef health since 2016 and report that approximately 50% of coral cover has been lost in the most affected areas. However, some sections of the reef in the northernmost regions have shown surprising resilience, with coral recovery rates of up to 20% annually. The researchers attribute this recovery to localised upwelling of cooler deep-sea water, which provides temporary relief from elevated sea surface temperatures. Despite these positive signs, the overall trajectory remains concerning, with climate models predicting continued warming of the Coral Sea.",
+      "question": "James Cook University researchers have been studying the reef for over ten years.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states monitoring began in 2016, and the article discusses events over the past decade. By 2026, that's at least 10 years of monitoring."
+    },
+    {
+      "id": "vr-009",
+      "type": "true-false-cant-tell",
+      "passage": "Artificial intelligence is transforming the field of radiology. A study published in The Lancet Digital Health compared the performance of an AI system developed by Google Health with that of 29 radiologists in detecting breast cancer from mammograms. The AI achieved a false positive rate 5.7% lower than the average radiologist and a false negative rate 9.4% lower. However, the study noted that the AI was trained primarily on data from the US and UK, raising questions about its generalisability to populations with different breast cancer profiles. Professor David Wright, a breast imaging specialist at Royal Melbourne Hospital, cautioned that AI should be viewed as a 'second reader' rather than a replacement for human expertise, particularly in edge cases where clinical context is essential.",
+      "question": "The AI system had fewer false negatives than all 29 radiologists.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states the AI had a false negative rate 9.4% lower than the 'average radiologist,' but does not say it outperformed every individual radiologist."
+    },
+    {
+      "id": "vr-010",
+      "type": "true-false-cant-tell",
+      "passage": "Artificial intelligence is transforming the field of radiology. A study published in The Lancet Digital Health compared the performance of an AI system developed by Google Health with that of 29 radiologists in detecting breast cancer from mammograms. The AI achieved a false positive rate 5.7% lower than the average radiologist and a false negative rate 9.4% lower. However, the study noted that the AI was trained primarily on data from the US and UK, raising questions about its generalisability to populations with different breast cancer profiles. Professor David Wright, a breast imaging specialist at Royal Melbourne Hospital, cautioned that AI should be viewed as a 'second reader' rather than a replacement for human expertise, particularly in edge cases where clinical context is essential.",
+      "question": "The study was funded by Google Health.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage mentions the AI was 'developed by Google Health' and the study was published in The Lancet Digital Health, but does not state who funded the study."
+    }
+  ]
+}

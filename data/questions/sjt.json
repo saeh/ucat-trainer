@@ -1,0 +1,95 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-001",
+      "type": "appropriateness",
+      "passage": "You are a medical student on placement. You notice that a fellow student has been frequently arriving late to clinical sessions and appears to be struggling with the workload. They confide in you that they have been experiencing significant personal difficulties at home.",
+      "question": "How appropriate is it to encourage your fellow student to speak with the clinical supervisor about their difficulties?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Encouraging the student to seek support from the supervisor is appropriate as it connects them with someone who can provide formal support and adjustments. However, it's the student's choice to disclose, so it ranks below 'very appropriate' which might involve more direct action."
+    },
+    {
+      "id": "sjt-002",
+      "type": "appropriateness",
+      "passage": "During a ward round, you overhear a junior doctor speaking dismissively about a patient's concerns to a nurse. The patient cannot hear the conversation.",
+      "question": "How appropriate is it to raise this with the junior doctor after the ward round?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Addressing unprofessional behaviour directly but privately is very appropriate. It respects the junior doctor's dignity while addressing the concern, and promotes a culture of respect for patients."
+    },
+    {
+      "id": "sjt-003",
+      "type": "importance",
+      "passage": "You are reviewing a patient's medication chart and notice what appears to be a dosing error — the prescribed dose seems higher than standard. The prescribing doctor is not immediately available.",
+      "question": "How important is it to verify the dose with the prescribing doctor before administering the medication?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Patient safety is paramount. A potential dosing error must be verified before administration. This is a core safety concern that could directly harm the patient."
+    },
+    {
+      "id": "sjt-004",
+      "type": "appropriateness",
+      "passage": "You are working in a busy ED. A patient who has been waiting for 4 hours becomes agitated and verbally aggressive towards reception staff.",
+      "question": "How appropriate is it to approach the patient calmly, acknowledge their frustration, and provide an updated expected waiting time?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "De-escalation through empathy, acknowledgment, and clear communication is the best approach. It addresses the patient's needs while maintaining safety for staff."
+    },
+    {
+      "id": "sjt-005",
+      "type": "importance",
+      "passage": "You are preparing to present a patient case to your registrar. You realise you haven't been able to obtain a complete medication history because the patient was unable to recall all their medications.",
+      "question": "How important is it to clearly communicate the incomplete medication history to the registrar?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Incomplete information must be clearly communicated as it directly affects clinical decision-making. Withholding or downplaying gaps in information could lead to medication errors."
+    },
+    {
+      "id": "sjt-006",
+      "type": "appropriateness",
+      "passage": "A patient asks you whether you think their prognosis is good. You are a medical student and do not have the clinical knowledge to provide this assessment. The treating team has not yet discussed prognosis with the patient.",
+      "question": "How appropriate is it to offer to arrange for the treating team to discuss the prognosis with the patient?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "This appropriately acknowledges the patient's concern, doesn't overstep your role, and facilitates access to the right person for the information."
+    },
+    {
+      "id": "sjt-007",
+      "type": "appropriateness",
+      "passage": "During a GP placement, a patient discloses to you (a medical student) that they have been self-harming. They beg you not to tell anyone.",
+      "question": "How appropriate is it to maintain the patient's confidentiality as requested?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very inappropriate",
+      "explanation": "Self-harm indicates a risk to the patient's safety. Duty of care overrides confidentiality in situations of risk of serious harm. The GP must be informed to ensure appropriate support and safety planning."
+    },
+    {
+      "id": "sjt-008",
+      "type": "importance",
+      "passage": "You notice that a colleague appears to be impaired at work — they seem disoriented and their speech is slurred. They are about to take charge of a patient.",
+      "question": "How important is it to prevent the colleague from taking charge of patient care?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Patient safety is the highest priority. An impaired colleague poses a direct risk to patients. Immediate action is necessary to prevent potential harm."
+    },
+    {
+      "id": "sjt-009",
+      "type": "appropriateness",
+      "passage": "You are presenting research findings at a journal club. A senior consultant challenges your interpretation of the results in front of the group.",
+      "question": "How appropriate is it to calmly explain your reasoning while acknowledging the consultant's alternative perspective?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Responding professionally with reasoned explanation while showing respect for others' views demonstrates intellectual humility and good professional conduct."
+    },
+    {
+      "id": "sjt-010",
+      "type": "importance",
+      "passage": "A patient from a non-English speaking background arrives at the ED. You are the only staff member available who speaks their language.",
+      "question": "How important is it to use your language skills to assist with the initial assessment?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Effective communication is essential for accurate clinical assessment. Using available language skills directly impacts the quality and safety of patient care in this immediate situation."
+    }
+  ]
+}

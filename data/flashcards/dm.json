@@ -1,0 +1,35 @@
+{
+  "section": "dm",
+  "cards": [
+    {
+      "id": "dm-fc-001",
+      "front": "Syllogism Logic Rules",
+      "back": "All A are B + All B are C → All A are C\nAll A are B + Some B are C → Can't tell about A\nSome A are B + All B are C → Some A are C\nNo A are B + All B are C → No A are C"
+    },
+    {
+      "id": "dm-fc-002",
+      "front": "Venn Diagram Strategy",
+      "back": "Draw Venn diagrams on your whiteboard for any question involving categories or overlapping groups. Don't try to solve them in your head."
+    },
+    {
+      "id": "dm-fc-003",
+      "front": "Strongest Argument Questions",
+      "back": "The question asks whether the argument SUPPORTS or WEAKENS the conclusion — not whether you agree with it. Set aside your own opinions and evaluate the logic."
+    },
+    {
+      "id": "dm-fc-004",
+      "front": "DM Question Types (6 types)",
+      "back": "1. Syllogisms (logical deductions)\n2. Logic puzzles (constraints & arrangements)\n3. Venn diagrams (overlapping sets)\n4. Chart/graph interpretation\n5. Probabilistic reasoning (Bayes' theorem)\n6. Strongest argument evaluation"
+    },
+    {
+      "id": "dm-fc-005",
+      "front": "Bayes' Theorem (Quick Method)",
+      "back": "P(A|B) = P(B|A) × P(A) / P(B)\n\nFor rare conditions: even with high sensitivity/specificity, the low base rate means most positives are false positives. Always consider prevalence."
+    },
+    {
+      "id": "dm-fc-006",
+      "front": "DM Time Management",
+      "back": "35 questions in 37 minutes ≈ 64 seconds per question. Drag-and-drop questions are partially scored — get as many right as possible, don't skip them."
+    }
+  ]
+}

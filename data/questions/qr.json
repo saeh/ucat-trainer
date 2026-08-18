@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-001",
+      "type": "data-interpretation",
+      "passage": "The table shows the number of patients admitted to a hospital emergency department by age group in one month:\n\n| Age Group | Male | Female |\n|-----------|------|--------|\n| 0-17      | 120  | 95     |\n| 18-34     | 85   | 110    |\n| 35-54     | 130  | 125    |\n| 55-74     | 160  | 175    |\n| 75+       | 90   | 115    |",
+      "question": "What percentage of all patients aged 35-54 are male? (Round to nearest whole number)",
+      "options": ["49%", "51%", "55%", "59%"],
+      "correct": "51%",
+      "explanation": "Total patients aged 35-54 = 130 + 125 = 255. Male percentage = (130/255) × 100 = 50.98% ≈ 51%."
+    },
+    {
+      "id": "qr-002",
+      "type": "data-interpretation",
+      "passage": "The table shows the number of patients admitted to a hospital emergency department by age group in one month:\n\n| Age Group | Male | Female |\n|-----------|------|--------|\n| 0-17      | 120  | 95     |\n| 18-34     | 85   | 110    |\n| 35-54     | 130  | 125    |\n| 55-74     | 160  | 175    |\n| 75+       | 90   | 115    |",
+      "question": "How many more female patients than male patients were admitted in total?",
+      "options": ["25", "30", "35", "40"],
+      "correct": "35",
+      "explanation": "Total male = 120+85+130+160+90 = 585. Total female = 95+110+125+175+115 = 620. Difference = 620-585 = 35."
+    },
+    {
+      "id": "qr-003",
+      "type": "data-interpretation",
+      "passage": "Drug dosage calculation: A child weighing 25 kg requires a medication at a dose of 10 mg per kg of body weight. The medication comes in a solution of 125 mg per 5 mL.",
+      "question": "How many mL of the solution should be administered?",
+      "options": ["5 mL", "8 mL", "10 mL", "12.5 mL"],
+      "correct": "10 mL",
+      "explanation": "Total dose needed = 25 kg × 10 mg/kg = 250 mg. Solution concentration = 125 mg/5 mL = 25 mg/mL. Volume = 250 mg ÷ 25 mg/mL = 10 mL."
+    },
+    {
+      "id": "qr-004",
+      "type": "percentage",
+      "passage": "A hospital pharmacy dispensed 2,400 prescriptions in January. In February, prescriptions increased by 15%. In March, they decreased by 10% from February's total.",
+      "question": "How many prescriptions were dispensed in March?",
+      "options": ["2,484", "2,508", "2,718", "2,760"],
+      "correct": "2,484",
+      "explanation": "January: 2,400. February: 2,400 × 1.15 = 2,760. March: 2,760 × 0.90 = 2,484."
+    },
+    {
+      "id": "qr-005",
+      "type": "data-interpretation",
+      "passage": "The bar chart shows waiting times (in minutes) for different hospital departments:\n\n| Department | Average Wait |\n|------------|---------------|\n| Emergency  | 45            |\n| Radiology  | 90            |\n| Pathology  | 30            |\n| Cardiology | 60            |\n| Orthopaedics | 120         |",
+      "question": "How much longer is the average wait at Orthopaedics compared to Pathology? Express as a percentage of Pathology's wait.",
+      "options": ["200%", "300%", "350%", "400%"],
+      "correct": "300%",
+      "explanation": "Difference = 120 - 30 = 90 minutes. Percentage increase = (90/30) × 100 = 300%."
+    },
+    {
+      "id": "qr-006",
+      "type": "ratio",
+      "passage": "A medical research team consists of 36 researchers in the ratio of doctors to nurses to allied health professionals = 3 : 2 : 1.",
+      "question": "How many nurses are in the team?",
+      "options": ["6", "10", "12", "18"],
+      "correct": "12",
+      "explanation": "Total parts = 3 + 2 + 1 = 6. Each part = 36 / 6 = 6. Nurses = 2 parts = 12."
+    },
+    {
+      "id": "qr-007",
+      "type": "data-interpretation",
+      "passage": "Patient recovery data shows:\n- Patients who exercised daily: 80% recovered within 4 weeks\n- Patients who exercised 3 times/week: 60% recovered within 4 weeks\n- Patients who did not exercise: 40% recovered within 4 weeks\n- Total patients: 200 (100 daily exercisers, 50 moderate exercisers, 50 non-exercisers)",
+      "question": "How many patients in total recovered within 4 weeks?",
+      "options": ["100", "115", "130", "145"],
+      "correct": "130",
+      "explanation": "Daily: 100 × 0.80 = 80. Moderate: 50 × 0.60 = 30. None: 50 × 0.40 = 20. Total = 80 + 30 + 20 = 130."
+    },
+    {
+      "id": "qr-008",
+      "type": "data-interpretation",
+      "passage": "A clinic sees 180 patients per week. 60% are seen on weekdays (Monday-Friday) and 40% on weekends (Saturday-Sunday). Weekday patients are distributed equally across the 5 weekdays.",
+      "question": "How many patients are seen on Saturday and Sunday combined?",
+      "options": ["36", "72", "90", "108"],
+      "correct": "72",
+      "explanation": "Weekend patients = 180 × 0.40 = 72."
+    },
+    {
+      "id": "qr-009",
+      "type": "percentage",
+      "passage": "A hospital's annual budget is $12 million. Staff costs account for 60% of the budget, equipment 20%, pharmaceuticals 12%, and the remainder goes to facility maintenance.",
+      "question": "How much is spent on facility maintenance?",
+      "options": ["$480,000", "$720,000", "$960,000", "$1,440,000"],
+      "correct": "$960,000",
+      "explanation": "Maintenance = 100% - 60% - 20% - 12% = 8%. $12,000,000 × 0.08 = $960,000."
+    },
+    {
+      "id": "qr-010",
+      "type": "data-interpretation",
+      "passage": "The table shows blood test turnaround times (in hours) at a pathology lab:\n\n| Test Type | Routine | Urgent |\n|-----------|---------|--------|\n| FBC       | 4       | 1      |\n| U&E       | 6       | 1.5    |\n| LFT       | 8       | 2      |\n| CRP       | 3       | 0.5    |",
+      "question": "What is the ratio of routine to urgent turnaround time for LFT? Express in simplest form.",
+      "options": ["2:1", "3:1", "4:1", "8:1"],
+      "correct": "4:1",
+      "explanation": "LFT routine = 8 hours, urgent = 2 hours. Ratio = 8:2 = 4:1."
+    }
+  ]
+}
