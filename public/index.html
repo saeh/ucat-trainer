@@ -10,6 +10,11 @@
       body { overflow: hidden; background-color: #0f0f23; }
       #root { display: flex; height: 100%; flex: 1; }
     </style>
+    <script>
+      if (typeof process === 'undefined') { window.process = { env: {} }; }
+      if (!process.env) { process.env = {}; }
+      process.env.CLERK_DISABLE_AUTO_PROXY = '1';
+    </script>
     <link rel="icon" href="/favicon.ico" />
     <script>
       // Patch CSSStyleDeclaration to silently accept indexed property assignments.
