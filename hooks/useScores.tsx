@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useUser } from '@clerk/react';
+import { useAuth } from '@clerk/react';
+import { getSupabaseClient, isSupabaseConfigured } from '../lib/supabase';
 
 export interface QuizResult {
   id: string;
@@ -10,6 +11,17 @@ export interface QuizResult {
   correctAnswers: number;
   timeSpent: number;
   percentage: number;
+}
+
+interface QuizResultRow {
+  id: string;
+  user_id: string;
+  section: string;
+  total_questions: number;
+  correct_answers: number;
+  time_spent: number;
+  percentage: number;
+  created_at: string;
 }
 
 interface ScoresContextValue {
@@ -24,9 +36,24 @@ interface ScoresContextValue {
 
 const ScoresContext = createContext<ScoresContextValue | null>(null);
 
+function rowToResult(row: QuizResultRow): QuizResult {
+  return {
+    id: row.id,
+    section: row.section,
+    date: row.created_at,
+    totalQuestions: row.total_questions,
+    correctAnswers: row.correct_answers,
+    timeSpent: row.time_spent,
+    percentage: row.percentage,
+  };
+}
+
+function localKey(userId?: string | null) {
+  return userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
+}
+
 export function ScoresProvider({ children }: { children: ReactNode }) {
-  const { user } = useUser();
-  const userId = user?.id;
+  const { userId, getToken } = useAuth();
   const [results, setResults] = useState<QuizResult[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -35,10 +62,22 @@ export function ScoresProvider({ children }: { children: ReactNode }) {
   }, [userId]);
 
   const loadScores = async () => {
+    setLoading(true);
     try {
-      const key = userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
-      const data = await AsyncStorage.getItem(key);
-      setResults(data ? JSON.parse(data) : []);
+      if (userId && isSupabaseConfigured()) {
+        const token = await getToken();
+        const supabase = getSupabaseClient(token);
+        const { data, error } = await supabase
+          .from('quiz_results')
+          .select('*')
+          .order('created_at', { ascending: false });
+        if (error) throw error;
+        setResults((data as QuizResultRow[] | null)?.map(rowToResult) ?? []);
+      } else {
+        const key = localKey(userId);
+        const data = await AsyncStorage.getItem(key);
+        setResults(data ? JSON.parse(data) : []);
+      }
     } catch (e) {
       console.error('Failed to load scores:', e);
     } finally {
@@ -50,22 +89,43 @@ export function ScoresProvider({ children }: { children: ReactNode }) {
     const updated = [result, ...results];
     setResults(updated);
     try {
-      const key = userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
-      await AsyncStorage.setItem(key, JSON.stringify(updated));
+      if (userId && isSupabaseConfigured()) {
+        const token = await getToken();
+        const supabase = getSupabaseClient(token);
+        const { error } = await supabase.from('quiz_results').insert({
+          user_id: userId,
+          section: result.section,
+          total_questions: result.totalQuestions,
+          correct_answers: result.correctAnswers,
+          time_spent: result.timeSpent,
+          percentage: result.percentage,
+        });
+        if (error) throw error;
+      } else {
+        const key = localKey(userId);
+        await AsyncStorage.setItem(key, JSON.stringify(updated));
+      }
     } catch (e) {
       console.error('Failed to save score:', e);
     }
-  }, [results, userId]);
+  }, [results, userId, getToken]);
 
   const clearScores = useCallback(async () => {
     setResults([]);
     try {
-      const key = userId ? `ucat_scores_${userId}` : 'ucat_scores_guest';
-      await AsyncStorage.removeItem(key);
+      if (userId && isSupabaseConfigured()) {
+        const token = await getToken();
+        const supabase = getSupabaseClient(token);
+        const { error } = await supabase.from('quiz_results').delete().match({ user_id: userId });
+        if (error) throw error;
+      } else {
+        const key = localKey(userId);
+        await AsyncStorage.removeItem(key);
+      }
     } catch (e) {
       console.error('Failed to clear scores:', e);
     }
-  }, [userId]);
+  }, [userId, getToken]);
 
   const getSectionResults = useCallback((section: string) => {
     return results.filter((r) => r.section === section);
