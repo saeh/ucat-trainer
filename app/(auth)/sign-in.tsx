@@ -6,8 +6,7 @@ export default function SignInScreen() {
   return (
     <View style={styles.container}>
       <SignIn
-        routing="path"
-        path="/sign-in"
+        routing="hash"
         fallbackRedirectUrl="/"
         appearance={{
           elements: {

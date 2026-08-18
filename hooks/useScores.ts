@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useAuth } from '@clerk/react';
+import { useUser } from '@clerk/react';
 
 export interface QuizResult {
   id: string;
@@ -12,28 +12,26 @@ export interface QuizResult {
   percentage: number;
 }
 
-function getStorageKey(userId: string) {
-  return `ucat_scores_${userId}`;
+const GENERIC_KEY = 'ucat_scores_guest';
+
+function getStorageKey(userId: string | undefined) {
+  return userId ? `ucat_scores_${userId}` : GENERIC_KEY;
 }
 
 export function useScores() {
-  const { userId } = useAuth();
+  const { user } = useUser();
+  const userId = user?.id;
   const [results, setResults] = useState<QuizResult[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!userId) {
-      setResults([]);
-      setLoading(false);
-      return;
-    }
     loadScores();
   }, [userId]);
 
   const loadScores = async () => {
-    if (!userId) return;
     try {
-      const data = await AsyncStorage.getItem(getStorageKey(userId));
+      const key = getStorageKey(userId);
+      const data = await AsyncStorage.getItem(key);
       if (data) {
         setResults(JSON.parse(data));
       } else {
@@ -47,21 +45,21 @@ export function useScores() {
   };
 
   const addResult = useCallback(async (result: QuizResult) => {
-    if (!userId) return;
     const updated = [result, ...results];
     setResults(updated);
     try {
-      await AsyncStorage.setItem(getStorageKey(userId), JSON.stringify(updated));
+      const key = getStorageKey(userId);
+      await AsyncStorage.setItem(key, JSON.stringify(updated));
     } catch (e) {
       console.error('Failed to save score:', e);
     }
   }, [results, userId]);
 
   const clearScores = useCallback(async () => {
-    if (!userId) return;
     setResults([]);
     try {
-      await AsyncStorage.removeItem(getStorageKey(userId));
+      const key = getStorageKey(userId);
+      await AsyncStorage.removeItem(key);
     } catch (e) {
       console.error('Failed to clear scores:', e);
     }

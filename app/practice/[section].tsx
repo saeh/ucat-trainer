@@ -1,6 +1,7 @@
 import { useState, useCallback, useMemo } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
-import { useLocalSearchParams, router } from 'expo-router';
+import { useLocalSearchParams, router, Redirect } from 'expo-router';
+import { Show } from '@clerk/react';
 import { Colors } from '../../constants/colors';
 import { getSectionByKey } from '../../constants/sections';
 import { useTimer } from '../../hooks/useTimer';
@@ -29,6 +30,20 @@ export default function QuizScreen() {
   const sectionInfo = getSectionByKey(section ?? '');
   const timer = useTimer((sectionInfo?.timeMinutes ?? 22) * 60);
   const { addResult } = useScores();
+
+  return (
+    <Show when="signed-in" fallback={<Redirect href="/" />}>
+      <QuizContent section={section} sectionInfo={sectionInfo} timer={timer} addResult={addResult} />
+    </Show>
+  );
+}
+
+function QuizContent({ section, sectionInfo, timer, addResult }: {
+  section: string | undefined;
+  sectionInfo: ReturnType<typeof getSectionByKey>;
+  timer: ReturnType<typeof useTimer>;
+  addResult: (result: QuizResult) => Promise<void>;
+}) {
 
   const [started, setStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
