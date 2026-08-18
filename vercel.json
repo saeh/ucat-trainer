@@ -1,5 +1,11 @@
 {
+  "installCommand": "npm install",
   "buildCommand": "npx expo export --platform web",
   "outputDirectory": "dist",
-  "installCommand": "npm install"
+  "rewrites": [
+    {
+      "source": "/((?!_next|_expo|assets|favicon.ico|sitemap.xml|robots.txt).*)",
+      "destination": "/index.html"
+    }
+  ]
 }
