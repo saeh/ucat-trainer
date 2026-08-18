@@ -1,5 +1,11 @@
 {
   "installCommand": "npm install",
   "buildCommand": "npx expo export --platform web",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/__clerk/(.*)",
+      "destination": "https://cdn.jsdelivr.net/npm/@clerk/clerk-js@6/$1"
+    }
+  ]
 }
