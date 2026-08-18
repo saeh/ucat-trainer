@@ -3,11 +3,15 @@ import { StatusBar } from 'expo-status-bar';
 import { ClerkProvider } from '@clerk/react';
 import { Colors } from '../constants/colors';
 
-const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY ?? '';
+const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
 export default function RootLayout() {
+  if (!publishableKey) {
+    return null;
+  }
+
   return (
-    <ClerkProvider publishableKey={publishableKey} afterSignOutUrl="/">
+    <ClerkProvider publishableKey={publishableKey}>
       <StatusBar style="light" />
       <Stack
         screenOptions={{

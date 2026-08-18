@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Link, Redirect } from 'expo-router';
 import { Show } from '@clerk/react';
-import { Colors } from '../../constants/colors';
+import { Colors } from '../constants/colors';
 
-export default function IndexScreen() {
+export default function RootIndex() {
   return (
     <>
       <Show when="signed-in">

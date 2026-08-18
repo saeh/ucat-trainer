@@ -1,4 +1,4 @@
-import { Tabs, Redirect } from 'expo-router';
+import { Tabs } from 'expo-router';
 import { Show } from '@clerk/react';
 import { Colors } from '../../constants/colors';
 import { Text } from 'react-native';
@@ -11,57 +11,52 @@ function TabIcon({ icon, focused }: { icon: string; focused: boolean }) {
 
 export default function TabLayout() {
   return (
-    <>
-      <Show when="signed-out">
-        <Redirect href="/" />
-      </Show>
-      <Show when="signed-in">
-        <Tabs
-          screenOptions={{
-            tabBarActiveTintColor: Colors.primary,
-            tabBarInactiveTintColor: Colors.textMuted,
-            tabBarStyle: {
-              backgroundColor: Colors.surface,
-              borderTopColor: Colors.border,
-              height: 85,
-              paddingBottom: 25,
-              paddingTop: 8,
-            },
-            headerStyle: { backgroundColor: Colors.background },
-            headerTintColor: Colors.text,
-            headerTitleStyle: { fontWeight: '700' },
+    <Show when="signed-in">
+      <Tabs
+        screenOptions={{
+          tabBarActiveTintColor: Colors.primary,
+          tabBarInactiveTintColor: Colors.textMuted,
+          tabBarStyle: {
+            backgroundColor: Colors.surface,
+            borderTopColor: Colors.border,
+            height: 85,
+            paddingBottom: 25,
+            paddingTop: 8,
+          },
+          headerStyle: { backgroundColor: Colors.background },
+          headerTintColor: Colors.text,
+          headerTitleStyle: { fontWeight: '700' },
+        }}
+      >
+        <Tabs.Screen
+          name="home"
+          options={{
+            title: 'Home',
+            tabBarIcon: ({ focused }) => <TabIcon icon="🏠" focused={focused} />,
           }}
-        >
-          <Tabs.Screen
-            name="home"
-            options={{
-              title: 'Home',
-              tabBarIcon: ({ focused }) => <TabIcon icon="🏠" focused={focused} />,
-            }}
-          />
-          <Tabs.Screen
-            name="practice"
-            options={{
-              title: 'Practice',
-              tabBarIcon: ({ focused }) => <TabIcon icon="📝" focused={focused} />,
-            }}
-          />
-          <Tabs.Screen
-            name="flashcards"
-            options={{
-              title: 'Flashcards',
-              tabBarIcon: ({ focused }) => <TabIcon icon="🃏" focused={focused} />,
-            }}
-          />
-          <Tabs.Screen
-            name="progress"
-            options={{
-              title: 'Progress',
-              tabBarIcon: ({ focused }) => <TabIcon icon="📊" focused={focused} />,
-            }}
-          />
-        </Tabs>
-      </Show>
-    </>
+        />
+        <Tabs.Screen
+          name="practice"
+          options={{
+            title: 'Practice',
+            tabBarIcon: ({ focused }) => <TabIcon icon="📝" focused={focused} />,
+          }}
+        />
+        <Tabs.Screen
+          name="flashcards"
+          options={{
+            title: 'Flashcards',
+            tabBarIcon: ({ focused }) => <TabIcon icon="🃏" focused={focused} />,
+          }}
+        />
+        <Tabs.Screen
+          name="progress"
+          options={{
+            title: 'Progress',
+            tabBarIcon: ({ focused }) => <TabIcon icon="📊" focused={focused} />,
+          }}
+        />
+      </Tabs>
+    </Show>
   );
 }
