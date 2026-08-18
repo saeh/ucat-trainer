@@ -1,0 +1,115 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-9-01",
+      "type": "strongest-argument",
+      "passage": "Should hospitals adopt a policy of only hiring staff who have completed a specific cultural competency training programme?",
+      "question": "Which is the strongest argument FOR this policy?",
+      "options": [
+        "Culturally competent care improves health outcomes and reduces disparities for diverse patient populations",
+        "Some patients feel misunderstood by healthcare providers from different cultural backgrounds",
+        "The training programme is well-designed and well-reviewed",
+        "Other hospitals have already adopted similar policies"
+      ],
+      "correct": "Culturally competent care improves health outcomes and reduces disparities for diverse patient populations",
+      "explanation": "This provides evidence-based justification linking cultural competency directly to measurable patient outcomes. The other options are weaker — patient feelings are less concrete, programme quality doesn't mandate hiring, and others' actions don't establish this as best practice."
+    },
+    {
+      "id": "dm-9-02",
+      "type": "venn-diagram",
+      "passage": "In a study of 140 patients: 80 have chronic pain, 55 have depression, 25 have both chronic pain and depression, and 10 have neither condition.",
+      "question": "How many patients have chronic pain but not depression?",
+      "options": ["20", "25", "30", "55"],
+      "correct": "55",
+      "explanation": "Chronic pain only = Total chronic pain - Both = 80 - 25 = 55."
+    },
+    {
+      "id": "dm-9-03",
+      "type": "logic-puzzle",
+      "passage": "Three patients — Jay, Kim, and Leo — are scheduled for MRI scans at 10:00, 11:00, and 12:00. Kim's scan is at a later time than Jay's. Jay's scan is not at 12:00. Leo's scan is at 10:00.",
+      "question": "What time is Kim's scan?",
+      "options": ["10:00", "11:00", "12:00", "Cannot be determined"],
+      "correct": "12:00",
+      "explanation": "Leo is at 10:00. The remaining times are 11:00 and 12:00. Jay is before Kim, and Jay is not at 12:00, so Jay must be at 11:00 and Kim at 12:00."
+    },
+    {
+      "id": "dm-9-04",
+      "type": "chart-interpretation",
+      "passage": "A maternity ward tracks births by method:\n\n| Month | Normal Delivery | Assisted | Caesarean |\n|-------|----------------|----------|----------|\n| Jan | 45 | 10 | 25 |\n| Feb | 40 | 12 | 28 |\n| Mar | 42 | 8 | 30 |\n| Apr | 48 | 11 | 21 |\n| May | 50 | 9 | 20 |\n| Jun | 44 | 13 | 27 |",
+      "question": "What percentage of all births in March were by Caesarean section?",
+      "options": ["25%", "33.3%", "37.5%", "42.9%"],
+      "correct": "37.5%",
+      "explanation": "March total = 42+8+30 = 80. Caesarean = 30. Percentage = 30/80 × 100 = 37.5%."
+    },
+    {
+      "id": "dm-9-05",
+      "type": "syllogism",
+      "passage": "All patients on warfarin need regular INR monitoring. Some patients who need INR monitoring also need dose adjustments. All patients whose warfarin dose is adjusted need follow-up appointments.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All warfarin patients need follow-up appointments",
+        "Some warfarin patients may need follow-up appointments",
+        "No warfarin patients need dose adjustments",
+        "All patients with follow-up appointments are on warfarin"
+      ],
+      "correct": "Some warfarin patients may need follow-up appointments",
+      "explanation": "Warfarin → INR monitoring. Some needing INR monitoring need dose adjustments. Dose adjustment → follow-up appointment. So some warfarin patients may need follow-up appointments."
+    },
+    {
+      "id": "dm-9-06",
+      "type": "inference",
+      "passage": "A hospital pharmacy reports:\n- Medication error rate fell from 3.2% to 1.1% over 18 months\n- A barcode scanning system was introduced at month 6\n- Double-checking protocols were implemented at month 12\n- Staff training hours increased by 30%",
+      "question": "Which inference is best supported?",
+      "options": [
+        "Medication errors have been completely eliminated",
+        "The barcode scanning system alone reduced errors from 3.2% to 1.1%",
+        "The phased introduction of multiple safeguards likely contributed to the progressive reduction in errors",
+        "Staff training is unnecessary if barcode scanning is in place"
+      ],
+      "correct": "The phased introduction of multiple safeguards likely contributed to the progressive reduction in errors",
+      "explanation": "Three interventions were introduced at different points over 18 months while errors progressively fell (3.2%→1.1%). It is most reasonable to attribute the sustained improvement to the combination of systems."
+    },
+    {
+      "id": "dm-9-07",
+      "type": "probabilistic-reasoning",
+      "passage": "A diagnostic test for urinary tract infection (UTI) has a sensitivity of 94% and specificity of 85%. In a GP practice, 15% of women presenting with symptoms actually have a UTI.",
+      "question": "If a woman tests positive, what is the approximate probability she truly has a UTI?",
+      "options": ["About 30%", "About 49%", "About 55%", "About 70%"],
+      "correct": "About 55%",
+      "explanation": "Of 1,000 women: 150 have UTI (141 true positives). 850 don't (127.5 false positives). P(UTI|positive) = 141/(141+127.5) ≈ 52.5%. Closest is 55%."
+    },
+    {
+      "id": "dm-9-08",
+      "type": "venn-diagram",
+      "passage": "Of 110 patients at a respiratory clinic: 70 use inhalers, 45 use nebulisers, 15 use both, and 10 use neither device.",
+      "question": "How many patients use inhalers but not nebulisers?",
+      "options": ["15", "30", "45", "55"],
+      "correct": "55",
+      "explanation": "Inhaler only = Total inhalers - Both = 70 - 15 = 55."
+    },
+    {
+      "id": "dm-9-09",
+      "type": "chart-interpretation",
+      "passage": "A mental health unit tracks restraint use:\n\n| Quarter | Physical Restraint | Seclusion | PRN Medication |\n|---------|-------------------|-----------|----------------|\n| Q1 | 25 | 18 | 30 |\n| Q2 | 20 | 15 | 28 |\n| Q3 | 15 | 12 | 22 |\n| Q4 | 10 | 8 | 18 |",
+      "question": "Which quarter showed the largest single-quarter drop in total restrictive interventions?",
+      "options": ["Q1 to Q2", "Q2 to Q3", "Q3 to Q4", "All quarters showed equal drops"],
+      "correct": "Q2 to Q3",
+      "explanation": "Q1 total: 25+18+30=73. Q2 total: 20+15+28=63 (drop of 10). Q3 total: 15+12+22=49 (drop of 14). Q4 total: 10+8+18=36 (drop of 13). Q2→Q3 had the largest drop of 14."
+    },
+    {
+      "id": "dm-9-10",
+      "type": "strongest-argument",
+      "passage": "Should medical schools use standardised patients (actors) rather than real patients for clinical examinations?",
+      "question": "Which is the strongest argument AGAINST using standardised patients?",
+      "options": [
+        "Standardised patients cannot replicate the unpredictability and complexity of real clinical presentations",
+        "Real patients may feel uncomfortable being examined by students",
+        "Standardised patient programmes are expensive to maintain",
+        "Students may find it harder to build rapport with actors"
+      ],
+      "correct": "Standardised patients cannot replicate the unpredictability and complexity of real clinical presentations",
+      "explanation": "Real patients present with unpredictable symptoms, emotional states, and comorbidities that actors cannot fully simulate. This is the most significant educational drawback. The other options are less compelling."
+    }
+  ]
+}

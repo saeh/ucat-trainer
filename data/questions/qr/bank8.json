@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-8-1",
+      "type": "data-interpretation",
+      "passage": "The table shows A&E attendances and outcomes for a 5-day period:\n\n| Day | Attendances | Admitted | Discharged | Referred Elsewhere |\n|-----|------------|----------|------------|---------------------|\n| Mon | 200        | 55       | 130        | 15                  |\n| Tue | 220        | 60       | 145        | 15                  |\n| Wed | 240        | 65       | 160        | 15                  |\n| Thu | 210        | 55       | 140        | 15                  |\n| Fri | 230        | 65       | 155        | 10                  |",
+      "question": "What is the average number of daily attendances over the 5-day period?",
+      "options": ["210", "215", "220", "225"],
+      "correct": "220",
+      "explanation": "Total = 200+220+240+210+230 = 1,100. Average = 1,100 ÷ 5 = 220."
+    },
+    {
+      "id": "qr-8-2",
+      "type": "percentage",
+      "passage": "A hospital introduced a hand hygiene programme. Before the programme, 120 healthcare-associated infections (HAIs) occurred per quarter. After the programme, HAIs dropped to 84 per quarter.",
+      "question": "What is the percentage reduction in HAIs?",
+      "options": ["20%", "25%", "30%", "35%"],
+      "correct": "30%",
+      "explanation": "Reduction = 120 - 84 = 36. Percentage = (36 ÷ 120) × 100 = 30%."
+    },
+    {
+      "id": "qr-8-3",
+      "type": "unit-conversion",
+      "passage": "A patient requires methotrexate at 15 mg/m². The patient has a body surface area (BSA) of 1.8 m². Methotrexate is available as 25 mg tablets.",
+      "question": "How many tablets should be administered? (Round to nearest whole tablet)",
+      "options": ["0.5", "1.0", "1.5", "2.0"],
+      "correct": "1.0",
+      "explanation": "Dose = 15 × 1.8 = 27 mg. Tablets = 27 ÷ 25 = 1.08. Round to 1 tablet."
+    },
+    {
+      "id": "qr-8-4",
+      "type": "ratio",
+      "passage": "A hospital's emergency department triages patients in the ratio of Category 1:Category 2:Category 3:Category 4 = 1:5:12:12. The department sees 150 patients per day.",
+      "question": "How many Category 2 patients are seen per day?",
+      "options": ["15", "20", "25", "30"],
+      "correct": "25",
+      "explanation": "Total parts = 1+5+12+12 = 30. Each part = 150 ÷ 30 = 5. Category 2 = 5 × 5 = 25."
+    },
+    {
+      "id": "qr-8-5",
+      "type": "data-interpretation",
+      "passage": "The table shows hospital readmission data:\n\n| Readmission Reason | Number | Average Cost per Admission |\n|---------------------|--------|-----------------------------|\n| Infection | 45 | £3,200 |\n| Medication error | 20 | £2,800 |\n| Surgical complication | 35 | £5,500 |\n| Falls | 25 | £2,100 |\n| Missed diagnosis | 15 | £4,000 |",
+      "question": "Which readmission reason has the highest total cost?",
+      "options": ["Infection", "Medication error", "Surgical complication", "Missed diagnosis"],
+      "correct": "Surgical complication",
+      "explanation": "Infection: 45×3200=£144,000. Med error: 20×2800=£56,000. Surgical: 35×5500=£192,500. Falls: 25×2100=£52,500. Missed: 15×4000=£60,000. Surgical complication is highest at £192,500."
+    },
+    {
+      "id": "qr-8-6",
+      "type": "rate",
+      "passage": "A maternity unit delivers an average of 8 babies per day. Each delivery requires approximately 3 hours of midwife time. The unit has midwives working 12-hour shifts.",
+      "question": "How many midwife shifts are needed per day for deliveries alone?",
+      "options": ["1", "2", "3", "4"],
+      "correct": "2",
+      "explanation": "Total midwife hours needed = 8 × 3 = 24 hours. Each midwife works 12 hours. Midwives needed = 24 ÷ 12 = 2."
+    },
+    {
+      "id": "qr-8-7",
+      "type": "percentage",
+      "passage": "A hospital's formulary includes 1,200 medications. 15% are antibiotics, 10% are analgesics, 20% are cardiovascular drugs, and the remainder are other categories.",
+      "question": "How many medications fall into the 'other' category?",
+      "options": ["540", "600", "660", "720"],
+      "correct": "660",
+      "explanation": "Other category = 100% - 15% - 10% - 20% = 55%. Number = 1,200 × 0.55 = 660."
+    },
+    {
+      "id": "qr-8-8",
+      "type": "unit-conversion",
+      "passage": "A patient requires potassium supplementation at 20 mmol over 4 hours. The standard solution is 40 mmol potassium chloride in 1 litre of normal saline.",
+      "question": "How many litres of the standard solution should be infused?",
+      "options": ["0.25 L", "0.5 L", "0.75 L", "1.0 L"],
+      "correct": "0.5 L",
+      "explanation": "Required = 20 mmol. Concentration = 40 mmol per litre. Volume = 20 ÷ 40 = 0.5 L."
+    },
+    {
+      "id": "qr-8-9",
+      "type": "data-interpretation",
+      "passage": "The table shows waiting times for outpatient appointments:\n\n| Specialty | <6 weeks | 6-12 weeks | >12 weeks |\n|-----------|----------|------------|----------|\n| Dermatology | 450     | 200        | 100      |\n| Ophthalmology | 350   | 300        | 150      |\n| ENT | 450           | 200        | 50       |\n| Orthopaedics | 300   | 350        | 200      |",
+      "question": "What percentage of Dermatology patients are waiting more than 6 weeks?",
+      "options": ["33%", "36%", "40%", "45%"],
+      "correct": "40%",
+      "explanation": "Dermatology total = 450+200+100 = 750. Waiting >6 weeks = 200+100 = 300. Percentage = (300 ÷ 750) × 100 = 40%."
+    },
+    {
+      "id": "qr-8-10",
+      "type": "rate",
+      "passage": "An ICU has 12 beds with an average occupancy of 85%. The average length of stay in ICU is 4.5 days.",
+      "question": "What is the average number of new ICU admissions per day? (Round to one decimal place)",
+      "options": ["2.0", "2.3", "2.6", "3.0"],
+      "correct": "2.3",
+      "explanation": "Average beds occupied = 12 × 0.85 = 10.2. Admissions per day = Occupied beds ÷ Average LOS = 10.2 ÷ 4.5 = 2.27 ≈ 2.3."
+    }
+  ]
+}

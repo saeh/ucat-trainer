@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-9-1",
+      "type": "data-interpretation",
+      "passage": "The table shows the number of surgical procedures performed by type over 6 months:\n\n| Procedure | Month 1 | Month 2 | Month 3 | Month 4 | Month 5 | Month 6 |\n|-----------|---------|---------|---------|---------|---------|--------|\n| Appendectomy | 15 | 18 | 12 | 14 | 16 | 20 |\n| Cholecystectomy | 10 | 12 | 14 | 11 | 13 | 15 |\n| Hernia Repair | 20 | 22 | 18 | 25 | 21 | 24 |\n| Knee Replacement | 8 | 10 | 9 | 11 | 12 | 10 |\n| Hip Replacement | 6 | 8 | 7 | 9 | 8 | 7 |",
+      "question": "Which procedure had the highest total over the 6-month period?",
+      "options": ["Appendectomy", "Cholecystectomy", "Hernia Repair", "Knee Replacement"],
+      "correct": "Hernia Repair",
+      "explanation": "Appendectomy: 15+18+12+14+16+20=95. Cholecystectomy: 10+12+14+11+13+15=75. Hernia Repair: 20+22+18+25+21+24=130. Knee: 8+10+9+11+12+10=60. Hip: 6+8+7+9+8+7=45. Hernia Repair is highest at 130."
+    },
+    {
+      "id": "qr-9-2",
+      "type": "percentage",
+      "passage": "A hospital trust has 3,600 staff. 2,400 are female. Of the female staff, 18% work part-time. Of the male staff, 12% work part-time.",
+      "question": "How many staff work part-time in total?",
+      "options": ["504", "576", "624", "720"],
+      "correct": "576",
+      "explanation": "Female part-time = 2,400 × 0.18 = 432. Male staff = 3,600 - 2,400 = 1,200. Male part-time = 1,200 × 0.12 = 144. Total part-time = 432 + 144 = 576."
+    },
+    {
+      "id": "qr-9-3",
+      "type": "unit-conversion",
+      "passage": "A patient requires morphine PCA at 1 mg per demand, with a lockout interval of 5 minutes. The maximum dose in 4 hours is 30 mg. The morphine solution is 1 mg/mL.",
+      "question": "What is the maximum number of demands a patient could make in 4 hours based on the dose limit?",
+      "options": ["15", "20", "24", "30"],
+      "correct": "30",
+      "explanation": "Maximum dose = 30 mg. Each demand = 1 mg. Maximum demands = 30 ÷ 1 = 30."
+    },
+    {
+      "id": "qr-9-4",
+      "type": "rate",
+      "passage": "An MRI scanner performs scans taking 30 minutes each, with 10 minutes between scans for preparation. The scanner operates from 08:00 to 18:00.",
+      "question": "How many scans can be completed in one day?",
+      "options": ["12", "14", "15", "16"],
+      "correct": "15",
+      "explanation": "Total time = 10 hours = 600 minutes. Each scan cycle = 30 + 10 = 40 minutes. 600 ÷ 40 = 15 cycles. 15 × 30 + 14 × 10 = 450 + 140 = 590 minutes ≤ 600. One more scan: 590 + 30 = 620 > 600. So 15 scans."
+    },
+    {
+      "id": "qr-9-5",
+      "type": "data-interpretation",
+      "passage": "The table shows hospital-acquired pressure ulcers by ward:\n\n| Ward | Patients | New Pressure Ulcers | Grade 3-4 Ulcers |\n|------|----------|---------------------|-------------------|\n| Medical | 320 | 16 | 4 |\n| Surgical | 280 | 10 | 2 |\n| Elderly Care | 180 | 15 | 6 |\n| Neurology | 150 | 8 | 3 |\n| Oncology | 200 | 6 | 1 |",
+      "question": "Which ward has the highest rate of new pressure ulcers per 100 patients?",
+      "options": ["Medical", "Surgical", "Elderly Care", "Neurology"],
+      "correct": "Elderly Care",
+      "explanation": "Medical: 16/320×100=5.0%. Surgical: 10/280×100=3.6%. Elderly Care: 15/180×100=8.3%. Neurology: 8/150×100=5.3%. Elderly Care is highest at 8.3%."
+    },
+    {
+      "id": "qr-9-6",
+      "type": "ratio",
+      "passage": "A hospital operates 40 theatres. Theatres are allocated to specialties in the ratio general surgery:orthopaedics:ENT:other = 3:2:1:2.",
+      "question": "How many theatres are allocated to orthopaedics?",
+      "options": ["5", "8", "10", "12"],
+      "correct": "10",
+      "explanation": "Total parts = 3+2+1+2 = 8. Each part = 40 ÷ 8 = 5. Orthopaedics = 2 × 5 = 10."
+    },
+    {
+      "id": "qr-9-7",
+      "type": "percentage",
+      "passage": "A hospital's prescribing data shows that antibiotics account for 28% of all prescriptions. Of the antibiotics prescribed, 35% are broad-spectrum. Total prescriptions last year were 45,000.",
+      "question": "How many broad-spectrum antibiotic prescriptions were there?",
+      "options": ["3,570", "4,410", "5,250", "6,300"],
+      "correct": "4,410",
+      "explanation": "Antibiotic prescriptions = 45,000 × 0.28 = 12,600. Broad-spectrum = 12,600 × 0.35 = 4,410."
+    },
+    {
+      "id": "qr-9-8",
+      "type": "unit-conversion",
+      "passage": "A patient requires a heparin lock flush. The standard flush is 5 mL of normal saline containing 10 units/mL of heparin.",
+      "question": "How many units of heparin are in one 5 mL flush?",
+      "options": ["10 units", "20 units", "50 units", "100 units"],
+      "correct": "50 units",
+      "explanation": "Heparin concentration = 10 units/mL. Volume = 5 mL. Total heparin = 10 × 5 = 50 units."
+    },
+    {
+      "id": "qr-9-9",
+      "type": "data-interpretation",
+      "passage": "The table shows ambulance response times:\n\n| Category | Target Time | Met Target | Total Calls |\n|----------|------------|------------|-------------|\n| Cat 1 | 8 min | 420 | 500 |\n| Cat 2 | 18 min | 720 | 800 |\n| Cat 3 | 30 min | 900 | 1,000 |\n| Cat 4 | 60 min | 840 | 900 |",
+      "question": "Which category had the lowest proportion of calls meeting the target?",
+      "options": ["Cat 1", "Cat 2", "Cat 3", "Cat 4"],
+      "correct": "Cat 1",
+      "explanation": "Cat 1: 420/500=84%. Cat 2: 720/800=90%. Cat 3: 900/1000=90%. Cat 4: 840/900=93%. Cat 1 is lowest at 84%."
+    },
+    {
+      "id": "qr-9-10",
+      "type": "rate",
+      "passage": "A pharmacy robot dispenses medications at a rate of 3 prescriptions per minute. The pharmacy receives 540 prescriptions between 09:00 and 15:00.",
+      "question": "How many minutes of robotic dispensing time are needed?",
+      "options": ["90", "120", "150", "180"],
+      "correct": "180",
+      "explanation": "Time = 540 ÷ 3 = 180 minutes."
+    }
+  ]
+}

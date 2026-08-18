@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-3-01",
+      "type": "importance",
+      "passage": "You are on a psychiatry placement. A patient with a history of self-harm tells you during a ward round that they have been having thoughts of ending their life, but specifically asks you not to tell the doctors.",
+      "question": "How important is it to inform the responsible clinician of the patient's suicidal ideation despite their request for confidentiality?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Duty of care to a patient at risk of serious harm overrides confidentiality. Suicidal ideation requires immediate clinical attention regardless of the patient's request to keep it secret."
+    },
+    {
+      "id": "sjt-3-02",
+      "type": "appropriateness",
+      "passage": "You are assisting in theatre. The scrub nurse hands you an instrument and you accidentally drop it onto the sterile field, contaminating it. The lead surgeon does not appear to have noticed.",
+      "question": "How appropriate is it to immediately disclose the contamination to the surgical team?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Disclosure of a sterile field contamination is essential for patient safety. Hiding the error could increase infection risk. Immediate honesty is always the correct course of action."
+    },
+    {
+      "id": "sjt-3-03",
+      "type": "appropriateness",
+      "passage": "During a mental health review, a patient with schizophrenia tells you that they have stopped taking their medication because they believe the voices they hear are real and want them to stop the tablets. They appear calm.",
+      "question": "How appropriate is it to accept the patient's decision without further discussion, as they seem calm and capacity has been previously assessed?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Inappropriate",
+      "explanation": "While respecting autonomy is important, the decision to stop medication may be driven by the illness itself. A full capacity assessment in the current context is needed, and the treating team must be informed."
+    },
+    {
+      "id": "sjt-3-04",
+      "type": "importance",
+      "passage": "A senior colleague asks you to write up a death certificate for a patient you did not examine or treat. They say it is just paperwork and they will be busy in theatre all day.",
+      "question": "How important is it to decline writing the death certificate since you were not involved in the patient's care?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Death certificates are legal documents. Signing one for a patient you did not treat is fraudulent and could have serious medicolegal consequences. You must politely decline."
+    },
+    {
+      "id": "sjt-3-05",
+      "type": "appropriateness",
+      "passage": "You are in a busy emergency department. A patient arrives with chest pain and is triaged as category 3. You notice their ECG shows ST elevation, which would warrant category 1. The triage nurse has already left the cubicle.",
+      "question": "How appropriate is it to immediately inform the registrar of the ECG findings regardless of the triage category?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Clinical findings that indicate a life-threatening condition must be escalated immediately. Triage categories can be upgraded and waiting for formal re-triage could cost the patient critical time."
+    },
+    {
+      "id": "sjt-3-06",
+      "type": "appropriateness",
+      "passage": "A consultant asks you to stay late to help with a complex procedure. You have an important exam the next morning and have already worked a 12-hour shift.",
+      "question": "How appropriate is it to politely explain that you cannot stay late due to your exam commitments?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Maintaining professional boundaries and protecting your own wellbeing and academic progression is important. Being honest and polite about your limitations is the appropriate response."
+    },
+    {
+      "id": "sjt-3-07",
+      "type": "importance",
+      "passage": "You are reviewing a patient's discharge summary and notice a significant drug interaction between two newly prescribed medications that has not been addressed.",
+      "question": "How important is it to raise this interaction with the prescribing team before the patient is discharged?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Unaddressed drug interactions can cause serious harm after discharge. Raising this before the patient leaves hospital is a critical patient safety action."
+    },
+    {
+      "id": "sjt-3-08",
+      "type": "appropriateness",
+      "passage": "During a ward round, a registrar asks you to present a patient's case. You realise you have mixed up two patients' histories and presented the wrong information. The registrar has not yet acted on your presentation.",
+      "question": "How appropriate is it to immediately correct yourself and apologise for the error?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Promptly correcting an error, even an embarrassing one, is essential for patient safety and demonstrates professional accountability. Trying to cover it up would be far worse."
+    },
+    {
+      "id": "sjt-3-09",
+      "type": "importance",
+      "passage": "You observe a medical student from another university behaving unprofessionally towards a patient — making dismissive comments about their lifestyle choices. The patient appears uncomfortable but says nothing.",
+      "question": "How important is it to address this behaviour with the student directly?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Challenging unprofessional behaviour towards patients, even from peers at other institutions, upholds patient dignity and professional standards. The patient's comfort and safety should take precedence."
+    },
+    {
+      "id": "sjt-3-10",
+      "type": "appropriateness",
+      "passage": "You are working in a resource-limited setting as part of a medical elective. You are asked to make clinical decisions that would normally be made by a more senior doctor, due to severe staffing shortages.",
+      "question": "How appropriate is it to manage patients independently given the circumstances?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Inappropriate",
+      "explanation": "Working beyond your competence, regardless of circumstances, puts patients at risk. You should seek supervision by phone or telehealth and be transparent about your level of training."
+    },
+    {
+      "id": "sjt-3-11",
+      "type": "appropriateness",
+      "passage": "A patient's relative pulls you aside and asks if the patient's condition is serious. You know the patient has been diagnosed with a terminal illness. The medical team has not yet had a family meeting.",
+      "question": "How appropriate is it to direct the relative to the medical team for information rather than discussing the diagnosis yourself?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "You should not disclose clinical information that has not been formally communicated by the treating team. Directing relatives to the appropriate person respects both the team's role and the patient's right to controlled information sharing."
+    },
+    {
+      "id": "sjt-3-12",
+      "type": "importance",
+      "passage": "You are conducting a research audit for your hospital and discover that a senior colleague's published data contains significant inaccuracies. The paper has already been cited by others.",
+      "question": "How important is it to raise these data integrity concerns through appropriate channels?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Research integrity is fundamental to medical science. Inaccurate data, whether deliberate or accidental, must be flagged to protect the evidence base and public trust."
+    },
+    {
+      "id": "sjt-3-13",
+      "type": "appropriateness",
+      "passage": "You are a medical student and notice that a consultant consistently uses a patient's bed number rather than their name when discussing them with colleagues. The patient is within earshot.",
+      "question": "How appropriate is it to suggest to the consultant that using the patient's name might be more respectful?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Addressing dehumanising language is important for patient dignity, but as a student, directly challenging a consultant requires tact and may be more appropriate through formal feedback channels."
+    },
+    {
+      "id": "sjt-3-14",
+      "type": "importance",
+      "passage": "During an on-call shift, you are asked to review a patient with abdominal pain. You are unsure whether the patient needs an urgent CT scan or can wait until the morning. Your registrar is contactable but busy.",
+      "question": "How important is it to contact the registrar for guidance rather than making the decision alone?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Recognising the limits of your competence and seeking timely senior input is a cornerstone of safe practice. Delaying or avoiding contact could lead to a missed diagnosis."
+    },
+    {
+      "id": "sjt-3-15",
+      "type": "appropriateness",
+      "passage": "A patient on a mental health ward asks you to help them make a complaint about another patient who has been verbally aggressive towards them. You are a medical student, not a nurse or ward staff.",
+      "question": "How appropriate is it to listen to the patient's concerns and then assist them in making a formal complaint through the appropriate hospital process?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Supporting patients through complaints processes, even when you cannot resolve the issue yourself, validates their experience and connects them with the appropriate systems."
+    }
+  ]
+}

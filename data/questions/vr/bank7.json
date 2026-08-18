@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-7-1",
+      "type": "true-false-cant-tell",
+      "passage": "A World Bank analysis of healthcare expenditure across 40 developing nations found that countries allocating more than 6% of GDP to health spending achieved maternal mortality rates 47% lower than those spending less than 3% of GDP. The analysis controlled for factors including urbanisation, education levels, and access to clean water. However, the report cautioned that increased spending alone does not guarantee better outcomes, citing examples of countries that increased budgets significantly without corresponding improvements in health indicators. The authors recommended that spending be directed toward primary care infrastructure and community health worker programmes, which offered the highest return on investment per dollar spent.",
+      "question": "Countries spending more than 6% of GDP on health achieved lower maternal mortality than those spending less than 3%.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage directly states countries allocating more than 6% of GDP achieved maternal mortality rates '47% lower' than those spending less than 3%."
+    },
+    {
+      "id": "vr-7-2",
+      "type": "true-false-cant-tell",
+      "passage": "A World Bank analysis of healthcare expenditure across 40 developing nations found that countries allocating more than 6% of GDP to health spending achieved maternal mortality rates 47% lower than those spending less than 3% of GDP. The analysis controlled for factors including urbanisation, education levels, and access to clean water. However, the report cautioned that increased spending alone does not guarantee better outcomes, citing examples of countries that increased budgets significantly without corresponding improvements in health indicators. The authors recommended that spending be directed toward primary care infrastructure and community health worker programmes, which offered the highest return on investment per dollar spent.",
+      "question": "The report concluded that increased health spending always leads to better outcomes.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage cautions that 'increased spending alone does not guarantee better outcomes' but also notes countries spending more had lower mortality, so whether it 'always' leads to better outcomes is unclear."
+    },
+    {
+      "id": "vr-7-3",
+      "type": "true-false-cant-tell",
+      "passage": "A World Bank analysis of healthcare expenditure across 40 developing nations found that countries allocating more than 6% of GDP to health spending achieved maternal mortality rates 47% lower than those spending less than 3% of GDP. The analysis controlled for factors including urbanisation, education levels, and access to clean water. However, the report cautioned that increased spending alone does not guarantee better outcomes, citing examples of countries that increased budgets significantly without corresponding improvements in health indicators. The authors recommended that spending be directed toward primary care infrastructure and community health worker programmes, which offered the highest return on investment per dollar spent.",
+      "question": "The analysis did not account for differences in education levels between countries.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the analysis 'controlled for factors including urbanisation, education levels, and access to clean water,' meaning education levels were accounted for."
+    },
+    {
+      "id": "vr-7-4",
+      "type": "true-false-cant-tell",
+      "passage": "A World Bank analysis of healthcare expenditure across 40 developing nations found that countries allocating more than 6% of GDP to health spending achieved maternal mortality rates 47% lower than those spending less than 3% of GDP. The analysis controlled for factors including urbanisation, education levels, and access to clean water. However, the report cautioned that increased spending alone does not guarantee better outcomes, citing examples of countries that increased budgets significantly without corresponding improvements in health indicators. The authors recommended that spending be directed toward primary care infrastructure and community health worker programmes, which offered the highest return on investment per dollar spent.",
+      "question": "The report analysed healthcare spending in more than 30 nations.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the analysis covered '40 developing nations,' which is more than 30."
+    },
+    {
+      "id": "vr-7-5",
+      "type": "true-false-cant-tell",
+      "passage": "Pharmaceutical pricing remains one of the most contentious issues in global healthcare. A 2024 report by the Access to Medicine Foundation found that the 20 largest pharmaceutical companies spent an average of 23% of revenue on research and development, while 39% of revenue was allocated to sales and marketing. The report noted that the cost of bringing a new drug to market ranges from $1 billion to $2.6 billion, depending on therapeutic area. In sub-Saharan Africa, generic drug manufacturers supply over 80% of essential medicines, often at less than 10% of the branded equivalent's price. The foundation called on governments to implement tiered pricing models that adjust drug costs based on countries' ability to pay.",
+      "question": "Pharmaceutical companies spend more on research and development than on sales and marketing.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states companies spent '23% of revenue on research and development, while 39% of revenue was allocated to sales and marketing,' meaning more was spent on sales and marketing."
+    },
+    {
+      "id": "vr-7-6",
+      "type": "true-false-cant-tell",
+      "passage": "Pharmaceutical pricing remains one of the most contentious issues in global healthcare. A 2024 report by the Access to Medicine Foundation found that the 20 largest pharmaceutical companies spent an average of 23% of revenue on research and development, while 39% of revenue was allocated to sales and marketing. The report noted that the cost of bringing a new drug to market ranges from $1 billion to $2.6 billion, depending on therapeutic area. In sub-Saharan Africa, generic drug manufacturers supply over 80% of essential medicines, often at less than 10% of the branded equivalent's price. The foundation called on governments to implement tiered pricing models that adjust drug costs based on countries' ability to pay.",
+      "question": "Generic drugs in sub-Saharan Africa typically cost more than half the price of branded equivalents.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states generic drugs are often 'at less than 10% of the branded equivalent's price,' which is far less than half."
+    },
+    {
+      "id": "vr-7-7",
+      "type": "true-false-cant-tell",
+      "passage": "Pharmaceutical pricing remains one of the most contentious issues in global healthcare. A 2024 report by the Access to Medicine Foundation found that the 20 largest pharmaceutical companies spent an average of 23% of revenue on research and development, while 39% of revenue was allocated to sales and marketing. The report noted that the cost of bringing a new drug to market ranges from $1 billion to $2.6 billion, depending on therapeutic area. In sub-Saharan Africa, generic drug manufacturers supply over 80% of essential medicines, often at less than 10% of the branded equivalent's price. The foundation called on governments to implement tiered pricing models that adjust drug costs based on countries' ability to pay.",
+      "question": "The report examined the practices of fewer than 25 pharmaceutical companies.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the report examined 'the 20 largest pharmaceutical companies,' which is fewer than 25."
+    },
+    {
+      "id": "vr-7-8",
+      "type": "true-false-cant-tell",
+      "passage": "Pharmaceutical pricing remains one of the most contentious issues in global healthcare. A 2024 report by the Access to Medicine Foundation found that the 20 largest pharmaceutical companies spent an average of 23% of revenue on research and development, while 39% of revenue was allocated to sales and marketing. The report noted that the cost of bringing a new drug to market ranges from $1 billion to $2.6 billion, depending on therapeutic area. In sub-Saharan Africa, generic drug manufacturers supply over 80% of essential medicines, often at less than 10% of the branded equivalent's price. The foundation called on governments to implement tiered pricing models that adjust drug costs based on countries' ability to pay.",
+      "question": "The cost of developing a new drug is the same regardless of therapeutic area.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states costs range from '$1 billion to $2.6 billion, depending on therapeutic area,' but does not specify whether the variation is due to the therapeutic area itself or other factors."
+    },
+    {
+      "id": "vr-7-9",
+      "type": "true-false-cant-tell",
+      "passage": "The UK's National Health Service has faced chronic underfunding since 2010, leading to increased waiting times for elective surgery. A report by the King's Fund found that the number of patients waiting over 18 weeks for treatment rose from 250,000 in 2013 to 780,000 in 2023. The report attributed the backlog to a combination of reduced capital investment, workforce shortages, and rising demand from an ageing population. Despite an additional £20 billion annual funding commitment made in 2023, the report noted that inflation in healthcare costs outpaced the funding increase in real terms. The authors argued that without significant workforce expansion, additional funding alone would be insufficient to clear the backlog within five years.",
+      "question": "The number of patients waiting over 18 weeks for treatment more than tripled between 2013 and 2023.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states waiting numbers rose from 250,000 to 780,000. 250,000 x 3 = 750,000, and 780,000 exceeds that, confirming it more than tripled."
+    },
+    {
+      "id": "vr-7-10",
+      "type": "true-false-cant-tell",
+      "passage": "The UK's National Health Service has faced chronic underfunding since 2010, leading to increased waiting times for elective surgery. A report by the King's Fund found that the number of patients waiting over 18 weeks for treatment rose from 250,000 in 2013 to 780,000 in 2023. The report attributed the backlog to a combination of reduced capital investment, workforce shortages, and rising demand from an ageing population. Despite an additional £20 billion annual funding commitment made in 2023, the report noted that inflation in healthcare costs outpaced the funding increase in real terms. The authors argued that without significant workforce expansion, additional funding alone would be insufficient to clear the backlog within five years.",
+      "question": "The £20 billion funding increase was sufficient to fully address the NHS backlog.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states that 'inflation in healthcare costs outpaced the funding increase in real terms' and that 'additional funding alone would be insufficient to clear the backlog within five years.'"
+    }
+  ]
+}

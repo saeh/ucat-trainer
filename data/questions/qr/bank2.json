@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-2-1",
+      "type": "data-interpretation",
+      "passage": "The table below shows patient outcomes for a new cardiac medication across three dosage groups:\n\n| Dosage Group | Patients | Improved | No Change | Worsened |\n|--------------|----------|----------|-----------|----------|\n| Low (10 mg)  | 150      | 60       | 65        | 25       |\n| Medium (20 mg) | 200    | 100      | 70        | 30       |\n| High (40 mg) | 180      | 108      | 45        | 27       |",
+      "question": "What percentage of patients in the High dosage group improved? (Round to nearest whole number)",
+      "options": ["55%", "60%", "63%", "67%"],
+      "correct": "60%",
+      "explanation": "Improved in High group = 108 out of 180. (108/180) × 100 = 60%."
+    },
+    {
+      "id": "qr-2-2",
+      "type": "percentage",
+      "passage": "A hospital treated 3,200 patients last year. This year, admissions decreased by 12% for surgical cases and increased by 8% for medical cases. Surgical cases made up 45% of last year's total, and medical cases made up 55%.",
+      "question": "How many surgical patients were treated this year?",
+      "options": ["1,254", "1,267", "1,584", "1,624"],
+      "correct": "1,267",
+      "explanation": "Last year surgical = 3,200 × 0.45 = 1,440. This year surgical = 1,440 × 0.88 = 1,267.2 ≈ 1,267."
+    },
+    {
+      "id": "qr-2-3",
+      "type": "rate",
+      "passage": "An infusion pump delivers 500 mL of normal saline over 8 hours. The nurse notes the bag started at 08:00.",
+      "question": "At what rate in mL/hr is the fluid being infused?",
+      "options": ["50 mL/hr", "62.5 mL/hr", "75 mL/hr", "100 mL/hr"],
+      "correct": "62.5 mL/hr",
+      "explanation": "Rate = 500 mL ÷ 8 hours = 62.5 mL/hr."
+    },
+    {
+      "id": "qr-2-4",
+      "type": "unit-conversion",
+      "passage": "A patient weighing 70 kg requires adrenaline at a dose of 0.01 mg/kg. The adrenaline solution is supplied at a concentration of 1 mg/mL (1:1000).",
+      "question": "How many mL of adrenaline solution should be administered?",
+      "options": ["0.7 mL", "1.0 mL", "1.4 mL", "7.0 mL"],
+      "correct": "0.7 mL",
+      "explanation": "Dose needed = 70 kg × 0.01 mg/kg = 0.7 mg. Concentration = 1 mg/mL. Volume = 0.7 mg ÷ 1 mg/mL = 0.7 mL."
+    },
+    {
+      "id": "qr-2-5",
+      "type": "data-interpretation",
+      "passage": "The table shows the annual budget allocation for a regional hospital (total budget: £8.5 million):\n\n| Department | Allocation |\n|------------|------------|\n| Emergency  | 25%        |\n| Surgery    | 30%        |\n| Paediatrics | 15%       |\n| Oncology   | 20%        |\n| Admin      | 10%        |",
+      "question": "How much more does Surgery receive compared to Oncology?",
+      "options": ["£425,000", "£680,000", "£850,000", "£1,275,000"],
+      "correct": "£850,000",
+      "explanation": "Surgery = 30% of £8.5m = £2,550,000. Oncology = 20% of £8.5m = £1,700,000. Difference = £850,000."
+    },
+    {
+      "id": "qr-2-6",
+      "type": "ratio",
+      "passage": "A hospital ward has 45 beds allocated in the ratio of medical : surgical : observation = 5 : 3 : 1.",
+      "question": "How many beds are allocated to surgical patients?",
+      "options": ["5", "15", "20", "25"],
+      "correct": "15",
+      "explanation": "Total parts = 5 + 3 + 1 = 9. Each part = 45 ÷ 9 = 5. Surgical = 3 × 5 = 15 beds."
+    },
+    {
+      "id": "qr-2-7",
+      "type": "data-interpretation",
+      "passage": "A clinic tracks patient wait times over four weeks:\n\n| Week | Monday | Tuesday | Wednesday | Thursday | Friday |\n|------|--------|---------|-----------|----------|--------|\n| 1    | 25     | 30      | 20        | 35       | 40     |\n| 2    | 30     | 25      | 25        | 30       | 45     |\n| 3    | 20     | 20      | 15        | 25       | 35     |\n| 4    | 35     | 40      | 30        | 40       | 50     |",
+      "question": "What was the average wait time on Fridays across all four weeks?",
+      "options": ["35 minutes", "40 minutes", "42.5 minutes", "45 minutes"],
+      "correct": "42.5 minutes",
+      "explanation": "Friday waits: 40 + 45 + 35 + 50 = 170. Average = 170 ÷ 4 = 42.5 minutes."
+    },
+    {
+      "id": "qr-2-8",
+      "type": "percentage",
+      "passage": "A pharmaceutical company tested a new antibiotic on 500 patients. 380 responded positively. The company claims a 76% success rate. A competitor drug shows a 70% success rate.",
+      "question": "By how many percentage points does the new drug exceed the competitor's success rate?",
+      "options": ["4 percentage points", "6 percentage points", "8 percentage points", "10 percentage points"],
+      "correct": "6 percentage points",
+      "explanation": "New drug success = 380/500 = 76%. Difference = 76% − 70% = 6 percentage points."
+    },
+    {
+      "id": "qr-2-9",
+      "type": "unit-conversion",
+      "passage": "A patient requires morphine at 2 mg/kg. The morphine solution has a concentration of 10 mg/mL. The patient weighs 68 kg.",
+      "question": "How many mL of morphine solution should be administered? (Round to one decimal place)",
+      "options": ["6.8 mL", "10.2 mL", "13.6 mL", "17.0 mL"],
+      "correct": "13.6 mL",
+      "explanation": "Dose = 68 kg × 2 mg/kg = 136 mg. Volume = 136 mg ÷ 10 mg/mL = 13.6 mL."
+    },
+    {
+      "id": "qr-2-10",
+      "type": "rate",
+      "passage": "An emergency department treats 48 patients between 08:00 and 16:00. The department has 4 treatment bays, each used equally.",
+      "question": "On average, how many minutes does each treatment bay take per patient?",
+      "options": ["40 minutes", "50 minutes", "60 minutes", "80 minutes"],
+      "correct": "40 minutes",
+      "explanation": "Total time = 8 hours = 480 minutes. Patients per bay = 48 ÷ 4 = 12 patients. Minutes per patient per bay = 480 ÷ 12 = 40 minutes."
+    }
+  ]
+}

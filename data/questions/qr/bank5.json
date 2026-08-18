@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-5-1",
+      "type": "data-interpretation",
+      "passage": "The table shows waiting list numbers for elective surgery:\n\n| Specialty | Wait <3 months | Wait 3-6 months | Wait 6-12 months | Wait >12 months |\n|-----------|----------------|-----------------|------------------|-----------------|\n| Orthopaedics | 120          | 85              | 60               | 25              |\n| Cardiology   | 90           | 70              | 40               | 15              |\n| Urology      | 110          | 65              | 55               | 20              |\n| ENT          | 150          | 90              | 45               | 10              |",
+      "question": "How many patients in total are waiting more than 6 months across all four specialties?",
+      "options": ["200", "225", "250", "270"],
+      "correct": "270",
+      "explanation": ">6 months = (60+25) + (40+15) + (55+20) + (45+10) = 85 + 55 + 75 + 55 = 270."
+    },
+    {
+      "id": "qr-5-2",
+      "type": "percentage",
+      "passage": "A hospital's flu vaccination programme vaccinated 5,200 staff. The target was 6,000 staff. The previous year, 4,800 staff were vaccinated.",
+      "question": "What was the percentage increase in vaccinations from last year to this year? (Round to nearest whole number)",
+      "options": ["6%", "7%", "8%", "9%"],
+      "correct": "8%",
+      "explanation": "Increase = 5,200 - 4,800 = 400. Percentage increase = (400 ÷ 4,800) × 100 = 8.33% ≈ 8%."
+    },
+    {
+      "id": "qr-5-3",
+      "type": "unit-conversion",
+      "passage": "A patient requires heparin at 80 units/kg/hr. The patient weighs 70 kg. Heparin is available as 25,000 units in 50 mL (500 units/mL).",
+      "question": "What is the infusion rate in mL/hr?",
+      "options": ["8.96 mL/hr", "10.24 mL/hr", "11.20 mL/hr", "12.80 mL/hr"],
+      "correct": "11.20 mL/hr",
+      "explanation": "Dose = 70 kg × 80 units/kg/hr = 5,600 units/hr. Concentration = 500 units/mL. Rate = 5,600 ÷ 500 = 11.2 mL/hr."
+    },
+    {
+      "id": "qr-5-4",
+      "type": "ratio",
+      "passage": "A hospital cafeteria serves 440 meals per day. The meals are distributed across breakfast:lunch:dinner in the ratio 2:5:4.",
+      "question": "How many lunch meals are served?",
+      "options": ["100", "150", "200", "250"],
+      "correct": "200",
+      "explanation": "Total parts = 2 + 5 + 4 = 11. Each part = 440 ÷ 11 = 40. Lunch = 5 × 40 = 200."
+    },
+    {
+      "id": "qr-5-5",
+      "type": "data-interpretation",
+      "passage": "The table shows theatre utilisation data:\n\n| Day | Scheduled Cases | Completed Cases | Cancelled Cases |\n|-----|-----------------|-----------------|------------------|\n| Mon | 12              | 10              | 2                |\n| Tue | 15              | 14              | 1                |\n| Wed | 10              | 9               | 1                |\n| Thu | 14              | 13              | 1                |\n| Fri | 8               | 7               | 1                |",
+      "question": "What is the overall completion rate for the week? (Round to nearest whole number)",
+      "options": ["85%", "88%", "90%", "93%"],
+      "correct": "90%",
+      "explanation": "Total scheduled = 12+15+10+14+8 = 59. Total completed = 10+14+9+13+7 = 53. Rate = (53 ÷ 59) × 100 = 89.8% ≈ 90%."
+    },
+    {
+      "id": "qr-5-6",
+      "type": "rate",
+      "passage": "A blood bank needs to process 250 units of blood per week. Each unit takes 12 minutes to process. The blood bank operates 5 days per week, 8 hours per day.",
+      "question": "What percentage of the blood bank's operating time is used for processing? (Round to nearest whole number)",
+      "options": ["100%", "115%", "125%", "150%"],
+      "correct": "125%",
+      "explanation": "Time needed = 250 × 12 = 3,000 minutes. Time available = 5 × 8 × 60 = 2,400 minutes. Percentage = (3,000 ÷ 2,400) × 100 = 125%."
+    },
+    {
+      "id": "qr-5-7",
+      "type": "percentage",
+      "passage": "A pharmaceutical company's drug has a 65% efficacy rate. A new formulation claims to improve efficacy by 15 percentage points.",
+      "question": "What is the efficacy rate of the new formulation?",
+      "options": ["70%", "74.75%", "75%", "80%"],
+      "correct": "80%",
+      "explanation": "New efficacy = 65% + 15 percentage points = 80%."
+    },
+    {
+      "id": "qr-5-8",
+      "type": "data-interpretation",
+      "passage": "The table shows patient readmission rates by department:\n\n| Department | Admissions | Readmissions within 30 days |\n|------------|------------|----------------------------|\n| Cardiology | 1,200      | 144                        |\n| Respiratory | 950       | 114                        |\n| Surgery    | 1,800      | 162                        |\n| Geriatrics | 600        | 90                         |",
+      "question": "Which department has the highest readmission rate?",
+      "options": ["Cardiology", "Respiratory", "Surgery", "Geriatrics"],
+      "correct": "Geriatrics",
+      "explanation": "Cardiology: 144/1200=12%. Respiratory: 114/950=12%. Surgery: 162/1800=9%. Geriatrics: 90/600=15%. Geriatrics is highest at 15%."
+    },
+    {
+      "id": "qr-5-9",
+      "type": "unit-conversion",
+      "passage": "A patient requires a dopamine infusion at 5 mcg/kg/min. The patient weighs 65 kg. Dopamine is available as 400 mg in 250 mL (1,600 mcg/mL).",
+      "question": "What is the infusion rate in mL/hr? (Round to one decimal place)",
+      "options": ["7.6 mL/hr", "10.2 mL/hr", "12.2 mL/hr", "15.3 mL/hr"],
+      "correct": "12.2 mL/hr",
+      "explanation": "Dose = 65 kg × 5 mcg/kg/min = 325 mcg/min = 19,500 mcg/hr. Concentration = 1,600 mcg/mL. Rate = 19,500 ÷ 1,600 = 12.1875 ≈ 12.2 mL/hr."
+    },
+    {
+      "id": "qr-5-10",
+      "type": "ratio",
+      "passage": "A research team consists of 48 researchers in the ratio of senior:junior = 5:3.",
+      "question": "How many junior researchers are there?",
+      "options": ["15", "18", "20", "30"],
+      "correct": "18",
+      "explanation": "Total parts = 5 + 3 = 8. Each part = 48 ÷ 8 = 6. Junior = 3 × 6 = 18."
+    }
+  ]
+}

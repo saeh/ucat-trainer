@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-5-01",
+      "type": "importance",
+      "passage": "You are working in a palliative care ward. A patient with terminal cancer tells you they have had enough and want all treatment stopped. They appear calm and lucid. Their family, however, is begging the medical team to keep treating.",
+      "question": "How important is it to ensure the patient's own wishes are communicated to the medical team, even if the family disagrees?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A capacitated patient's autonomous wishes about their own treatment take legal and ethical precedence over family preferences. Advocating for the patient is a fundamental professional duty."
+    },
+    {
+      "id": "sjt-5-02",
+      "type": "appropriateness",
+      "passage": "You are on a busy medical ward and notice that a patient's IV bag is nearly empty and has been for some time. No nurse is immediately visible and you are unsure about the protocol for changing the bag.",
+      "question": "How appropriate is it to leave the patient and find a nurse to address the IV issue rather than attempting to change it yourself?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Working within your competence and seeking appropriate help is always the right approach. Attempting a procedure you are not trained for could cause harm."
+    },
+    {
+      "id": "sjt-5-03",
+      "type": "appropriateness",
+      "passage": "During a team meeting, a consultant criticises a junior doctor's management of a patient in front of the whole team. The junior doctor appears visibly upset. You are a medical student observing the meeting.",
+      "question": "How appropriate is it to speak privately with the junior doctor afterwards to check on their wellbeing?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Showing collegial support and checking on a colleague's wellbeing after a difficult experience is important for team culture and individual resilience. It does not overstep your boundaries."
+    },
+    {
+      "id": "sjt-5-04",
+      "type": "importance",
+      "passage": "You are taking blood from a patient who has a known needle phobia. The patient is extremely anxious and has asked for a specific vein to be used. You think another vein would be easier.",
+      "question": "How important is it to attempt the patient's preferred vein first before suggesting alternatives?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Important",
+      "explanation": "Respecting patient preferences during procedures builds trust and may actually reduce anxiety, leading to a better outcome. However, clinical judgement about the best approach also matters."
+    },
+    {
+      "id": "sjt-5-05",
+      "type": "appropriateness",
+      "passage": "You overhear two colleagues discussing a celebrity patient's admission in a public area of the hospital. They are sharing specific clinical details that could identify the patient.",
+      "question": "How appropriate is it to remind your colleagues that they should not be discussing identifiable patient information in public?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Confidentiality must be maintained at all times. A discreet reminder about discussing identifiable information in public places upholds professional standards and patient trust."
+    },
+    {
+      "id": "sjt-5-06",
+      "type": "appropriateness",
+      "passage": "You are on an emergency department placement. A patient arrives who is a known frequent attender. The triage nurse rolls their eyes and says 'here we go again' within the patient's hearing.",
+      "question": "How appropriate is it to speak with the nurse about the impact of their comment on patient dignity?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Every patient deserves to be treated with dignity regardless of how often they attend. Addressing dismissive behaviour, even when the staff member is a colleague, promotes a respectful care environment."
+    },
+    {
+      "id": "sjt-5-07",
+      "type": "importance",
+      "passage": "You are asked to participate in a clinical audit. You realise that several data entries in the audit have been fabricated to meet a quality target, and this has been done by a more senior colleague.",
+      "question": "How important is it to report the data fabrication through the appropriate channels?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Fabricated audit data undermines quality improvement and patient safety. Reporting this is a professional duty regardless of the seniority of the person involved."
+    },
+    {
+      "id": "sjt-5-08",
+      "type": "appropriateness",
+      "passage": "A patient on a respiratory ward has been deteriorating overnight. You took their observations at 3am and noted concerning trends, but the day team has not yet been informed as handover is still in progress.",
+      "question": "How appropriate is it to interrupt the handover to flag the deteriorating patient?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Patient deterioration takes priority over procedural convenience. Interrupting handover to communicate safety concerns is expected and appropriate."
+    },
+    {
+      "id": "sjt-5-09",
+      "type": "appropriateness",
+      "passage": "During a clinic, a patient tells you they have been taking their neighbour's blood pressure tablets because they cannot afford their own prescription. They ask you not to tell anyone.",
+      "question": "How appropriate is it to maintain this patient's confidence and not inform anyone?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Inappropriate",
+      "explanation": "Self-medicating with someone else's prescription is dangerous and the patient's medication access issues need addressing. While confidentiality is important, patient safety and appropriate signposting to support services must be prioritised."
+    },
+    {
+      "id": "sjt-5-10",
+      "type": "importance",
+      "passage": "You are working on a labour ward. A woman in established labour asks you to ensure her partner, who has been abusive in the past, is not allowed on the ward. There is no formal restraining order in place.",
+      "question": "How important is it to escalate this concern to the midwife and security immediately?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A patient's stated fear of an abusive partner during a vulnerable time must be taken seriously. Immediate escalation to security and the midwife is necessary to ensure safety."
+    },
+    {
+      "id": "sjt-5-11",
+      "type": "appropriateness",
+      "passage": "A senior doctor asks you to check on a patient who has been left in a corridor on a trolley for over 6 hours. The patient is elderly and confused, and you notice they have not been offered food or fluids.",
+      "question": "How appropriate is it to ensure the patient's basic needs are met and escalate the prolonged wait to the charge nurse?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Ensuring basic care needs — hydration, nutrition, dignity — for patients waiting extended periods is a fundamental responsibility, regardless of systemic pressures."
+    },
+    {
+      "id": "sjt-5-12",
+      "type": "importance",
+      "passage": "You are helping a consultant with a procedure. Midway through, the consultant mentions casually that they have a headache and haven't slept well. The procedure requires fine motor control.",
+      "question": "How important is it to be mindful of the consultant's fitness to perform the procedure and mention your concern if appropriate?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Important",
+      "explanation": "All clinicians must be fit to perform procedures. While the consultant may be managing fine, awareness of fatigue-related risks is important. Raising it diplomatically shows professional vigilance."
+    },
+    {
+      "id": "sjt-5-13",
+      "type": "appropriateness",
+      "passage": "You are on a GP placement. A patient presents with symptoms that you recognise from your studies as possibly indicating a rare but serious condition. The GP has not mentioned this possibility.",
+      "question": "How appropriate is it to raise your observation with the GP privately after the consultation?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Raising clinical observations as a student shows engagement and learning, but it must be done humbly and privately. The GP's clinical experience may have already ruled out the condition, so framing it as a learning question is wise."
+    },
+    {
+      "id": "sjt-5-14",
+      "type": "importance",
+      "passage": "A dying patient's family ask you to help them understand what is happening. You have only been involved in the patient's care for one day and have limited understanding of the full clinical trajectory.",
+      "question": "How important is it to be honest about your limited involvement and direct them to the senior clinician leading the patient's care?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Being transparent about your limitations and directing families to the most knowledgeable clinician ensures they receive accurate information and maintains trust."
+    },
+    {
+      "id": "sjt-5-15",
+      "type": "appropriateness",
+      "passage": "During an on-call shift, you find a patient's clinical notes have been left unattended on a desk in a busy corridor. The notes contain sensitive personal information.",
+      "question": "How appropriate is it to secure the notes immediately by taking them to the nurses' station?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Unattended patient notes in a public area represent a confidentiality breach. Securing them promptly is a simple but important action that protects patient privacy."
+    }
+  ]
+}

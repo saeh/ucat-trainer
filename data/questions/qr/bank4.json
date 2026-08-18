@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-4-1",
+      "type": "data-interpretation",
+      "passage": "The table shows hospital admission data for two years:\n\n| Department | Year 1 | Year 2 |\n|------------|--------|--------|\n| Cardiology | 450    | 520    |\n| Neurology  | 320    | 290    |\n| Orthopaedics | 380  | 410    |\n| Respiratory | 290   | 350    |\n| Gastroenterology | 260 | 230 |",
+      "question": "What was the total change in admissions from Year 1 to Year 2?",
+      "options": ["Decrease of 20", "Increase of 20", "Increase of 100", "Decrease of 100"],
+      "correct": "Increase of 100",
+      "explanation": "Year 1 total = 450+320+380+290+260 = 1,700. Year 2 total = 520+290+410+350+230 = 1,800. Change = 1,800 - 1,700 = +100."
+    },
+    {
+      "id": "qr-4-2",
+      "type": "percentage",
+      "passage": "A hospital's infection control team reported that 4,800 patients were admitted in Q1. The hospital-acquired infection rate was 3.5%. Of those infected, 20% required ICU transfer.",
+      "question": "How many patients required ICU transfer due to hospital-acquired infection?",
+      "options": ["17", "24", "34", "48"],
+      "correct": "34",
+      "explanation": "Infected patients = 4,800 × 0.035 = 168. ICU transfers = 168 × 0.20 = 33.6 ≈ 34."
+    },
+    {
+      "id": "qr-4-3",
+      "type": "ratio",
+      "passage": "A hospital has 200 nursing staff allocated to three shifts in the ratio 3:4:3 (morning:afternoon:night).",
+      "question": "How many nurses work the afternoon shift?",
+      "options": ["60", "70", "80", "90"],
+      "correct": "80",
+      "explanation": "Total parts = 3 + 4 + 3 = 10. Each part = 200 ÷ 10 = 20. Afternoon = 4 × 20 = 80."
+    },
+    {
+      "id": "qr-4-4",
+      "type": "unit-conversion",
+      "passage": "A patient requires insulin at 0.5 units/kg. The patient weighs 82 kg. Insulin is available as 100 units in 1 mL.",
+      "question": "How many mL of insulin should be administered? (Round to two decimal places)",
+      "options": ["0.21 mL", "0.33 mL", "0.41 mL", "0.82 mL"],
+      "correct": "0.41 mL",
+      "explanation": "Dose = 82 kg × 0.5 units/kg = 41 units. Concentration = 100 units/mL. Volume = 41 ÷ 100 = 0.41 mL."
+    },
+    {
+      "id": "qr-4-5",
+      "type": "data-interpretation",
+      "passage": "The table shows A&E performance targets:\n\n| Quarter | Patients Seen in 4hrs | Total Patients |\n|---------|----------------------|----------------|\n| Q1      | 3,150                | 4,000          |\n| Q2      | 2,880                | 3,600          |\n| Q3      | 3,510                | 4,500          |\n| Q4      | 3,300                | 4,200          |",
+      "question": "In which quarter was the percentage of patients seen within 4 hours the highest?",
+      "options": ["Q1", "Q2", "Q3", "Q4"],
+      "correct": "Q2",
+      "explanation": "Q1: 3150/4000 = 78.75%. Q2: 2880/3600 = 80%. Q3: 3510/4500 = 78%. Q4: 3300/4200 = 78.57%. Q2 was highest at 80%."
+    },
+    {
+      "id": "qr-4-6",
+      "type": "rate",
+      "passage": "A CT scanner takes 15 minutes per scan. The scanner operates for 7 hours per day and is shut down for maintenance 1 day per week.",
+      "question": "How many scans can be completed in one week?",
+      "options": ["140", "168", "200", "240"],
+      "correct": "168",
+      "explanation": "Scans per day = (7 × 60) ÷ 15 = 28 scans. Operating days = 7 - 1 = 6 days. Weekly scans = 28 × 6 = 168."
+    },
+    {
+      "id": "qr-4-7",
+      "type": "percentage",
+      "passage": "A clinical trial enrolled 600 patients. 250 received the drug, 200 received placebo, and 150 withdrew. The drug group had a 68% response rate, while the placebo group had a 44% response rate.",
+      "question": "How many more patients responded in the drug group than the placebo group?",
+      "options": ["48", "62", "82", "92"],
+      "correct": "82",
+      "explanation": "Drug responders = 250 × 0.68 = 170. Placebo responders = 200 × 0.44 = 88. Difference = 170 - 88 = 82."
+    },
+    {
+      "id": "qr-4-8",
+      "type": "data-interpretation",
+      "passage": "The table shows pathology test volumes:\n\n| Test | Monthly Volume | Cost per Test |\n|------|---------------|---------------|\n| FBC  | 2,400         | £3.50         |\n| U&E  | 3,100         | £2.80         |\n| LFT  | 1,800         | £4.20         |\n| CRP  | 900           | £5.00         |\n| HbA1c | 1,200       | £6.50         |",
+      "question": "What is the total monthly cost for all five tests?",
+      "options": ["£26,840", "£28,560", "£36,940", "£40,000"],
+      "correct": "£36,940",
+      "explanation": "FBC: 2400×3.50=£8,400. U&E: 3100×2.80=£8,680. LFT: 1800×4.20=£7,560. CRP: 900×5.00=£4,500. HbA1c: 1200×6.50=£7,800. Total = 8400+8680+7560+4500+7800 = £36,940."
+    },
+    {
+      "id": "qr-4-9",
+      "type": "unit-conversion",
+      "passage": "A patient requires vancomycin at 15 mg/kg. The patient weighs 75 kg. Vancomycin is supplied as 500 mg vials, reconstituted to 50 mg/mL.",
+      "question": "How many mL of reconstituted vancomycin should be administered?",
+      "options": ["15 mL", "20 mL", "22.5 mL", "25 mL"],
+      "correct": "22.5 mL",
+      "explanation": "Dose = 75 kg × 15 mg/kg = 1,125 mg. Concentration = 50 mg/mL. Volume = 1,125 ÷ 50 = 22.5 mL."
+    },
+    {
+      "id": "qr-4-10",
+      "type": "rate",
+      "passage": "A wound care clinic treats 24 patients per day. Each wound dressing takes an average of 25 minutes. The clinic operates for 8 hours per day with a 1-hour lunch break.",
+      "question": "How many minutes of the clinic's operating time is used for wound dressings?",
+      "options": ["400 minutes", "500 minutes", "600 minutes", "700 minutes"],
+      "correct": "600 minutes",
+      "explanation": "Total dressing time = 24 patients × 25 minutes = 600 minutes."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-8-01",
+      "type": "appropriateness",
+      "passage": "You are a medical student on a neonatal unit. A baby's parents are disagreeing about whether their child should undergo a high-risk surgical procedure. The mother is strongly in favour; the father is opposed.",
+      "question": "How appropriate is it to listen to both parents' concerns and encourage them to discuss the decision with the neonatal team together?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Facilitating shared decision-making between parents and the clinical team is the appropriate role for a student. You should not take sides or attempt to resolve the disagreement yourself."
+    },
+    {
+      "id": "sjt-8-02",
+      "type": "importance",
+      "passage": "You are reviewing a patient's chart before a procedure and notice that the consent form has been signed but the patient has ticked 'I do not understand the risks' in the information section.",
+      "question": "How important is it to raise this with the medical team before the procedure proceeds?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A patient who does not understand the risks cannot give valid informed consent. Proceeding would be a breach of ethical and legal standards."
+    },
+    {
+      "id": "sjt-8-03",
+      "type": "appropriateness",
+      "passage": "You are working a long on-call shift and realise you have made a calculation error in a drug dose for a patient. The medication has already been administered. The patient is currently stable.",
+      "question": "How appropriate is it to immediately report the error to your registrar, document it, and ensure the patient is monitored?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Immediate disclosure, documentation, and monitoring after a medication error is the standard of care. Attempting to hide the error would be far more harmful and unprofessional."
+    },
+    {
+      "id": "sjt-8-04",
+      "type": "importance",
+      "passage": "A patient who is homeless and has no fixed address is discharged from hospital with a prescription. They tell you they cannot afford to fill the prescription and have nowhere to store medication safely.",
+      "question": "How important is it to ensure that a plan for medication access is arranged before the patient is discharged?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Discharging a patient without ensuring they can access their medication renders the treatment plan ineffective. Social determinants of health must be addressed as part of safe discharge planning."
+    },
+    {
+      "id": "sjt-8-05",
+      "type": "appropriateness",
+      "passage": "You are in a clinic and a patient asks you for a sick note for their employer. You have only seen them briefly during a group consultation and have not been involved in their clinical assessment.",
+      "question": "How appropriate is it to sign the sick note based on what the patient has told you?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very inappropriate",
+      "explanation": "Signing a sick note requires a proper clinical assessment. Doing so without adequate information is dishonest and could have medicolegal consequences."
+    },
+    {
+      "id": "sjt-8-06",
+      "type": "appropriateness",
+      "passage": "During a ward round, a registrar makes a management plan for a patient. You notice from the blood results that the patient has a significantly raised potassium level that has not been addressed in the plan.",
+      "question": "How appropriate is it to politely draw attention to the abnormal result during the ward round?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Raising a clinically significant abnormality during a ward round is expected and important. It does not matter that you are a student — patient safety is everyone's responsibility."
+    },
+    {
+      "id": "sjt-8-07",
+      "type": "importance",
+      "passage": "You are on a placement at a rural hospital. A patient with a suspected spinal injury needs to be transferred to a major trauma centre. The only available transport is a road ambulance that will take 3 hours.",
+      "question": "How important is it to ensure that the patient's neurological status is thoroughly documented and communicated to the receiving team before transfer?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Accurate documentation of neurological status before transfer is essential for comparison on arrival and for ongoing management decisions. Any deterioration during transfer needs a clear baseline."
+    },
+    {
+      "id": "sjt-8-08",
+      "type": "appropriateness",
+      "passage": "A medical student on the same placement as you asks you to cover for them while they skip a teaching session to attend a social event. They say the teaching is not important.",
+      "question": "How appropriate is it to agree to cover for them?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Inappropriate",
+      "explanation": "Covering for a colleague's absence from mandatory training is dishonest and undermines the educational programme. Encouraging them to attend or speak to the supervisor is more appropriate."
+    },
+    {
+      "id": "sjt-8-09",
+      "type": "appropriateness",
+      "passage": "You are on an oncology ward and notice that a patient's advance directive has not been updated in the notes despite the patient having clearly expressed new wishes to a nurse. The new wishes conflict with the existing directive.",
+      "question": "How appropriate is it to ensure the nursing staff and medical team are aware that the advance directive may need updating?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Ensuring advance directives are current and reflect the patient's wishes is critical for end-of-life care. Alerting the team facilitates the necessary discussions and documentation updates."
+    },
+    {
+      "id": "sjt-8-10",
+      "type": "importance",
+      "passage": "You are attending a patient who has been in a road traffic accident. The patient is conscious and asks you what is happening. They are visibly frightened and in pain. You are waiting for the senior doctor to arrive.",
+      "question": "How important is it to stay with the patient, provide reassurance, and explain what you can while waiting?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Reassurance and human contact in acute situations reduces patient anxiety and is a core part of clinical care. Abandoning a frightened patient to wait alone is unacceptable."
+    },
+    {
+      "id": "sjt-8-11",
+      "type": "appropriateness",
+      "passage": "You are presenting a research proposal at an academic meeting. A professor from another institution points out a fundamental flaw in your methodology that you had not considered.",
+      "question": "How appropriate is it to acknowledge the flaw openly and thank the professor for their feedback?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Intellectual humility and gracious acceptance of constructive criticism is a hallmark of good scholarship. Defensive behaviour would damage your professional reputation."
+    },
+    {
+      "id": "sjt-8-12",
+      "type": "appropriateness",
+      "passage": "A patient with a known history of drug-seeking behaviour presents to the ED with severe abdominal pain. You notice the nursing staff are sceptical about the patient's symptoms.",
+      "question": "How appropriate is it to ensure the patient receives the same thorough clinical assessment as any other patient presenting with abdominal pain?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "All patients must be assessed on their clinical presentation, not their history of behaviour. Scepticism can lead to missed diagnoses and is a form of clinical bias."
+    },
+    {
+      "id": "sjt-8-13",
+      "type": "importance",
+      "passage": "You are on a paediatric ward and overhear a parent telling their child that 'the doctors are going to hurt you' during a procedure preparation. The child is becoming extremely anxious.",
+      "question": "How important is it to gently intervene to reassure the child and explain the procedure in age-appropriate terms?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Important",
+      "explanation": "Reassuring a frightened child is important for their wellbeing, though approaching the parent sensitively is also necessary. This is an opportunity for gentle correction without undermining the parent."
+    },
+    {
+      "id": "sjt-8-14",
+      "type": "importance",
+      "passage": "You are working on a research project and discover that a fellow student has been including data from patients who did not give consent for their information to be used in research.",
+      "question": "How important is it to raise this ethical breach with the research supervisor?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Research without consent is a serious ethical violation. Reporting this protects participants' rights and the integrity of the research."
+    },
+    {
+      "id": "sjt-8-15",
+      "type": "appropriateness",
+      "passage": "A patient recovering from major surgery asks you to help them make a complaint about the food quality on the ward. You think the food is adequate. The patient is otherwise satisfied with their care.",
+      "question": "How appropriate is it to take the patient's complaint seriously and help them access the hospital's feedback process?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "All patient feedback deserves to be heard and acted upon through proper channels. Your personal opinion about the food is irrelevant — the patient's experience matters."
+    }
+  ]
+}

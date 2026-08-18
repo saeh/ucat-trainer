@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-2-1",
+      "type": "true-false-cant-tell",
+      "passage": "A Phase III clinical trial conducted across 14 hospitals in the United Kingdom tested a new monoclonal antibody treatment for rheumatoid arthritis. The trial enrolled 860 patients who had not responded adequately to conventional disease-modifying antirheumatic drugs (DMARDs). Over a 52-week period, patients receiving the new treatment showed a 34% improvement in disease activity scores compared to a 19% improvement in the placebo group. Notably, 12% of patients in the treatment group experienced serious adverse events, compared to 8% in the placebo group. The trial's lead investigator, Professor James Hartley of King's College London, stated that the results were 'promising but necessitate careful consideration of the risk-benefit profile.'",
+      "question": "The new treatment caused serious adverse events in more patients than the placebo.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states 12% of patients in the treatment group experienced serious adverse events, compared to 8% in the placebo group, meaning more patients in the treatment group had serious adverse events."
+    },
+    {
+      "id": "vr-2-2",
+      "type": "true-false-cant-tell",
+      "passage": "A Phase III clinical trial conducted across 14 hospitals in the United Kingdom tested a new monoclonal antibody treatment for rheumatoid arthritis. The trial enrolled 860 patients who had not responded adequately to conventional disease-modifying antirheumatic drugs (DMARDs). Over a 52-week period, patients receiving the new treatment showed a 34% improvement in disease activity scores compared to a 19% improvement in the placebo group. Notably, 12% of patients in the treatment group experienced serious adverse events, compared to 8% in the placebo group. The trial's lead investigator, Professor James Hartley of King's College London, stated that the results were 'promising but necessitate careful consideration of the risk-benefit profile.'",
+      "question": "The trial was conducted exclusively in London hospitals.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states the trial was conducted across 14 hospitals in the United Kingdom but does not specify whether any of them were in London."
+    },
+    {
+      "id": "vr-2-3",
+      "type": "true-false-cant-tell",
+      "passage": "A Phase III clinical trial conducted across 14 hospitals in the United Kingdom tested a new monoclonal antibody treatment for rheumatoid arthritis. The trial enrolled 860 patients who had not responded adequately to conventional disease-modifying antirheumatic drugs (DMARDs). Over a 52-week period, patients receiving the new treatment showed a 34% improvement in disease activity scores compared to a 19% improvement in the placebo group. Notably, 12% of patients in the treatment group experienced serious adverse events, compared to 8% in the placebo group. The trial's lead investigator, Professor James Hartley of King's College London, stated that the results were 'promising but necessitate careful consideration of the risk-benefit profile.'",
+      "question": "Professor Hartley recommended immediate approval of the treatment.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "Professor Hartley stated the results 'necessitate careful consideration of the risk-benefit profile,' which implies caution rather than immediate approval."
+    },
+    {
+      "id": "vr-2-4",
+      "type": "true-false-cant-tell",
+      "passage": "A Phase III clinical trial conducted across 14 hospitals in the United Kingdom tested a new monoclonal antibody treatment for rheumatoid arthritis. The trial enrolled 860 patients who had not responded adequately to conventional disease-modifying antirheumatic drugs (DMARDs). Over a 52-week period, patients receiving the new treatment showed a 34% improvement in disease activity scores compared to a 19% improvement in the placebo group. Notably, 12% of patients in the treatment group experienced serious adverse events, compared to 8% in the placebo group. The trial's lead investigator, Professor James Hartley of King's College London, stated that the results were 'promising but necessitate careful consideration of the risk-benefit profile.'",
+      "question": "The trial included patients who had previously responded well to DMARDs.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the trial enrolled patients who had 'not responded adequately' to conventional DMARDs, which directly contradicts the idea that they had responded well."
+    },
+    {
+      "id": "vr-2-5",
+      "type": "true-false-cant-tell",
+      "passage": "A research team at Johns Hopkins University published findings from a longitudinal study tracking 3,400 adults over a 15-year period to examine the relationship between coffee consumption and cardiovascular health. Participants who consumed between three and five cups of coffee per day had a 15% lower risk of developing heart disease compared to non-drinkers. The protective effect appeared to plateau beyond five cups daily, with no additional benefit observed. Decaffeinated coffee showed a similar but weaker association, with a 9% risk reduction. The researchers noted that their findings could not establish causation, as participants who drank more coffee also tended to have other healthy lifestyle behaviours that were not fully accounted for in the analysis.",
+      "question": "The protective effect of coffee consumption extends to other cardiovascular conditions such as stroke.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage only discusses the relationship between coffee consumption and heart disease risk; it does not mention stroke or other cardiovascular conditions."
+    },
+    {
+      "id": "vr-2-6",
+      "type": "true-false-cant-tell",
+      "passage": "A research team at Johns Hopkins University published findings from a longitudinal study tracking 3,400 adults over a 15-year period to examine the relationship between coffee consumption and cardiovascular health. Participants who consumed between three and five cups of coffee per day had a 15% lower risk of developing heart disease compared to non-drinkers. The protective effect appeared to plateau beyond five cups daily, with no additional benefit observed. Decaffeinated coffee showed a similar but weaker association, with a 9% risk reduction. The researchers noted that their findings could not establish causation, as participants who drank more coffee also tended to have other healthy lifestyle behaviours that were not fully accounted for in the analysis.",
+      "question": "The study proved that coffee consumption directly prevents heart disease.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage explicitly states the researchers 'could not establish causation' and that other healthy lifestyle behaviours were not fully accounted for."
+    },
+    {
+      "id": "vr-2-7",
+      "type": "true-false-cant-tell",
+      "passage": "A research team at Johns Hopkins University published findings from a longitudinal study tracking 3,400 adults over a 15-year period to examine the relationship between coffee consumption and cardiovascular health. Participants who consumed between three and five cups of coffee per day had a 15% lower risk of developing heart disease compared to non-drinkers. The protective effect appeared to plateau beyond five cups daily, with no additional benefit observed. Decaffeinated coffee showed a similar but weaker association, with a 9% risk reduction. The researchers noted that their findings could not establish causation, as participants who drank more coffee also tended to have other healthy lifestyle behaviours that were not fully accounted for in the analysis.",
+      "question": "Decaffeinated coffee offered no cardiovascular benefit compared to non-drinkers.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states decaffeinated coffee showed a '9% risk reduction' compared to non-drinkers, indicating it did offer some cardiovascular benefit."
+    },
+    {
+      "id": "vr-2-8",
+      "type": "true-false-cant-tell",
+      "passage": "A research team at Johns Hopkins University published findings from a longitudinal study tracking 3,400 adults over a 15-year period to examine the relationship between coffee consumption and cardiovascular health. Participants who consumed between three and five cups of coffee per day had a 15% lower risk of developing heart disease compared to non-drinkers. The protective effect appeared to plateau beyond five cups daily, with no additional benefit observed. Decaffeinated coffee showed a similar but weaker association, with a 9% risk reduction. The researchers noted that their findings could not establish causation, as participants who drank more coffee also tended to have other healthy lifestyle behaviours that were not fully accounted for in the analysis.",
+      "question": "The study tracked participants for at least a decade.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the study tracked adults 'over a 15-year period,' which exceeds a decade."
+    },
+    {
+      "id": "vr-2-9",
+      "type": "true-false-cant-tell",
+      "passage": "A randomised controlled trial in Sweden compared outcomes for 420 stroke patients assigned to either an intensive early rehabilitation programme or standard care. The intensive group received physiotherapy and occupational therapy twice daily for the first four weeks, compared to once daily in the standard group. At six months, the intensive group showed a 22% greater improvement in functional independence scores. However, the cost per patient was approximately 40% higher in the intensive group. The study's authors concluded that while the intensive programme was clinically superior, healthcare systems with limited budgets might need to consider alternative cost-effective approaches.",
+      "question": "The intensive rehabilitation programme was more expensive than standard care.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the cost per patient was 'approximately 40% higher in the intensive group,' confirming it was more expensive."
+    },
+    {
+      "id": "vr-2-10",
+      "type": "true-false-cant-tell",
+      "passage": "A randomised controlled trial in Sweden compared outcomes for 420 stroke patients assigned to either an intensive early rehabilitation programme or standard care. The intensive group received physiotherapy and occupational therapy twice daily for the first four weeks, compared to once daily in the standard group. At six months, the intensive group showed a 22% greater improvement in functional independence scores. However, the cost per patient was approximately 40% higher in the intensive group. The study's authors concluded that while the intensive programme was clinically superior, healthcare systems with limited budgets might need to consider alternative cost-effective approaches.",
+      "question": "Both physiotherapy and occupational therapy were used in the study.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states participants 'received physiotherapy and occupational therapy,' confirming both were used."
+    }
+  ]
+}

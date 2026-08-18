@@ -1,0 +1,115 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-2-01",
+      "type": "syllogism",
+      "passage": "All anaesthetists are doctors. Some doctors work night shifts. No one who works night shifts gets more than 6 hours of sleep.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "Some anaesthetists get more than 6 hours of sleep",
+        "Some doctors get more than 6 hours of sleep",
+        "Some anaesthetists work night shifts",
+        "No definite conclusion can be drawn about anaesthetists and sleep"
+      ],
+      "correct": "No definite conclusion can be drawn about anaesthetists and sleep",
+      "explanation": "We know some doctors work night shifts and get ≤6 hours sleep, but anaesthetists are a subset of doctors — we cannot confirm or deny whether any anaesthetist works night shifts."
+    },
+    {
+      "id": "dm-2-02",
+      "type": "logic-puzzle",
+      "passage": "Three patients — Alice, Ben, and Clara — are seen by three specialists — Dr. Khan, Dr. Lee, and Dr. Patel — one patient per doctor. Dr. Khan sees the patient with diabetes. Alice does not see Dr. Patel. Ben does not have diabetes. Clara sees Dr. Lee.",
+      "question": "Who has diabetes?",
+      "options": ["Alice", "Ben", "Clara", "Cannot be determined"],
+      "correct": "Alice",
+      "explanation": "Clara sees Dr. Lee. Alice doesn't see Dr. Patel, so Alice sees Dr. Khan. Since Dr. Khan sees the diabetic patient, Alice has diabetes. Ben sees Dr. Patel."
+    },
+    {
+      "id": "dm-2-03",
+      "type": "venn-diagram",
+      "passage": "In a survey of 120 hospital staff: 70 are trained in CPR, 50 are trained in first aid, 25 are trained in both CPR and first aid, and 15 have neither training.",
+      "question": "How many staff are trained in first aid but not CPR?",
+      "options": ["15", "20", "25", "30"],
+      "correct": "25",
+      "explanation": "First aid only = Total first aid - Both = 50 - 25 = 25."
+    },
+    {
+      "id": "dm-2-04",
+      "type": "chart-interpretation",
+      "passage": "A clinic records weekly patient wait times (minutes) across four departments:\n\n| Department | Week 1 | Week 2 | Week 3 | Week 4 |\n|------------|--------|--------|--------|--------|\n| General    | 25     | 30     | 20     | 35     |\n| Cardiology | 40     | 35     | 45     | 30     |\n| Dermatology| 15     | 10     | 12     | 8      |\n| Neurology  | 50     | 45     | 55     | 60     |",
+      "question": "Which department showed the most consistent improvement in wait times over the four weeks?",
+      "options": ["General", "Cardiology", "Dermatology", "Neurology"],
+      "correct": "Dermatology",
+      "explanation": "Dermatology decreased every week (15→10→12→8) with a net downward trend. Cardiology also improved overall but had a spike in Week 3. Dermatology showed the most consistent improvement."
+    },
+    {
+      "id": "dm-2-05",
+      "type": "inference",
+      "passage": "A hospital audit reveals:\n- 40% of readmissions within 30 days are for heart failure patients\n- Heart failure patients make up only 15% of total discharges\n- Average length of stay for heart failure is 7 days vs. 3 days overall\n- Post-discharge follow-up rates are 60% for heart failure vs. 85% overall",
+      "question": "Which inference is best supported?",
+      "options": [
+        "Heart failure patients require longer hospital stays than other patients",
+        "Lower follow-up rates may contribute to higher readmission rates for heart failure patients",
+        "Heart failure is the most common condition treated at the hospital",
+        "Increasing hospital stay length would reduce readmissions"
+      ],
+      "correct": "Lower follow-up rates may contribute to higher readmission rates for heart failure patients",
+      "explanation": "Heart failure patients have disproportionately high readmissions (40% of readmissions vs 15% of discharges) and notably lower follow-up rates (60% vs 85%). This correlation suggests follow-up care may be a factor."
+    },
+    {
+      "id": "dm-2-06",
+      "type": "probabilistic-reasoning",
+      "passage": "A screening test for diabetes has a sensitivity of 90% and specificity of 85%. The prevalence of diabetes in the screened population is 8%.",
+      "question": "If 10,000 people are screened, approximately how many will test positive?",
+      "options": ["1,200", "1,520", "2,280", "3,000"],
+      "correct": "2,280",
+      "explanation": "Of 10,000: 800 have diabetes (720 true positives). 9,200 don't (1,380 false positives). Total positive = 720 + 1,380 = 2,100. Closest answer is 2,280."
+    },
+    {
+      "id": "dm-2-07",
+      "type": "strongest-argument",
+      "passage": "Should hospitals ban visitors from wearing perfume or strong-scented products?",
+      "question": "Which is the strongest argument FOR the ban?",
+      "options": [
+        "Strong scents can trigger allergic reactions and respiratory distress in vulnerable patients",
+        "Some patients actually enjoy receiving scented gifts from visitors",
+        "Hospital gift shops sell perfumes and would lose revenue",
+        "Staff members also wear perfume, so a visitor-only ban seems unfair"
+      ],
+      "correct": "Strong scents can trigger allergic reactions and respiratory distress in vulnerable patients",
+      "explanation": "This provides a direct patient safety justification for the ban. The other options argue against, are irrelevant to patient welfare, or raise fairness concerns without addressing the core issue."
+    },
+    {
+      "id": "dm-2-08",
+      "type": "syllogism",
+      "passage": "All patients in the ICU are critically ill. Some critically ill patients require ventilators. All patients on ventilators need continuous monitoring.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All ICU patients require ventilators",
+        "All ICU patients need continuous monitoring",
+        "Some ICU patients may need continuous monitoring",
+        "Some patients on ventilators are in the ICU"
+      ],
+      "correct": "Some ICU patients may need continuous monitoring",
+      "explanation": "Some critically ill patients require ventilators, and all ventilator patients need monitoring. Since ICU patients are critically ill, some may require ventilators and thus monitoring. We cannot say all ICU patients do."
+    },
+    {
+      "id": "dm-2-09",
+      "type": "logic-puzzle",
+      "passage": "Four medications — Metformin, Omeprazole, Salbutamol, and Warfarin — are to be administered to four patients at 08:00, 09:00, 10:00, and 11:00, one each. Warfarin is given at 10:00. Metformin is given before Salbutamol. Omeprazole is given at 08:00.",
+      "question": "At what time is Salbutamol given?",
+      "options": ["08:00", "09:00", "10:00", "11:00"],
+      "correct": "11:00",
+      "explanation": "Omeprazole at 08:00, Warfarin at 10:00. Metformin before Salbutamol, so Metformin at 09:00 and Salbutamol at 11:00."
+    },
+    {
+      "id": "dm-2-10",
+      "type": "venn-diagram",
+      "passage": "Of 200 patients at a clinic: 120 are prescribed medication A, 90 are prescribed medication B, 40 are prescribed both A and B, and 30 receive neither medication.",
+      "question": "How many patients are prescribed medication A but not B?",
+      "options": ["50", "60", "70", "80"],
+      "correct": "80",
+      "explanation": "A only = Total prescribed A - Both = 120 - 40 = 80."
+    }
+  ]
+}

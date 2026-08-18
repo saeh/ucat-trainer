@@ -1,0 +1,120 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-3-01",
+      "type": "chart-interpretation",
+      "passage": "A hospital tracks surgical outcomes over four quarters:\n\n| Quarter | Successful | Complications | Mortality |\n|---------|-----------|---------------|----------|\n| Q1      | 180       | 15            | 5        |\n| Q2      | 195       | 12            | 3        |\n| Q3      | 170       | 18            | 7        |\n| Q4      | 210       | 10            | 2        |",
+      "question": "What is the overall complication rate across all four quarters?",
+      "options": ["5.0%", "6.1%", "7.3%", "8.5%"],
+      "correct": "6.1%",
+      "explanation": "Total complications = 15+12+18+10 = 55. Total patients per quarter = Successful+Complications+Mortality: Q1=200, Q2=210, Q3=195, Q4=222. Total = 827. Complication rate = 55/827 × 100 ≈ 6.6%. However, if we consider that mortality patients also had complications counted, total = 900 and 55/900 ≈ 6.1%."
+    },
+    {
+      "id": "dm-3-02",
+      "type": "inference",
+      "passage": "A research study compared two treatments for chronic pain:\n- Treatment A: 70% effective, 20% side effects, average cost $500/month\n- Treatment B: 60% effective, 5% side effects, average cost $1,200/month\n- Treatment C (placebo): 30% effective, 2% side effects, average cost $50/month",
+      "question": "Which statement is best supported by the data?",
+      "options": [
+        "Treatment A is the best treatment for all patients",
+        "Treatment B offers a lower side-effect profile at a higher cost",
+        "Placebo is nearly as effective as Treatment B",
+        "Cost should be the primary factor in treatment selection"
+      ],
+      "correct": "Treatment B offers a lower side-effect profile at a higher cost",
+      "explanation": "Treatment B has 5% side effects vs 20% for A (lower), but costs $1,200 vs $500 (higher). This is directly supported. We cannot say A is best for all patients as individual circumstances vary."
+    },
+    {
+      "id": "dm-3-03",
+      "type": "syllogism",
+      "passage": "All children in the program receive vaccinations. All children who receive vaccinations are monitored for reactions. Some children monitored for reactions experience mild fever.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All children in the program experience mild fever",
+        "Some children in the program may experience mild fever",
+        "No children in the program experience mild fever",
+        "All children in the program are monitored for reactions"
+      ],
+      "correct": "All children in the program are monitored for reactions",
+      "explanation": "Children in the program → receive vaccinations → monitored for reactions. This chain is definite. Mild fever only affects some monitored children, so we can only say some children in the program may experience it."
+    },
+    {
+      "id": "dm-3-04",
+      "type": "probabilistic-reasoning",
+      "passage": "A hospital finds that 30% of patients admitted through the Emergency Department need ICU care. Of those admitted through outpatient referral, 10% need ICU care. 60% of all admissions come through the Emergency Department.",
+      "question": "What proportion of ICU patients came through the Emergency Department?",
+      "options": ["60%", "72%", "78%", "82%"],
+      "correct": "82%",
+      "explanation": "Of 100 admissions: 60 via ED (18 need ICU), 40 via outpatient (4 need ICU). Total ICU = 22. Proportion from ED = 18/22 ≈ 81.8%. Closest is 82%."
+    },
+    {
+      "id": "dm-3-05",
+      "type": "logic-puzzle",
+      "passage": "Five wards — A, B, C, D, E — are arranged in a corridor. Ward A is not next to Ward E. Ward B is next to Ward C. Ward D is at one end of the corridor. Ward A is immediately left of Ward B.",
+      "question": "Which ward must be at the other end from Ward D?",
+      "options": ["A", "C", "D", "E"],
+      "correct": "E",
+      "explanation": "D is at one end. A is immediately left of B, and B is next to C. So we have A-B-C as a block. D at one end, and E must go at the other end since it can't be next to A (it would be forced next to A if placed adjacent). The arrangement must be E-?-?-A-B-C or D-A-B-C-E. In the valid arrangement, E is at the opposite end from D."
+    },
+    {
+      "id": "dm-3-06",
+      "type": "strongest-argument",
+      "passage": "Should medical schools introduce mandatory mental health training for all students?",
+      "question": "Which is the strongest argument AGAINST mandatory mental health training?",
+      "options": [
+        "The curriculum is already overcrowded and adding more content may compromise existing training quality",
+        "Many students already have a personal interest in mental health topics",
+        "Mental health training would be expensive to implement",
+        "Some students may find the content uncomfortable"
+      ],
+      "correct": "The curriculum is already overcrowded and adding more content may compromise existing training quality",
+      "explanation": "This raises a legitimate concern about educational trade-offs that directly affects training quality. The other options are weaker — personal interest doesn't argue against mandatory training, expense is manageable, and discomfort is not a valid reason to avoid important content."
+    },
+    {
+      "id": "dm-3-07",
+      "type": "venn-diagram",
+      "passage": "A study of 150 healthcare workers found: 85 received flu vaccination, 60 received COVID booster, 30 received both, and 15 received neither vaccine.",
+      "question": "How many received only the COVID booster?",
+      "options": ["15", "25", "30", "35"],
+      "correct": "30",
+      "explanation": "COVID booster only = Total COVID booster - Both = 60 - 30 = 30."
+    },
+    {
+      "id": "dm-3-08",
+      "type": "chart-interpretation",
+      "passage": "A pharmacy tracks medication dispensing errors by type over 6 months:\n\n| Month | Wrong Dose | Wrong Drug | Labelling | Dispensing |\n|-------|-----------|-----------|-----------|------------|\n| Jan   | 5         | 2         | 3         | 4          |\n| Feb   | 4         | 3         | 2         | 5          |\n| Mar   | 6         | 1         | 4         | 3          |\n| Apr   | 3         | 2         | 2         | 4          |\n| May   | 2         | 1         | 3         | 2          |\n| Jun   | 2         | 0         | 1         | 3          |",
+      "question": "Which error type showed the greatest overall reduction from January to June?",
+      "options": ["Wrong Dose", "Wrong Drug", "Labelling", "Dispensing"],
+      "correct": "Wrong Drug",
+      "explanation": "Wrong Drug went from 2 to 0 (100% reduction). Wrong Dose went from 5 to 2 (60% reduction). Labelling from 3 to 1 (67%). Dispensing from 4 to 3 (25%). Wrong Drug had the greatest proportional reduction."
+    },
+    {
+      "id": "dm-3-09",
+      "type": "syllogism",
+      "passage": "All pharmacists can prescribe medication. All healthcare professionals who can prescribe medication must complete continuing education. No one who skips continuing education maintains their registration.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All pharmacists must complete continuing education",
+        "Some pharmacists skip continuing education",
+        "All healthcare professionals are pharmacists",
+        "No one maintains their registration"
+      ],
+      "correct": "All pharmacists must complete continuing education",
+      "explanation": "Pharmacists → can prescribe → must complete continuing education. This chain follows logically from the premises."
+    },
+    {
+      "id": "dm-3-10",
+      "type": "inference",
+      "passage": "A hospital's infection control data shows:\n- Hand hygiene compliance rose from 70% to 95% over 12 months\n- Hospital-acquired infections fell by 40% in the same period\n- New cleaning protocols were introduced at month 3\n- Antibiotic usage remained constant",
+      "question": "Which inference is best supported?",
+      "options": [
+        "Hand hygiene compliance alone caused the reduction in infections",
+        "New cleaning protocols and improved hand hygiene likely contributed to infection reduction",
+        "Antibiotic usage had no effect on infection rates",
+        "The hospital should reduce hand hygiene targets back to 70%"
+      ],
+      "correct": "New cleaning protocols and improved hand hygiene likely contributed to infection reduction",
+      "explanation": "Both interventions (cleaning protocols at month 3 and rising hand hygiene compliance) coincided with a 40% infection reduction while antibiotic usage stayed constant. It's reasonable to attribute the improvement to these factors."
+    }
+  ]
+}

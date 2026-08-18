@@ -1,0 +1,120 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-7-01",
+      "type": "chart-interpretation",
+      "passage": "A hospital's emergency department tracks presentations by cause:\n\n| Cause | Jan | Feb | Mar | Apr | May |\n|-------|-----|-----|-----|-----|-----|\n| Falls | 40 | 38 | 35 | 30 | 25 |\n| Respiratory | 20 | 25 | 30 | 35 | 40 |\n| Cardiac | 15 | 14 | 13 | 12 | 11 |\n| Infections | 30 | 28 | 25 | 22 | 20 |\n| Trauma | 25 | 22 | 20 | 18 | 15 |",
+      "question": "Which cause of presentations shows a consistent upward trend over the five months?",
+      "options": ["Falls", "Respiratory", "Cardiac", "Trauma"],
+      "correct": "Respiratory",
+      "explanation": "Respiratory presentations increase every month (20→25→30→35→40). All other causes show downward trends."
+    },
+    {
+      "id": "dm-7-02",
+      "type": "syllogism",
+      "passage": "All patients on dialysis have kidney failure. Some patients with kidney failure are on transplant waiting lists. All patients on transplant waiting lists undergo regular blood tests.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All dialysis patients are on transplant waiting lists",
+        "Some dialysis patients may undergo regular blood tests",
+        "No one on a transplant waiting list has kidney failure",
+        "All patients who have blood tests are on dialysis"
+      ],
+      "correct": "Some dialysis patients may undergo regular blood tests",
+      "explanation": "Dialysis → kidney failure. Some kidney failure patients are on transplant lists. Transplant list → regular blood tests. So some kidney failure patients (and therefore some dialysis patients) may undergo regular blood tests."
+    },
+    {
+      "id": "dm-7-03",
+      "type": "strongest-argument",
+      "passage": "Should medical records be fully digitised and paper records eliminated?",
+      "question": "Which is the strongest argument AGAINST full digitisation?",
+      "options": [
+        "A complete loss of digital access due to cyberattack or system failure could halt all patient care",
+        "Some older doctors prefer paper records and may resist the change",
+        "Digital records take up less physical storage space",
+        "Younger staff are already familiar with digital systems"
+      ],
+      "correct": "A complete loss of digital access due to cyberattack or system failure could halt all patient care",
+      "explanation": "This is the most compelling argument — total dependence on digital systems creates a critical vulnerability. If systems go down with no paper backup, patient care could be dangerously disrupted. The other options are either supportive of digitisation or irrelevant."
+    },
+    {
+      "id": "dm-7-04",
+      "type": "logic-puzzle",
+      "passage": "Four nurses — Fern, Grace, Holly, and Ivy — are assigned to four different patients. Fern's patient is in room 2. Grace's patient is not in room 1 or room 4. Holly's patient is in a room with a higher number than Ivy's.",
+      "question": "In which room is Holly's patient?",
+      "options": ["Room 1", "Room 2", "Room 3", "Room 4"],
+      "correct": "Room 4",
+      "explanation": "Fern is in room 2. Grace is not in 1 or 4, so Grace is in room 3. Holly is in a higher room than Ivy. The remaining rooms are 1 and 4, so Holly is in room 4 and Ivy is in room 1."
+    },
+    {
+      "id": "dm-7-05",
+      "type": "venn-diagram",
+      "passage": "In a group of 130 patients attending a cardiac rehabilitation programme: 80 do walking exercises, 60 do cycling exercises, 25 do both, and 15 do neither exercise.",
+      "question": "How many patients do cycling exercises but not walking?",
+      "options": ["15", "25", "35", "40"],
+      "correct": "35",
+      "explanation": "Cycling only = Total cycling - Both = 60 - 25 = 35."
+    },
+    {
+      "id": "dm-7-06",
+      "type": "probabilistic-reasoning",
+      "passage": "A hospital's diagnostic test for a rare blood disorder has a sensitivity of 88% and specificity of 96%. The disorder affects 2% of the population tested.",
+      "question": "If 2,000 people are tested, approximately how many false positives will there be?",
+      "options": ["2", "8", "78", "160"],
+      "correct": "78",
+      "explanation": "Of 2,000: 40 have the disorder (35.2 ≈ 35 true positives). 1,960 don't have it. False positives = 1,960 × (1-0.96) = 1,960 × 0.04 = 78.4 ≈ 78."
+    },
+    {
+      "id": "dm-7-07",
+      "type": "inference",
+      "passage": "A rural hospital reports:\n- Average patient transfer rate to tertiary centres: 22% (metro average: 8%)\n- Specialist availability: 3 specialists vs. metro average of 12\n- Equipment downtime: 35% of key diagnostic equipment offline at any given time\n- Patient satisfaction: 68% (metro average: 79%)",
+      "question": "Which inference is best supported?",
+      "options": [
+        "Rural patients prefer to be transferred to metro hospitals",
+        "The higher transfer rate is likely linked to limited specialist availability and equipment issues",
+        "The hospital should close and patients should go directly to metro centres",
+        "Patient satisfaction is unaffected by equipment availability"
+      ],
+      "correct": "The higher transfer rate is likely linked to limited specialist availability and equipment issues",
+      "explanation": "With only 3 specialists (vs 12) and 35% equipment downtime, the hospital likely lacks the resources to treat many conditions locally, explaining the high 22% transfer rate (vs 8% metro)."
+    },
+    {
+      "id": "dm-7-08",
+      "type": "syllogism",
+      "passage": "All patients admitted to the surgical ward have pre-operative assessments. All patients with pre-operative assessments receive anaesthetic consultations. Some patients who receive anaesthetic consultations are postponed.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All surgical ward patients are postponed",
+        "Some surgical ward patients may be postponed",
+        "No surgical ward patients receive anaesthetic consultations",
+        "All postponed patients are on the surgical ward"
+      ],
+      "correct": "Some surgical ward patients may be postponed",
+      "explanation": "Surgical ward → pre-op assessment → anaesthetic consultation. Some who receive anaesthetic consultations are postponed. Therefore some surgical ward patients may be postponed."
+    },
+    {
+      "id": "dm-7-09",
+      "type": "strongest-argument",
+      "passage": "Should hospitals implement 'no phone' zones in patient care areas?",
+      "question": "Which is the strongest argument FOR no-phone zones?",
+      "options": [
+        "Phone use by staff during patient interactions undermines clinical focus and may compromise patient safety",
+        "Some patients find the sound of phones irritating",
+        "Phones are expensive to insure in a hospital setting",
+        "Social media use by staff during work hours reduces productivity"
+      ],
+      "correct": "Phone use by staff during patient interactions undermines clinical focus and may compromise patient safety",
+      "explanation": "Patient safety is the paramount concern in healthcare. Distracted clinical focus during patient care is a serious safety issue. The other arguments are weaker — patient annoyance, insurance costs, and social media use are less compelling than direct safety risks."
+    },
+    {
+      "id": "dm-7-10",
+      "type": "logic-puzzle",
+      "passage": "Five consultants — Dr. Adams, Dr. Bell, Dr. Clark, Dr. Davis, and Dr. Evans — are scheduled to present at a medical conference in order. Dr. Adams presents before Dr. Bell. Dr. Clark presents immediately after Dr. Davis. Dr. Evans does not present first or last.",
+      "question": "Who presents first?",
+      "options": ["Dr. Adams", "Dr. Bell", "Dr. Clark", "Dr. Davis"],
+      "correct": "Dr. Adams",
+      "explanation": "Dr. Adams before Dr. Bell. Dr. Clark immediately after Dr. Davis. Dr. Evans not first or last. Since Dr. Adams must be before Dr. Bell, and Dr. Davis must be directly before Dr. Clark, Dr. Adams could be first. Dr. Evans cannot be first, and Dr. Davis/Clark as a pair take two consecutive spots. Dr. Adams must present first."
+    }
+  ]
+}

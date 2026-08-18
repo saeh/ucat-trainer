@@ -2,22 +2,11 @@ import { useState, useCallback, useMemo } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { useLocalSearchParams, router, Redirect } from 'expo-router';
 import { Show } from '@clerk/react';
-import { Colors } from '../../constants/colors';
-import { getSectionByKey } from '../../constants/sections';
-import { useTimer } from '../../hooks/useTimer';
-import { useScores } from '../../hooks/useScores';
-import { QuizResult } from '../../hooks/useScores';
-import vrData from '../../data/questions/vr.json';
-import dmData from '../../data/questions/dm.json';
-import qrData from '../../data/questions/qr.json';
-import sjtData from '../../data/questions/sjt.json';
-
-const ALL_QUESTIONS: Record<string, typeof vrData.questions> = {
-  vr: vrData.questions,
-  dm: dmData.questions,
-  qr: qrData.questions,
-  sjt: sjtData.questions,
-};
+import { Colors } from '../../../constants/colors';
+import { getSectionByKey } from '../../../constants/sections';
+import { useTimer } from '../../../hooks/useTimer';
+import { useScores, QuizResult } from '../../../hooks/useScores';
+import { loadQuestions, getBankInfo } from '../../../data';
 
 interface Answer {
   questionId: string;
@@ -26,24 +15,11 @@ interface Answer {
 }
 
 export default function QuizScreen() {
-  const { section } = useLocalSearchParams<{ section: string }>();
+  const { section, bank } = useLocalSearchParams<{ section: string; bank: string }>();
   const sectionInfo = getSectionByKey(section ?? '');
-  const timer = useTimer((sectionInfo?.timeMinutes ?? 22) * 60);
+  const bankInfo = getBankInfo(bank ?? '');
+  const timer = useTimer((bankInfo?.timeMinutes ?? sectionInfo?.timeMinutes ?? 22) * 60);
   const { addResult } = useScores();
-
-  return (
-    <Show when="signed-in" fallback={<Redirect href="/" />}>
-      <QuizContent section={section} sectionInfo={sectionInfo} timer={timer} addResult={addResult} />
-    </Show>
-  );
-}
-
-function QuizContent({ section, sectionInfo, timer, addResult }: {
-  section: string | undefined;
-  sectionInfo: ReturnType<typeof getSectionByKey>;
-  timer: ReturnType<typeof useTimer>;
-  addResult: (result: QuizResult) => Promise<void>;
-}) {
 
   const [started, setStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,9 +29,9 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
   const [quizComplete, setQuizComplete] = useState(false);
 
   const questions = useMemo(() => {
-    const allQs = ALL_QUESTIONS[section ?? ''] ?? [];
-    return allQs.slice(0, Math.min(10, allQs.length));
-  }, [section]);
+    const allQs = loadQuestions(bank ?? '');
+    return allQs.slice(0, Math.min(allQs.length, allQs.length));
+  }, [bank]);
 
   const question = questions[currentIndex];
 
@@ -96,17 +72,28 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
         date: new Date().toISOString(),
         totalQuestions: questions.length,
         correctAnswers: totalCorrect,
-        timeSpent: (sectionInfo?.timeMinutes ?? 22) * 60 - timer.seconds,
+        timeSpent: (bankInfo?.timeMinutes ?? sectionInfo?.timeMinutes ?? 22) * 60 - timer.seconds,
         percentage: Math.round((totalCorrect / questions.length) * 100),
       };
       addResult(result);
     }
-  }, [currentIndex, questions.length, timer, answers, section, sectionInfo, addResult]);
+  }, [currentIndex, questions.length, timer, answers, section, sectionInfo, bankInfo, addResult]);
 
-  if (!sectionInfo) {
+  if (!sectionInfo || !bankInfo) {
     return (
       <View style={styles.container}>
-        <Text style={styles.errorText}>Section not found</Text>
+        <Text style={styles.errorText}>Bank not found</Text>
+      </View>
+    );
+  }
+
+  if (questions.length === 0) {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.errorText}>No questions available for this bank yet</Text>
+        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
+          <Text style={styles.backButtonText}>Go Back</Text>
+        </TouchableOpacity>
       </View>
     );
   }
@@ -120,7 +107,7 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
           {percentage >= 80 ? '🎉' : percentage >= 60 ? '👍' : '💪'}
         </Text>
         <Text style={styles.resultsTitle}>Quiz Complete!</Text>
-        <Text style={styles.resultsSection}>{sectionInfo.fullName}</Text>
+        <Text style={styles.resultsSection}>{sectionInfo.fullName} — {bankInfo.name}</Text>
 
         <View style={styles.resultsCard}>
           <Text style={styles.resultsScore}>{percentage}%</Text>
@@ -128,7 +115,7 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
             {totalCorrect} correct out of {questions.length}
           </Text>
           <Text style={styles.resultsTime}>
-            Time: {Math.floor(((sectionInfo.timeMinutes * 60) - timer.seconds) / 60)}m {((sectionInfo.timeMinutes * 60) - timer.seconds) % 60}s
+            Time: {Math.floor(((bankInfo.timeMinutes * 60) - timer.seconds) / 60)}m {((bankInfo.timeMinutes * 60) - timer.seconds) % 60}s
           </Text>
         </View>
 
@@ -160,7 +147,7 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
         })}
 
         <TouchableOpacity style={styles.homeButton} onPress={() => router.back()}>
-          <Text style={styles.homeButtonText}>Back to Sections</Text>
+          <Text style={styles.homeButtonText}>Back to Banks</Text>
         </TouchableOpacity>
       </ScrollView>
     );
@@ -172,19 +159,20 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
         <View style={styles.startContainer}>
           <Text style={[styles.startIcon, { color: sectionInfo.color }]}>{sectionInfo.icon}</Text>
           <Text style={styles.startTitle}>{sectionInfo.fullName}</Text>
+          <Text style={styles.startSubtitle}>{bankInfo.name}</Text>
           <Text style={styles.startDesc}>{sectionInfo.description}</Text>
 
           <View style={styles.startStats}>
             <View style={styles.startStat}>
-              <Text style={styles.startStatNum}>{Math.min(10, sectionInfo.questions)}</Text>
+              <Text style={styles.startStatNum}>{questions.length}</Text>
               <Text style={styles.startStatLabel}>Questions</Text>
             </View>
             <View style={styles.startStat}>
-              <Text style={styles.startStatNum}>{sectionInfo.timeMinutes}</Text>
+              <Text style={styles.startStatNum}>{bankInfo.timeMinutes}</Text>
               <Text style={styles.startStatLabel}>Minutes</Text>
             </View>
             <View style={styles.startStat}>
-              <Text style={styles.startStatNum}>~{Math.round(sectionInfo.timeMinutes * 60 / Math.min(10, sectionInfo.questions))}s</Text>
+              <Text style={styles.startStatNum}>~{Math.round(bankInfo.timeMinutes * 60 / questions.length)}s</Text>
               <Text style={styles.startStatLabel}>Per Question</Text>
             </View>
           </View>
@@ -221,7 +209,7 @@ function QuizContent({ section, sectionInfo, timer, addResult }: {
         <Text style={styles.questionText}>{question?.question}</Text>
 
         <View style={styles.optionsContainer}>
-          {question?.options.map((option) => {
+          {question?.options.map((option: string) => {
             const isSelected = selectedAnswer === option;
             const isCorrectAnswer = option === question.correct;
             const showCorrectHighlight = showResult && isCorrectAnswer;
@@ -291,6 +279,18 @@ const styles = StyleSheet.create({
     marginTop: 100,
     fontSize: 16,
   },
+  backButton: {
+    marginTop: 20,
+    alignSelf: 'center',
+    paddingHorizontal: 24,
+    paddingVertical: 12,
+    borderRadius: 10,
+    backgroundColor: Colors.primary,
+  },
+  backButtonText: {
+    color: Colors.text,
+    fontWeight: '600',
+  },
   startContainer: {
     flex: 1,
     justifyContent: 'center',
@@ -299,12 +299,18 @@ const styles = StyleSheet.create({
   },
   startIcon: {
     fontSize: 60,
-    marginBottom: 16,
+    marginBottom: 12,
   },
   startTitle: {
     fontSize: 28,
     fontWeight: '800',
     color: Colors.text,
+    marginBottom: 4,
+  },
+  startSubtitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: Colors.primary,
     marginBottom: 8,
   },
   startDesc: {

@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-8-1",
+      "type": "true-false-cant-tell",
+      "passage": "Deep-sea mining for polymetallic nodules on the Clarion-Clipperton Zone in the Pacific Ocean has become a focal point of environmental debate. These nodules, rich in manganese, nickel, and cobalt, lie at depths of 4,000-6,000 metres and take millions of years to form. A study by the National Oceanic and Atmospheric Administration found that nodule mining would destroy or disturb approximately 1.5 square kilometres of seabed per licence area, with recovery times estimated at centuries. Deep-sea ecologists have documented over 200 previously unknown species in the zone, many of which are found nowhere else. Despite this, no commercial mining operations have yet commenced, pending the finalisation of international regulatory frameworks.",
+      "question": "Polymetallic nodules form relatively quickly on geological timescales.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states nodules 'take millions of years to form,' which is not quick on any timescale."
+    },
+    {
+      "id": "vr-8-2",
+      "type": "true-false-cant-tell",
+      "passage": "Deep-sea mining for polymetallic nodules on the Clarion-Clipperton Zone in the Pacific Ocean has become a focal point of environmental debate. These nodules, rich in manganese, nickel, and cobalt, lie at depths of 4,000-6,000 metres and take millions of years to form. A study by the National Oceanic and Atmospheric Administration found that nodule mining would destroy or disturb approximately 1.5 square kilometres of seabed per licence area, with recovery times estimated at centuries. Deep-sea ecologists have documented over 200 previously unknown species in the zone, many of which are found nowhere else. Despite this, no commercial mining operations have yet commenced, pending the finalisation of international regulatory frameworks.",
+      "question": "The International Seabed Authority has issued more than 30 mining licences for the zone.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage does not mention the number of mining licences issued by the International Seabed Authority."
+    },
+    {
+      "id": "vr-8-3",
+      "type": "true-false-cant-tell",
+      "passage": "Deep-sea mining for polymetallic nodules on the Clarion-Clipperton Zone in the Pacific Ocean has become a focal point of environmental debate. These nodules, rich in manganese, nickel, and cobalt, lie at depths of 4,000-6,000 metres and take millions of years to form. A study by the National Oceanic and Atmospheric Administration found that nodule mining would destroy or disturb approximately 1.5 square kilometres of seabed per licence area, with recovery times estimated at centuries. Deep-sea ecologists have documented over 200 previously unknown species in the zone, many of which are found nowhere else. Despite this, no commercial mining operations have yet commenced, pending the finalisation of international regulatory frameworks.",
+      "question": "Some species found in the Clarion-Clipperton Zone exist in no other known location.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states 'many of which are found nowhere else,' confirming some species are unique to the zone."
+    },
+    {
+      "id": "vr-8-4",
+      "type": "true-false-cant-tell",
+      "passage": "Deep-sea mining for polymetallic nodules on the Clarion-Clipperton Zone in the Pacific Ocean has become a focal point of environmental debate. These nodules, rich in manganese, nickel, and cobalt, lie at depths of 4,000-6,000 metres and take millions of years to form. A study by the National Oceanic and Atmospheric Administration found that nodule mining would destroy or disturb approximately 1.5 square kilometres of seabed per licence area, with recovery times estimated at centuries. Deep-sea ecologists have documented over 200 previously unknown species in the zone, many of which are found nowhere else. Despite this, no commercial mining operations have yet commenced, pending the finalisation of international regulatory frameworks.",
+      "question": "The total area of the Clarion-Clipperton Zone exceeds 5 million square kilometres.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage does not provide information about the total area of the Clarion-Clipperton Zone."
+    },
+    {
+      "id": "vr-8-5",
+      "type": "true-false-cant-tell",
+      "passage": "Coral reef ecosystems support approximately 25% of all marine species despite covering less than 1% of the ocean floor. A ten-year study by the Australian Institute of Marine Science documented changes in reef fish communities across the Indo-Pacific region. The study found that coral trout populations declined by 28% in areas affected by successive bleaching events, while herbivorous fish populations remained stable or increased. Researchers attributed the increase in herbivores to the growth of algae on damaged coral, which provided an expanded food source. The study warned that if herbivorous fish populations eventually decline due to overfishing, the algae could smother remaining coral, preventing reef recovery.",
+      "question": "Coral reefs support a quarter of marine species despite occupying a very small fraction of the ocean floor.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states coral reefs 'support approximately 25% of all marine species despite covering less than 1% of the ocean floor.'"
+    },
+    {
+      "id": "vr-8-6",
+      "type": "true-false-cant-tell",
+      "passage": "Coral reef ecosystems support approximately 25% of all marine species despite covering less than 1% of the ocean floor. A ten-year study by the Australian Institute of Marine Science documented changes in reef fish communities across the Indo-Pacific region. The study found that coral trout populations declined by 28% in areas affected by successive bleaching events, while herbivorous fish populations remained stable or increased. Researchers attributed the increase in herbivores to the growth of algae on damaged coral, which provided an expanded food source. The study warned that if herbivorous fish populations eventually decline due to overfishing, the algae could smother remaining coral, preventing reef recovery.",
+      "question": "The study was conducted over a period of at least five years.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage describes a 'ten-year study,' which exceeds five years."
+    },
+    {
+      "id": "vr-8-7",
+      "type": "true-false-cant-tell",
+      "passage": "Coral reef ecosystems support approximately 25% of all marine species despite covering less than 1% of the ocean floor. A ten-year study by the Australian Institute of Marine Science documented changes in reef fish communities across the Indo-Pacific region. The study found that coral trout populations declined by 28% in areas affected by successive bleaching events, while herbivorous fish populations remained stable or increased. Researchers attributed the increase in herbivores to the growth of algae on damaged coral, which provided an expanded food source. The study warned that if herbivorous fish populations eventually decline due to overfishing, the algae could smother remaining coral, preventing reef recovery.",
+      "question": "The increase in herbivorous fish was caused by a decline in their predators.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage attributes the increase in herbivores to 'the growth of algae on damaged coral, which provided an expanded food source,' not to a decline in predators."
+    },
+    {
+      "id": "vr-8-8",
+      "type": "true-false-cant-tell",
+      "passage": "Coral reef ecosystems support approximately 25% of all marine species despite covering less than 1% of the ocean floor. A ten-year study by the Australian Institute of Marine Science documented changes in reef fish communities across the Indo-Pacific region. The study found that coral trout populations declined by 28% in areas affected by successive bleaching events, while herbivorous fish populations remained stable or increased. Researchers attributed the increase in herbivores to the growth of algae on damaged coral, which provided an expanded food source. The study warned that if herbivorous fish populations eventually decline due to overfishing, the algae could smother remaining coral, preventing reef recovery.",
+      "question": "Coral trout populations were unaffected by bleaching events.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states coral trout populations 'declined by 28% in areas affected by successive bleaching events.'"
+    },
+    {
+      "id": "vr-8-9",
+      "type": "true-false-cant-tell",
+      "passage": "The mangrove forests of the Sundarbans, spanning 10,000 square kilometres across India and Bangladesh, serve as critical nursery habitats for over 300 fish and shellfish species. A study published in Marine Ecology Progress Series examined how rising sea levels are altering salinity gradients within the forest. The study found that areas closer to the coast experienced a 15% increase in salinity over the past two decades, leading to a shift in species composition with more salt-tolerant mangrove species replacing freshwater-tolerant ones. Fisheries scientists warn that the loss of freshwater-tolerant mangroves could reduce nursery habitat quality for commercially important species such as hilsa and prawns, threatening the livelihoods of an estimated 3.5 million people who depend on Sundarbans fisheries.",
+      "question": "The Sundarbans mangrove forest spans more than one country.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the Sundarbans span 'across India and Bangladesh,' which are two countries."
+    },
+    {
+      "id": "vr-8-10",
+      "type": "true-false-cant-tell",
+      "passage": "The mangrove forests of the Sundarbans, spanning 10,000 square kilometres across India and Bangladesh, serve as critical nursery habitats for over 300 fish and shellfish species. A study published in Marine Ecology Progress Series examined how rising sea levels are altering salinity gradients within the forest. The study found that areas closer to the coast experienced a 15% increase in salinity over the past two decades, leading to a shift in species composition with more salt-tolerant mangrove species replacing freshwater-tolerant ones. Fisheries scientists warn that the loss of freshwater-tolerant mangroves could reduce nursery habitat quality for commercially important species such as hilsa and prawns, threatening the livelihoods of an estimated 3.5 million people who depend on Sundarbans fisheries.",
+      "question": "The salinity increase was observed in areas furthest from the coast.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the salinity increase occurred in 'areas closer to the coast,' not the areas furthest from it."
+    }
+  ]
+}

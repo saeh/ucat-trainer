@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-10-1",
+      "type": "true-false-cant-tell",
+      "passage": "The UK Biobank, a large-scale biomedical database containing genetic and health information from 500,000 participants, has enabled significant advances in understanding the genetic basis of common diseases. A consortium of researchers used the database to identify 130 new genetic loci associated with type 2 diabetes, bringing the total number of known genetic risk variants to over 400. Each individual variant contributes only a small increase in risk, but when combined into polygenic risk scores, they can identify individuals at substantially elevated risk. The study found that people in the top 10% of the polygenic risk score distribution had a 2.8-fold higher risk of developing type 2 diabetes compared to the population average. The authors suggested that polygenic scores could eventually be used to identify at-risk individuals before disease onset.",
+      "question": "The study identified 130 new genetic loci associated with type 2 diabetes, in addition to previously known variants.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states researchers identified '130 new genetic loci associated with type 2 diabetes, bringing the total number of known genetic risk variants to over 400,' confirming these are additions to previously known variants."
+    },
+    {
+      "id": "vr-10-2",
+      "type": "true-false-cant-tell",
+      "passage": "The UK Biobank, a large-scale biomedical database containing genetic and health information from 500,000 participants, has enabled significant advances in understanding the genetic basis of common diseases. A consortium of researchers used the database to identify 130 new genetic loci associated with type 2 diabetes, bringing the total number of known genetic risk variants to over 400. Each individual variant contributes only a small increase in risk, but when combined into polygenic risk scores, they can identify individuals at substantially elevated risk. The study found that people in the top 10% of the polygenic risk score distribution had a 2.8-fold higher risk of developing type 2 diabetes compared to the population average. The authors suggested that polygenic scores could eventually be used to identify at-risk individuals before disease onset.",
+      "question": "Each single genetic variant has a large effect on the risk of type 2 diabetes.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states 'each individual variant contributes only a small increase in risk,' directly contradicting the claim that each has a large effect."
+    },
+    {
+      "id": "vr-10-3",
+      "type": "true-false-cant-tell",
+      "passage": "The UK Biobank, a large-scale biomedical database containing genetic and health information from 500,000 participants, has enabled significant advances in understanding the genetic basis of common diseases. A consortium of researchers used the database to identify 130 new genetic loci associated with type 2 diabetes, bringing the total number of known genetic risk variants to over 400. Each individual variant contributes only a small increase in risk, but when combined into polygenic risk scores, they can identify individuals at substantially elevated risk. The study found that people in the top 10% of the polygenic risk score distribution had a 2.8-fold higher risk of developing type 2 diabetes compared to the population average. The authors suggested that polygenic scores could eventually be used to identify at-risk individuals before disease onset.",
+      "question": "The UK Biobank has collected blood samples from all 500,000 participants.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage mentions 500,000 participants but does not specify what types of biological samples were collected from each."
+    },
+    {
+      "id": "vr-10-4",
+      "type": "true-false-cant-tell",
+      "passage": "The UK Biobank, a large-scale biomedical database containing genetic and health information from 500,000 participants, has enabled significant advances in understanding the genetic basis of common diseases. A consortium of researchers used the database to identify 130 new genetic loci associated with type 2 diabetes, bringing the total number of known genetic risk variants to over 400. Each individual variant contributes only a small increase in risk, but when combined into polygenic risk scores, they can identify individuals at substantially elevated risk. The study found that people in the top 10% of the polygenic risk score distribution had a 2.8-fold higher risk of developing type 2 diabetes compared to the population average. The authors suggested that polygenic scores could eventually be used to identify at-risk individuals before disease onset.",
+      "question": "Polygenic risk scores are currently used routinely in clinical practice for diabetes screening.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states the authors 'suggested that polygenic scores could eventually be used,' implying future potential, but does not state whether they are currently used in clinical practice."
+    },
+    {
+      "id": "vr-10-5",
+      "type": "true-false-cant-tell",
+      "passage": "CRISPR-Cas9 gene editing technology has revolutionised the ability to make precise modifications to DNA. A clinical trial conducted at the University of Pennsylvania in 2023 used CRISPR to treat sickle cell disease in 44 patients by editing their bone marrow cells to produce functional haemoglobin. After 12 months, 39 patients (89%) were free of vaso-occlusive crises, the painful episodes characteristic of the disease. The treatment requires a course of chemotherapy before the edited cells are reinfused, and the long-term effects of this conditioning regimen remain under study. The total cost of the therapy is estimated at $2.2 million per patient, raising concerns about accessibility in low-income countries where sickle cell disease is most prevalent.",
+      "question": "The trial at the University of Pennsylvania involved fewer than 50 patients.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the trial involved '44 patients,' which is fewer than 50."
+    },
+    {
+      "id": "vr-10-6",
+      "type": "true-false-cant-tell",
+      "passage": "CRISPR-Cas9 gene editing technology has revolutionised the ability to make precise modifications to DNA. A clinical trial conducted at the University of Pennsylvania in 2023 used CRISPR to treat sickle cell disease in 44 patients by editing their bone marrow cells to produce functional haemoglobin. After 12 months, 39 patients (89%) were free of vaso-occlusive crises, the painful episodes characteristic of the disease. The treatment requires a course of chemotherapy before the edited cells are reinfused, and the long-term effects of this conditioning regimen remain under study. The total cost of the therapy is estimated at $2.2 million per patient, raising concerns about accessibility in low-income countries where sickle cell disease is most prevalent.",
+      "question": "The treatment eliminates the need for chemotherapy entirely.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states 'the treatment requires a course of chemotherapy before the edited cells are reinfused,' meaning chemotherapy is still necessary."
+    },
+    {
+      "id": "vr-10-7",
+      "type": "true-false-cant-tell",
+      "passage": "CRISPR-Cas9 gene editing technology has revolutionised the ability to make precise modifications to DNA. A clinical trial conducted at the University of Pennsylvania in 2023 used CRISPR to treat sickle cell disease in 44 patients by editing their bone marrow cells to produce functional haemoglobin. After 12 months, 39 patients (89%) were free of vaso-occlusive crises, the painful episodes characteristic of the disease. The treatment requires a course of chemotherapy before the edited cells are reinfused, and the long-term effects of this conditioning regimen remain under study. The total cost of the therapy is estimated at $2.2 million per patient, raising concerns about accessibility in low-income countries where sickle cell disease is most prevalent.",
+      "question": "The therapy costs less than $1 million per patient.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the total cost is 'estimated at $2.2 million per patient,' which is more than $1 million."
+    },
+    {
+      "id": "vr-10-8",
+      "type": "true-false-cant-tell",
+      "passage": "The Human Genome Project, completed in 2003, mapped the entire sequence of human DNA and identified approximately 20,000-25,000 protein-coding genes. Since then, genome-wide association studies (GWAS) have identified genetic variants linked to hundreds of diseases. A 2024 review in Nature Genetics reported that GWAS have been disproportionately conducted in populations of European ancestry, which account for 78% of all participants despite representing only 16% of the global population. This bias limits the applicability of genetic risk predictions to non-European populations, where different genetic variants may contribute to disease susceptibility. The authors called for increased funding for genomic research in Africa, South America, and Southeast Asia to address this imbalance.",
+      "question": "The Human Genome Project identified more than 30,000 protein-coding genes.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the project identified 'approximately 20,000-25,000 protein-coding genes,' which is fewer than 30,000."
+    },
+    {
+      "id": "vr-10-9",
+      "type": "true-false-cant-tell",
+      "passage": "The Human Genome Project, completed in 2003, mapped the entire sequence of human DNA and identified approximately 20,000-25,000 protein-coding genes. Since then, genome-wide association studies (GWAS) have identified genetic variants linked to hundreds of diseases. A 2024 review in Nature Genetics reported that GWAS have been disproportionately conducted in populations of European ancestry, which account for 78% of all participants despite representing only 16% of the global population. This bias limits the applicability of genetic risk predictions to non-European populations, where different genetic variants may contribute to disease susceptibility. The authors called for increased funding for genomic research in Africa, South America, and Southeast Asia to address this imbalance.",
+      "question": "European populations are overrepresented in genome-wide association studies relative to their share of the global population.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states European ancestry participants 'account for 78% of all participants despite representing only 16% of the global population,' confirming overrepresentation."
+    },
+    {
+      "id": "vr-10-10",
+      "type": "true-false-cant-tell",
+      "passage": "The Human Genome Project, completed in 2003, mapped the entire sequence of human DNA and identified approximately 20,000-25,000 protein-coding genes. Since then, genome-wide association studies (GWAS) have identified genetic variants linked to hundreds of diseases. A 2024 review in Nature Genetics reported that GWAS have been disproportionately conducted in populations of European ancestry, which account for 78% of all participants despite representing only 16% of the global population. This bias limits the applicability of genetic risk predictions to non-European populations, where different genetic variants may contribute to disease susceptibility. The authors called for increased funding for genomic research in Africa, South America, and Southeast Asia to address this imbalance.",
+      "question": "The authors called for more research funding in underrepresented regions.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the authors 'called for increased funding for genomic research in Africa, South America, and Southeast Asia.'"
+    }
+  ]
+}

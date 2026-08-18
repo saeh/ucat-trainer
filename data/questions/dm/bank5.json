@@ -1,0 +1,120 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-5-01",
+      "type": "probabilistic-reasoning",
+      "passage": "A hospital uses a screening tool for depression that has a sensitivity of 85% and specificity of 80%. In the population screened, 12% actually have depression.",
+      "question": "If a patient tests positive, what is the approximate probability they truly have depression?",
+      "options": ["About 17%", "About 35%", "About 40%", "About 52%"],
+      "correct": "About 35%",
+      "explanation": "Of 1,000 patients: 120 have depression (102 true positives). 880 don't (176 false positives). P(depression|positive) = 102/(102+176) ≈ 36.7%, closest to 35%."
+    },
+    {
+      "id": "dm-5-02",
+      "type": "syllogism",
+      "passage": "All surgeons must complete a minimum number of procedures annually. All medical professionals who must complete annual procedures are subject to audit. No professional who fails an audit retains their specialist accreditation.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All surgeons are subject to audit",
+        "Some surgeons lose their accreditation every year",
+        "All medical professionals are surgeons",
+        "No surgeon has ever failed an audit"
+      ],
+      "correct": "All surgeons are subject to audit",
+      "explanation": "Surgeons → must complete procedures → subject to audit. This chain follows directly. We cannot conclude that any surgeon has failed an audit or lost accreditation."
+    },
+    {
+      "id": "dm-5-03",
+      "type": "chart-interpretation",
+      "passage": "A ward tracks falls per month over a year:\n\n| Month | Patient Falls | Near Misses | Staffing Level |\n|-------|-------------|-------------|----------------|\n| Jan | 4 | 2 | 12 |\n| Feb | 6 | 3 | 10 |\n| Mar | 3 | 1 | 14 |\n| Apr | 7 | 5 | 9 |\n| May | 2 | 1 | 15 |\n| Jun | 5 | 4 | 11 |",
+      "question": "What pattern is most evident from the data?",
+      "options": [
+        "Falls always increase in winter months",
+        "Lower staffing levels appear associated with more falls and near misses",
+        "Near misses have no relationship to actual falls",
+        "Higher staffing levels lead to more reported incidents"
+      ],
+      "correct": "Lower staffing levels appear associated with more falls and near misses",
+      "explanation": "When staffing was lowest (9 in Apr, 10 in Feb), falls and near misses were highest (7/5 in Apr, 6/3 in Feb). When staffing was highest (15 in May, 14 in Mar), falls were lowest (2, 3)."
+    },
+    {
+      "id": "dm-5-04",
+      "type": "logic-puzzle",
+      "passage": "Four patients — Maya, Noah, Olivia, and Liam — are triaged into priority levels 1 (highest) to 4 (lowest). Olivia is triaged higher than Noah. Maya is not priority 1 or 4. Liam is triaged higher than Olivia.",
+      "question": "What is Maya's priority level?",
+      "options": ["Priority 1", "Priority 2", "Priority 3", "Priority 4"],
+      "correct": "Priority 3",
+      "explanation": "Liam > Olivia > Noah. Maya is not 1 or 4, so she is 2 or 3. Since Liam must be highest (1), Olivia second (2), and Noah could be 3 or 4. Maya can't be 4, so Maya is 2 or 3. But if Liam=1, Olivia=2, Maya can't be 2 (already taken), so Maya=3, Noah=4."
+    },
+    {
+      "id": "dm-5-05",
+      "type": "strongest-argument",
+      "passage": "Should hospitals adopt a policy of mandatory body-worn cameras for all clinical staff?",
+      "question": "Which is the strongest argument FOR body-worn cameras?",
+      "options": [
+        "They provide objective evidence in cases of clinical disputes and complaints",
+        "They may make some patients feel uncomfortable being recorded",
+        "The technology is becoming increasingly affordable",
+        "Staff behaviour changes when they know they are being watched"
+      ],
+      "correct": "They provide objective evidence in cases of clinical disputes and complaints",
+      "explanation": "This offers a strong practical benefit — protecting both patients and staff through objective documentation. 'Staff behaviour changes' could be an argument against (implying staff can't be trusted). Patient discomfort and cost are weaker points."
+    },
+    {
+      "id": "dm-5-06",
+      "type": "venn-diagram",
+      "passage": "A survey of 160 nurses found: 90 work day shifts, 70 work night shifts, 25 work both shifts, and 10 work neither shift.",
+      "question": "How many nurses work only night shifts?",
+      "options": ["25", "35", "45", "50"],
+      "correct": "45",
+      "explanation": "Night only = Total night shifts - Both = 70 - 25 = 45."
+    },
+    {
+      "id": "dm-5-07",
+      "type": "inference",
+      "passage": "A district health board reports:\n- Childhood vaccination rates rose from 89% to 94% over two years\n- Measles cases fell from 120 to 15 in the same period\n- A public awareness campaign began in year 1\n- Overall childhood illness hospitalisations dropped 18%",
+      "question": "Which inference is best supported?",
+      "options": [
+        "The awareness campaign was the sole reason measles cases decreased",
+        "The rise in vaccination rates is likely linked to the decrease in measles cases",
+        "Childhood illness hospitalisations will reach zero within a few years",
+        "No further vaccination efforts are needed"
+      ],
+      "correct": "The rise in vaccination rates is likely linked to the decrease in measles cases",
+      "explanation": "Increased vaccination (89%→94%) and decreased measles (120→15) occurring together strongly suggests a link. We cannot attribute it solely to the campaign or claim the problem is fully solved."
+    },
+    {
+      "id": "dm-5-08",
+      "type": "syllogism",
+      "passage": "All patients prescribed blood thinners require regular blood tests. Some patients who require regular blood tests live far from the clinic. All patients who live far from the clinic struggle to attend appointments.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All patients on blood thinners struggle to attend appointments",
+        "Some patients on blood thinners may struggle to attend appointments",
+        "No patients on blood thinners live near the clinic",
+        "All patients who struggle to attend appointments are on blood thinners"
+      ],
+      "correct": "Some patients on blood thinners may struggle to attend appointments",
+      "explanation": "Blood thinners → need blood tests. Some blood test patients live far → struggle to attend. Since some blood test patients live far, some blood thinner patients may also live far and struggle to attend."
+    },
+    {
+      "id": "dm-5-09",
+      "type": "chart-interpretation",
+      "passage": "A hospital compares patient satisfaction scores across three wards:\n\n| Ward | Cleanliness | Communication | Pain Management | Overall |\n|------|-----------|---------------|----------------|---------|\n| Ward A | 92% | 88% | 75% | 85% |\n| Ward B | 78% | 91% | 89% | 86% |\n| Ward C | 85% | 80% | 82% | 82% |",
+      "question": "Which ward has the biggest gap between its highest and lowest satisfaction scores?",
+      "options": ["Ward A", "Ward B", "Ward C", "All wards have the same spread"],
+      "correct": "Ward A",
+      "explanation": "Ward A: 92% - 75% = 17 points. Ward B: 91% - 78% = 13 points. Ward C: 85% - 80% = 5 points. Ward A has the largest spread."
+    },
+    {
+      "id": "dm-5-10",
+      "type": "logic-puzzle",
+      "passage": "Three medications — Amoxicillin, Ibuprofen, and Paracetamol — are stored on shelves A, B, and C (from bottom to top). Paracetamol is not on shelf A. Ibuprofen is on a shelf directly above Amoxicillin.",
+      "question": "Which shelf is Paracetamol on?",
+      "options": ["Shelf A", "Shelf B", "Shelf C", "Cannot be determined"],
+      "correct": "Shelf C",
+      "explanation": "Ibuprofen is directly above Amoxicillin. Possible pairs: A-B or B-C. Paracetamol is not on shelf A. If Amoxicillin=A, Ibuprofen=B, then Paracetamol=C. If Amoxicillin=B, Ibuprofen=C, then Paracetamol would need to be A — but it can't be A. So Amoxicillin=A, Ibuprofen=B, Paracetamol=C."
+    }
+  ]
+}

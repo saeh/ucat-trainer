@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-10-01",
+      "type": "appropriateness",
+      "passage": "You are on a busy medical ward and a patient's family member becomes aggressive towards a nurse, accusing them of not providing adequate care. The nurse appears shaken. Other patients are watching.",
+      "question": "How appropriate is it to calmly intervene, support your colleague, and help de-escalate the situation while ensuring other patients are not distressed?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Supporting a colleague in a confrontation and working to de-escalate is a professional responsibility. Ensuring the safety of staff and dignity of other patients is paramount."
+    },
+    {
+      "id": "sjt-10-02",
+      "type": "importance",
+      "passage": "You are reviewing a patient's prescription chart and notice that a drug has been prescribed at twice the recommended dose. The patient has already received one dose.",
+      "question": "How important is it to immediately escalate the prescribing error and ensure the patient is reviewed?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A dosing error that has already been administered requires urgent medical review. The patient may need monitoring or treatment for potential toxicity."
+    },
+    {
+      "id": "sjt-10-03",
+      "type": "appropriateness",
+      "passage": "You are on a paediatric ward. A child's mother refuses to allow a blood test that the medical team has deemed necessary, citing personal beliefs about blood transfusions.",
+      "question": "How appropriate is it to explain to the mother that the blood test is a diagnostic procedure, not a transfusion, and see if this addresses her concern?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Clarifying a misunderstanding about a medical procedure is a simple, respectful way to address a concern. If the misunderstanding is resolved, the patient receives appropriate care without conflict."
+    },
+    {
+      "id": "sjt-10-04",
+      "type": "importance",
+      "passage": "You are on an infectious diseases ward and notice that a healthcare assistant has not washed their hands between patients, despite the ward being under enhanced infection control precautions.",
+      "question": "How important is it to remind the healthcare assistant about hand hygiene?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Infection control breaches can have devastating consequences, especially in high-risk environments. A reminder, delivered respectfully, protects patients and supports a culture of safety."
+    },
+    {
+      "id": "sjt-10-05",
+      "type": "appropriateness",
+      "passage": "During a clinical placement, you are offered the opportunity to perform a procedure on a patient for educational purposes. The patient has consented to the procedure but you feel you do not have sufficient skill or experience to perform it safely.",
+      "question": "How appropriate is it to honestly communicate your concerns about your skill level to your supervisor and request further supervised practice?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Acknowledging the limits of your competence is a cornerstone of safe medical practice. A good supervisor will respect this and provide appropriate support."
+    },
+    {
+      "id": "sjt-10-06",
+      "type": "appropriateness",
+      "passage": "You are on a ward and overhear a consultant telling a patient that their condition is 'nothing to worry about'. You know from reviewing the patient's notes that they have a significant and potentially serious diagnosis that has not yet been fully discussed with them.",
+      "question": "How appropriate is it to raise your concern about the misleading reassurance with the consultant privately?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Challenging a consultant's communication is daunting but important. Doing so privately shows respect for their seniority while advocating for the patient's right to accurate information."
+    },
+    {
+      "id": "sjt-10-07",
+      "type": "importance",
+      "passage": "You are part of a crash team responding to a cardiac arrest. During the resuscitation, you notice that the defibrillator pads are incorrectly placed on the patient's chest.",
+      "question": "How important is it to correct the pad placement immediately?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Incorrect defibrillator pad placement can result in ineffective shocks and prolonged cardiac arrest. Correcting this immediately is a critical safety action."
+    },
+    {
+      "id": "sjt-10-08",
+      "type": "appropriateness",
+      "passage": "A patient who speaks very little English is being prepared for surgery. The consent form has been translated into their language, but you notice they seem confused when the anaesthetist explains the procedure.",
+      "question": "How appropriate is it to suggest that a professional interpreter be contacted before the consent process continues?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "A translated form is not sufficient if the patient appears confused. A professional interpreter ensures genuine understanding, which is essential for valid consent."
+    },
+    {
+      "id": "sjt-10-09",
+      "type": "appropriateness",
+      "passage": "You are working on a busy surgical ward. A patient who is due to go to theatre tomorrow asks you when their operation is. You are not sure of the exact time and do not want to give incorrect information.",
+      "question": "How appropriate is it to tell the patient you will find out the exact details and come back to them rather than guessing?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Providing accurate information to patients is important, especially regarding surgery. Admitting uncertainty and following up is always preferable to guessing."
+    },
+    {
+      "id": "sjt-10-10",
+      "type": "importance",
+      "passage": "You discover that a prescription for a patient with a known penicillin allergy includes co-amoxiclav, which contains a penicillin. The prescription has not yet been administered.",
+      "question": "How important is it to immediately halt the administration and alert the prescribing team?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Administering a penicillin-containing antibiotic to a patient with a documented penicillin allergy could cause anaphylaxis. This is a critical near-miss that requires immediate intervention."
+    },
+    {
+      "id": "sjt-10-11",
+      "type": "appropriateness",
+      "passage": "A patient at the end of life has asked you to help them write a letter to their grandchildren. You have some time during a quiet period on the ward.",
+      "question": "How appropriate is it to spend some of your break helping the patient with this meaningful task?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Compassionate care extends beyond clinical tasks. Taking time to support a patient's emotional and relational needs at the end of life is a profound act of human kindness."
+    },
+    {
+      "id": "sjt-10-12",
+      "type": "importance",
+      "passage": "You are on an orthopaedic ward and notice that a patient's surgical wound has a dressing that appears to be soaked through with blood. The patient is on anticoagulant therapy.",
+      "question": "How important is it to alert the nursing staff and request an urgent review of the wound?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A bleeding wound in an anticoagulated patient requires urgent assessment. Delay could lead to significant blood loss or wound complications."
+    },
+    {
+      "id": "sjt-10-13",
+      "type": "appropriateness",
+      "passage": "During a placement, a senior colleague makes an inappropriate comment about a patient's appearance while examining them. The patient is under sedation and cannot hear.",
+      "question": "How appropriate is it to calmly state that such comments are unprofessional regardless of whether the patient can hear?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Professionalism is not conditional on whether a patient is aware. Respectful behaviour must be maintained at all times, and challenging unprofessional conduct upholds team standards."
+    },
+    {
+      "id": "sjt-10-14",
+      "type": "importance",
+      "passage": "You are involved in a teaching session where a medical student asks a question that reveals a significant knowledge gap about a fundamental clinical topic. The rest of the group snickers.",
+      "question": "How important is it to support the student by acknowledging the question as valid and encouraging learning?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Creating a safe learning environment is essential for medical education. Shutting down questions through ridicule damages confidence and discourages future learning."
+    },
+    {
+      "id": "sjt-10-15",
+      "type": "appropriateness",
+      "passage": "You are working an evening shift and a patient asks you for a warm drink. While this seems like a small request, you are very busy with clinical tasks. The patient is otherwise well and waiting for discharge.",
+      "question": "How appropriate is it to help the patient with this request during a quiet moment or ask a healthcare assistant to assist?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Basic patient comfort is part of holistic care. Even small acts of kindness improve the patient experience and are well within your professional capacity, even during a busy shift."
+    }
+  ]
+}

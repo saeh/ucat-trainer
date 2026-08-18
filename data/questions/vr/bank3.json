@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-3-1",
+      "type": "true-false-cant-tell",
+      "passage": "The European Union's Natura 2000 network, established to protect the continent's most valuable habitats, now covers over 18% of the EU's land area. A review by the European Environment Agency assessed the network's effectiveness over its first two decades. The review found that populations of 83% of protected bird species and 76% of protected mammal species had either stabilised or increased within Natura 2000 sites. However, only 30% of habitat types were considered to be in 'favourable conservation status.' The report identified inadequate funding and inconsistent enforcement across member states as the primary barriers to achieving the network's conservation objectives.",
+      "question": "More protected bird species recovered than protected mammal species within the network.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states 83% of protected bird species and 76% of protected mammal species stabilised or increased, meaning more bird species recovered."
+    },
+    {
+      "id": "vr-3-2",
+      "type": "true-false-cant-tell",
+      "passage": "The European Union's Natura 2000 network, established to protect the continent's most valuable habitats, now covers over 18% of the EU's land area. A review by the European Environment Agency assessed the network's effectiveness over its first two decades. The review found that populations of 83% of protected bird species and 76% of protected mammal species had either stabilised or increased within Natura 2000 sites. However, only 30% of habitat types were considered to be in 'favourable conservation status.' The report identified inadequate funding and inconsistent enforcement across member states as the primary barriers to achieving the network's conservation objectives.",
+      "question": "The majority of habitat types within the network were in favourable conservation status.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states 'only 30% of habitat types were considered to be in favourable conservation status,' which is a minority, not a majority."
+    },
+    {
+      "id": "vr-3-3",
+      "type": "true-false-cant-tell",
+      "passage": "The European Union's Natura 2000 network, established to protect the continent's most valuable habitats, now covers over 18% of the EU's land area. A review by the European Environment Agency assessed the network's effectiveness over its first two decades. The review found that populations of 83% of protected bird species and 76% of protected mammal species had either stabilised or increased within Natura 2000 sites. However, only 30% of habitat types were considered to be in 'favourable conservation status.' The report identified inadequate funding and inconsistent enforcement across member states as the primary barriers to achieving the network's conservation objectives.",
+      "question": "The network covers more than one-fifth of the EU's total land area.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states the network covers 'over 18% of the EU's land area.' Since 18% is close to one-fifth (20%) and 'over 18%' could mean slightly above 18%, we cannot determine from the passage whether coverage exceeds one-fifth."
+    },
+    {
+      "id": "vr-3-4",
+      "type": "true-false-cant-tell",
+      "passage": "The European Union's Natura 2000 network, established to protect the continent's most valuable habitats, now covers over 18% of the EU's land area. A review by the European Environment Agency assessed the network's effectiveness over its first two decades. The review found that populations of 83% of protected bird species and 76% of protected mammal species had either stabilised or increased within Natura 2000 sites. However, only 30% of habitat types were considered to be in 'favourable conservation status.' The report identified inadequate funding and inconsistent enforcement across member states as the primary barriers to achieving the network's conservation objectives.",
+      "question": "The review was conducted by a national government agency.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states the review was conducted by the European Environment Agency, which is a European Union body, not a national government agency."
+    },
+    {
+      "id": "vr-3-5",
+      "type": "true-false-cant-tell",
+      "passage": "Rising global temperatures are accelerating glacier retreat in the Himalayas, threatening water supplies for approximately 1.9 billion people across South and East Asia. A study led by the International Centre for Integrated Mountain Development analysed satellite imagery from 650 glaciers between 2000 and 2023. The findings revealed an average loss of 1.2 metres of ice thickness per year across the study area, with some glaciers in Nepal losing up to 2 metres annually. The researchers warned that current emission trajectories could reduce total glacial volume in the region by two-thirds by 2100, severely impacting irrigation, hydroelectric power generation, and drinking water availability for downstream communities.",
+      "question": "All Himalayan glaciers are retreating at the same rate.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states an 'average loss of 1.2 metres' with some glaciers 'losing up to 2 metres annually,' indicating different rates of retreat."
+    },
+    {
+      "id": "vr-3-6",
+      "type": "true-false-cant-tell",
+      "passage": "Rising global temperatures are accelerating glacier retreat in the Himalayas, threatening water supplies for approximately 1.9 billion people across South and East Asia. A study led by the International Centre for Integrated Mountain Development analysed satellite imagery from 650 glaciers between 2000 and 2023. The findings revealed an average loss of 1.2 metres of ice thickness per year across the study area, with some glaciers in Nepal losing up to 2 metres annually. The researchers warned that current emission trajectories could reduce total glacial volume in the region by two-thirds by 2100, severely impacting irrigation, hydroelectric power generation, and drinking water availability for downstream communities.",
+      "question": "The study examined glaciers in the Andes mountain range.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage specifically discusses Himalayan glaciers and mentions Nepal, not the Andes."
+    },
+    {
+      "id": "vr-3-7",
+      "type": "true-false-cant-tell",
+      "passage": "Rising global temperatures are accelerating glacier retreat in the Himalayas, threatening water supplies for approximately 1.9 billion people across South and East Asia. A study led by the International Centre for Integrated Mountain Development analysed satellite imagery from 650 glaciers between 2000 and 2023. The findings revealed an average loss of 1.2 metres of ice thickness per year across the study area, with some glaciers in Nepal losing up to 2 metres annually. The researchers warned that current emission trajectories could reduce total glacial volume in the region by two-thirds by 2100, severely impacting irrigation, hydroelectric power generation, and drinking water availability for downstream communities.",
+      "question": "The study tracked changes in glacial volume over more than two decades.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states satellite imagery was analysed 'between 2000 and 2023,' which spans 23 years, more than two decades."
+    },
+    {
+      "id": "vr-3-8",
+      "type": "true-false-cant-tell",
+      "passage": "Rising global temperatures are accelerating glacier retreat in the Himalayas, threatening water supplies for approximately 1.9 billion people across South and East Asia. A study led by the International Centre for Integrated Mountain Development analysed satellite imagery from 650 glaciers between 2000 and 2023. The findings revealed an average loss of 1.2 metres of ice thickness per year across the study area, with some glaciers in Nepal losing up to 2 metres annually. The researchers warned that current emission trajectories could reduce total glacial volume in the region by two-thirds by 2100, severely impacting irrigation, hydroelectric power generation, and drinking water availability for downstream communities.",
+      "question": "If current emission trajectories continue, glacial volume could decline by two-thirds by the end of the century.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage explicitly states 'current emission trajectories could reduce total glacial volume in the region by two-thirds by 2100.'"
+    },
+    {
+      "id": "vr-3-9",
+      "type": "true-false-cant-tell",
+      "passage": "California's delta smelt, a small fish endemic to the Sacramento-San Joaquin River Delta, has become a symbol of the conflict between environmental conservation and agricultural water use. Once numbering in the hundreds of thousands, the species has declined to fewer than 1,000 individuals according to the most recent surveys. Environmental groups argue that excessive water extraction for irrigation is the primary driver of the decline. Farmers counter that strict water regulations have devastated their livelihoods without demonstrably improving smelt populations. A federal scientific panel concluded that multiple factors, including invasive species and habitat modification, contribute to the decline, making it impossible to attribute the crisis to any single cause.",
+      "question": "The delta smelt is found naturally only in California's Sacramento-San Joaquin River Delta.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage describes the delta smelt as 'a small fish endemic to the Sacramento-San Joaquin River Delta,' meaning it is native exclusively to that area."
+    },
+    {
+      "id": "vr-3-10",
+      "type": "true-false-cant-tell",
+      "passage": "California's delta smelt, a small fish endemic to the Sacramento-San Joaquin River Delta, has become a symbol of the conflict between environmental conservation and agricultural water use. Once numbering in the hundreds of thousands, the species has declined to fewer than 1,000 individuals according to the most recent surveys. Environmental groups argue that excessive water extraction for irrigation is the primary driver of the decline. Farmers counter that strict water regulations have devastated their livelihoods without demonstrably improving smelt populations. A federal scientific panel concluded that multiple factors, including invasive species and habitat modification, contribute to the decline, making it impossible to attribute the crisis to any single cause.",
+      "question": "The federal scientific panel identified water extraction as the sole cause of the delta smelt's decline.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the panel concluded 'multiple factors, including invasive species and habitat modification, contribute to the decline, making it impossible to attribute the crisis to any single cause.'"
+    }
+  ]
+}

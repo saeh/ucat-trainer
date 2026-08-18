@@ -1,0 +1,120 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-10-01",
+      "type": "inference",
+      "passage": "A hospital's quality improvement data shows:\n- Patient falls decreased by 45% after introducing bed sensors\n- Pressure injuries fell 30% after turning schedules were enforced\n- Hospital-acquired infections dropped 25% after hand hygiene audits began\n- Medication errors remained unchanged throughout the period",
+      "question": "Which inference is best supported?",
+      "options": [
+        "All patient safety issues have been resolved",
+        "Targeted interventions appear effective for specific safety issues, but medication errors need different approaches",
+        "Medication errors are not a patient safety concern",
+        "Hand hygiene audits were the most effective intervention"
+      ],
+      "correct": "Targeted interventions appear effective for specific safety issues, but medication errors need different approaches",
+      "explanation": "Three specific interventions each reduced their target issue (falls -45%, pressure injuries -30%, infections -25%), but medication errors stayed the same, suggesting different approaches are needed for that problem."
+    },
+    {
+      "id": "dm-10-02",
+      "type": "syllogism",
+      "passage": "All patients referred to the oncology unit have abnormal blood markers. Some patients with abnormal blood markers require biopsy. All patients who have a biopsy need post-procedure observation.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All oncology patients have a biopsy",
+        "Some oncology patients may need post-procedure observation",
+        "No oncology patients require biopsy",
+        "All patients needing observation are in oncology"
+      ],
+      "correct": "Some oncology patients may need post-procedure observation",
+      "explanation": "Oncology referral → abnormal blood markers. Some abnormal markers → need biopsy. Biopsy → post-procedure observation. So some oncology patients may need post-procedure observation."
+    },
+    {
+      "id": "dm-10-03",
+      "type": "chart-interpretation",
+      "passage": "A dental clinic tracks appointment no-shows:\n\n| Day | Booked | Attended | No-Show |\n|-----|--------|----------|--------|\n| Monday | 30 | 24 | 6 |\n| Tuesday | 35 | 30 | 5 |\n| Wednesday | 25 | 22 | 3 |\n| Thursday | 40 | 30 | 10 |\n| Friday | 20 | 18 | 2 |",
+      "question": "Which day has the highest no-show rate as a percentage of booked appointments?",
+      "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "correct": "Thursday",
+      "explanation": "Monday: 6/30=20%. Tuesday: 5/35=14.3%. Wednesday: 3/25=12%. Thursday: 10/40=25%. Friday: 2/20=10%. Thursday has the highest no-show rate at 25%."
+    },
+    {
+      "id": "dm-10-04",
+      "type": "strongest-argument",
+      "passage": "Should hospitals be required to publicly report individual surgeon complication rates?",
+      "question": "Which is the strongest argument AGAINST public reporting?",
+      "options": [
+        "It may discourage surgeons from performing high-risk but necessary procedures, harming patients who need them",
+        "Some patients may not understand the statistics",
+        "Surgeons may feel stressed by being monitored",
+        "The data collection process is time-consuming"
+      ],
+      "correct": "It may discourage surgeons from performing high-risk but necessary procedures, harming patients who need them",
+      "explanation": "This raises a critical patient safety concern — if surgeons avoid complex cases to protect their statistics, patients needing those procedures suffer. This is a well-documented unintended consequence of public reporting."
+    },
+    {
+      "id": "dm-10-05",
+      "type": "logic-puzzle",
+      "passage": "Four medications — Amoxicillin, Ciprofloxacin, Diazepam, and Erythromycin — are stored in cabinets labelled 1, 2, 3, and 4. Amoxicillin is in a lower-numbered cabinet than Ciprofloxacin. Diazepam is not in cabinet 1 or 4. Erythromycin is in cabinet 4.",
+      "question": "In which cabinet is Amoxicillin?",
+      "options": ["Cabinet 1", "Cabinet 2", "Cabinet 3", "Cabinet 4"],
+      "correct": "Cabinet 1",
+      "explanation": "Erythromycin is in cabinet 4. Diazepam is not in 1 or 4, so Diazepam is in 2 or 3. Amoxicillin is lower-numbered than Ciprofloxacin. The remaining cabinets for Amoxicillin, Ciprofloxacin, and Diazepam are 1, 2, and 3. Amoxicillin must be in cabinet 1 (lowest of the available) and Ciprofloxacin in 2 or 3 (higher). With Diazepam filling the remaining spot, Amoxicillin must be in cabinet 1."
+    },
+    {
+      "id": "dm-10-06",
+      "type": "venn-diagram",
+      "passage": "Of 200 patients at a diabetes clinic: 120 have Type 2 diabetes, 45 have Type 1 diabetes, 15 have both types (Type 1 with secondary complications mimicking Type 2), and 50 have gestational diabetes only.",
+      "question": "How many patients have Type 2 diabetes only (not Type 1)?",
+      "options": ["30", "45", "105", "120"],
+      "correct": "105",
+      "explanation": "Type 2 only = Total Type 2 - Both = 120 - 15 = 105."
+    },
+    {
+      "id": "dm-10-07",
+      "type": "probabilistic-reasoning",
+      "passage": "A rapid COVID test has a sensitivity of 80% and specificity of 98%. In a population where 5% are currently infected, 10,000 people are tested.",
+      "question": "How many total positive results will there be?",
+      "options": ["200", "490", "590", "1,000"],
+      "correct": "590",
+      "explanation": "Of 10,000: 500 are infected (400 true positives). 9,500 are not (190 false positives). Total positive = 400 + 190 = 590."
+    },
+    {
+      "id": "dm-10-08",
+      "type": "strongest-argument",
+      "passage": "Should hospitals implement a policy requiring minimum staffing ratios for nursing wards?",
+      "question": "Which is the strongest argument FOR minimum staffing ratios?",
+      "options": [
+        "Evidence shows that nurse-to-patient ratios directly affect patient mortality, falls, and medication errors",
+        "Nurses deserve to have manageable workloads for their own wellbeing",
+        "Hospitals in other countries already use staffing ratios",
+        "Patients feel more comfortable when there are more nurses on the ward"
+      ],
+      "correct": "Evidence shows that nurse-to-patient ratios directly affect patient mortality, falls, and medication errors",
+      "explanation": "This provides the strongest justification by linking staffing ratios directly to measurable patient safety outcomes. While nurse wellbeing and patient comfort are valid, the evidence-based patient safety argument is most compelling for policy."
+    },
+    {
+      "id": "dm-10-09",
+      "type": "chart-interpretation",
+      "passage": "A rehabilitation centre tracks patient outcomes over 6 months:\n\n| Month | Discharged | Improved but ongoing | No change | Deteriorated |\n|-------|-----------|---------------------|-----------|-------------|\n| Jan | 10 | 25 | 5 | 2 |\n| Feb | 12 | 28 | 4 | 1 |\n| Mar | 15 | 30 | 3 | 2 |\n| Apr | 18 | 32 | 2 | 1 |\n| May | 20 | 35 | 1 | 1 |\n| Jun | 22 | 38 | 1 | 0 |",
+      "question": "What is the trend in patients showing no change over the six months?",
+      "options": [
+        "Steady increase",
+        "Steady decrease",
+        "Fluctuating with no clear pattern",
+        "Remains constant"
+      ],
+      "correct": "Steady decrease",
+      "explanation": "No change patients: Jan 5, Feb 4, Mar 3, Apr 2, May 1, Jun 1. This shows a consistent downward trend from 5 to 1."
+    },
+    {
+      "id": "dm-10-10",
+      "type": "logic-puzzle",
+      "passage": "Three specialists — Dr. Mia, Dr. Noah, and Dr. Olivia — consult on three consecutive days (Monday, Tuesday, Wednesday). Dr. Mia consults before Dr. Olivia. Dr. Noah does not consult on Monday.",
+      "question": "On which day does Dr. Olivia consult?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Cannot be determined"],
+      "correct": "Cannot be determined",
+      "explanation": "Dr. Noah not on Monday, so Noah is Tuesday or Wednesday. Dr. Mia before Dr. Olivia. If Noah is Tuesday: Mia is Monday, Olivia is Wednesday. If Noah is Wednesday: Mia is Monday, Olivia is Tuesday. Both arrangements are valid, so Olivia could be on Tuesday or Wednesday."
+    }
+  ]
+}

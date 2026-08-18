@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-5-1",
+      "type": "true-false-cant-tell",
+      "passage": "Australia's National Tobacco Strategy 2023-2030 aims to reduce adult daily smoking prevalence from 10% to 5% by 2030. Central to the strategy is the expansion of plain packaging legislation and the introduction of a minimum nicotine content standard for e-cigarettes. A review by the Australian Institute of Health and Welfare found that since plain packaging was introduced in 2012, daily smoking rates have fallen by 4.5 percentage points. However, youth vaping has increased sharply, with 18% of 14-17 year olds reporting current use in 2023. Health officials acknowledged that while tobacco harm reduction is progressing, the rise in vaping presents a new public health challenge that the existing regulatory framework was not designed to address.",
+      "question": "The strategy aims to halve adult daily smoking prevalence by 2030.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the goal is to reduce adult daily smoking 'from 10% to 5% by 2030,' which is a halving."
+    },
+    {
+      "id": "vr-5-2",
+      "type": "true-false-cant-tell",
+      "passage": "Australia's National Tobacco Strategy 2023-2030 aims to reduce adult daily smoking prevalence from 10% to 5% by 2030. Central to the strategy is the expansion of plain packaging legislation and the introduction of a minimum nicotine content standard for e-cigarettes. A review by the Australian Institute of Health and Welfare found that since plain packaging was introduced in 2012, daily smoking rates have fallen by 4.5 percentage points. However, youth vaping has increased sharply, with 18% of 14-17 year olds reporting current use in 2023. Health officials acknowledged that while tobacco harm reduction is progressing, the rise in vaping presents a new public health challenge that the existing regulatory framework was not designed to address.",
+      "question": "Youth vaping rates have remained stable since the introduction of plain packaging.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage states youth vaping has 'increased sharply' to 18% in 2023, but does not provide baseline rates from before plain packaging was introduced in 2012."
+    },
+    {
+      "id": "vr-5-3",
+      "type": "true-false-cant-tell",
+      "passage": "Australia's National Tobacco Strategy 2023-2030 aims to reduce adult daily smoking prevalence from 10% to 5% by 2030. Central to the strategy is the expansion of plain packaging legislation and the introduction of a minimum nicotine content standard for e-cigarettes. A review by the Australian Institute of Health and Welfare found that since plain packaging was introduced in 2012, daily smoking rates have fallen by 4.5 percentage points. However, youth vaping has increased sharply, with 18% of 14-17 year olds reporting current use in 2023. Health officials acknowledged that while tobacco harm reduction is progressing, the rise in vaping presents a new public health challenge that the existing regulatory framework was not designed to address.",
+      "question": "The existing regulatory framework was designed to address youth vaping.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage explicitly states the rise in vaping 'presents a new public health challenge that the existing regulatory framework was not designed to address.'"
+    },
+    {
+      "id": "vr-5-4",
+      "type": "true-false-cant-tell",
+      "passage": "Australia's National Tobacco Strategy 2023-2030 aims to reduce adult daily smoking prevalence from 10% to 5% by 2030. Central to the strategy is the expansion of plain packaging legislation and the introduction of a minimum nicotine content standard for e-cigarettes. A review by the Australian Institute of Health and Welfare found that since plain packaging was introduced in 2012, daily smoking rates have fallen by 4.5 percentage points. However, youth vaping has increased sharply, with 18% of 14-17 year olds reporting current use in 2023. Health officials acknowledged that while tobacco harm reduction is progressing, the rise in vaping presents a new public health challenge that the existing regulatory framework was not designed to address.",
+      "question": "Daily smoking rates were approximately 14.5% before plain packaging was introduced.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states smoking rates fell 'by 4.5 percentage points' since 2012 and the current rate is 10%, so 10% + 4.5% = 14.5% before plain packaging."
+    },
+    {
+      "id": "vr-5-5",
+      "type": "true-false-cant-tell",
+      "passage": "England's National Health Service introduced a 'social prescribing' programme in 2019, allowing GPs to refer patients to community-based activities such as gardening groups, art classes, and exercise programmes instead of prescribing medication. A three-year evaluation involving 120,000 patients found that participants reported a 28% reduction in GP visits and a 22% decrease in emergency hospital admissions. Mental health referrals decreased by 17% among participants. However, the evaluation noted that uptake was uneven, with patients in deprived areas 40% less likely to accept social prescriptions, citing transport barriers and lack of awareness. Programme coordinators stressed that social prescribing is intended to complement, not replace, conventional medical treatment.",
+      "question": "Social prescribing reduced GP visits among participants by more than a quarter.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states participants reported 'a 28% reduction in GP visits,' which is more than a quarter (25%)."
+    },
+    {
+      "id": "vr-5-6",
+      "type": "true-false-cant-tell",
+      "passage": "England's National Health Service introduced a 'social prescribing' programme in 2019, allowing GPs to refer patients to community-based activities such as gardening groups, art classes, and exercise programmes instead of prescribing medication. A three-year evaluation involving 120,000 patients found that participants reported a 28% reduction in GP visits and a 22% decrease in emergency hospital admissions. Mental health referrals decreased by 17% among participants. However, the evaluation noted that uptake was uneven, with patients in deprived areas 40% less likely to accept social prescriptions, citing transport barriers and lack of awareness. Programme coordinators stressed that social prescribing is intended to complement, not replace, conventional medical treatment.",
+      "question": "Patients in deprived areas were more likely to accept social prescriptions than those in affluent areas.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states patients in deprived areas were '40% less likely to accept social prescriptions,' not more likely."
+    },
+    {
+      "id": "vr-5-7",
+      "type": "true-false-cant-tell",
+      "passage": "England's National Health Service introduced a 'social prescribing' programme in 2019, allowing GPs to refer patients to community-based activities such as gardening groups, art classes, and exercise programmes instead of prescribing medication. A three-year evaluation involving 120,000 patients found that participants reported a 28% reduction in GP visits and a 22% decrease in emergency hospital admissions. Mental health referrals decreased by 17% among participants. However, the evaluation noted that uptake was uneven, with patients in deprived areas 40% less likely to accept social prescriptions, citing transport barriers and lack of awareness. Programme coordinators stressed that social prescribing is intended to complement, not replace, conventional medical treatment.",
+      "question": "The programme was designed to eliminate the need for conventional medical treatment.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage explicitly states social prescribing is 'intended to complement, not replace, conventional medical treatment.'"
+    },
+    {
+      "id": "vr-5-8",
+      "type": "true-false-cant-tell",
+      "passage": "Japan's Ministry of Health introduced a 'Metabo Law' in 2008 requiring employers to measure the waistlines of workers aged 40-74 as part of an effort to reduce metabolic syndrome. Workers exceeding the limits — 85cm for men and 90cm for women — must receive dietary counselling. A 2023 review by the OECD found that the proportion of Japanese adults classified as obese remains among the lowest in developed nations at 4.3%, compared to 42% in the United States. However, critics argue that the law disproportionately affects women due to the gendered waistline thresholds and has contributed to rising rates of eating disorders. Health researchers note that while obesity rates remain low, the prevalence of type 2 diabetes has increased by 30% since 2008.",
+      "question": "The Metabo Law has been adopted by other countries as a model for health policy.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage does not mention whether other countries have adopted or considered the Metabo Law as a model."
+    },
+    {
+      "id": "vr-5-9",
+      "type": "true-false-cant-tell",
+      "passage": "Japan's Ministry of Health introduced a 'Metabo Law' in 2008 requiring employers to measure the waistlines of workers aged 40-74 as part of an effort to reduce metabolic syndrome. Workers exceeding the limits — 85cm for men and 90cm for women — must receive dietary counselling. A 2023 review by the OECD found that the proportion of Japanese adults classified as obese remains among the lowest in developed nations at 4.3%, compared to 42% in the United States. However, critics argue that the law disproportionately affects women due to the gendered waistline thresholds and has contributed to rising rates of eating disorders. Health researchers note that while obesity rates remain low, the prevalence of type 2 diabetes has increased by 30% since 2008.",
+      "question": "The rate of obesity in Japan is approximately ten times lower than in the United States.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states obesity is 4.3% in Japan and 42% in the US; 42% is approximately ten times 4.3% (4.3 x 10 = 43)."
+    },
+    {
+      "id": "vr-5-10",
+      "type": "true-false-cant-tell",
+      "passage": "Japan's Ministry of Health introduced a 'Metabo Law' in 2008 requiring employers to measure the waistlines of workers aged 40-74 as part of an effort to reduce metabolic syndrome. Workers exceeding the limits — 85cm for men and 90cm for women — must receive dietary counselling. A 2023 review by the OECD found that the proportion of Japanese adults classified as obese remains among the lowest in developed nations at 4.3%, compared to 42% in the United States. However, critics argue that the law disproportionately affects women due to the gendered waistline thresholds and has contributed to rising rates of eating disorders. Health researchers note that while obesity rates remain low, the prevalence of type 2 diabetes has increased by 30% since 2008.",
+      "question": "The Metabo Law has successfully reduced the prevalence of type 2 diabetes in Japan.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the prevalence of type 2 diabetes 'has increased by 30% since 2008,' the year the law was introduced, meaning it has not been reduced."
+    }
+  ]
+}

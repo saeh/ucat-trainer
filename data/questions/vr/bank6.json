@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-6-1",
+      "type": "true-false-cant-tell",
+      "passage": "Researchers at the University of Cambridge conducted a series of experiments examining how social influence affects decision-making under uncertainty. In the first experiment, 200 participants completed a series of gambling tasks while their brain activity was monitored using functional MRI. Participants who received feedback suggesting that others had made risk-averse choices were 35% more likely to choose the safer option themselves. The effect was most pronounced among participants who scored high on measures of social conformity. The researchers noted that the anterior cingulate cortex showed heightened activation when participants' choices diverged from the perceived group norm, suggesting that social conflict generates measurable neural distress.",
+      "question": "The effect of social influence on decision-making was strongest among people who scored low on social conformity.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the effect was 'most pronounced among participants who scored high on measures of social conformity,' not low."
+    },
+    {
+      "id": "vr-6-2",
+      "type": "true-false-cant-tell",
+      "passage": "Researchers at the University of Cambridge conducted a series of experiments examining how social influence affects decision-making under uncertainty. In the first experiment, 200 participants completed a series of gambling tasks while their brain activity was monitored using functional MRI. Participants who received feedback suggesting that others had made risk-averse choices were 35% more likely to choose the safer option themselves. The effect was most pronounced among participants who scored high on measures of social conformity. The researchers noted that the anterior cingulate cortex showed heightened activation when participants' choices diverged from the perceived group norm, suggesting that social conflict generates measurable neural distress.",
+      "question": "The study included participants from a range of age groups.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage does not provide any information about the age range or age distribution of the participants."
+    },
+    {
+      "id": "vr-6-3",
+      "type": "true-false-cant-tell",
+      "passage": "Researchers at the University of Cambridge conducted a series of experiments examining how social influence affects decision-making under uncertainty. In the first experiment, 200 participants completed a series of gambling tasks while their brain activity was monitored using functional MRI. Participants who received feedback suggesting that others had made risk-averse choices were 35% more likely to choose the safer option themselves. The effect was most pronounced among participants who scored high on measures of social conformity. The researchers noted that the anterior cingulate cortex showed heightened activation when participants' choices diverged from the perceived group norm, suggesting that social conflict generates measurable neural distress.",
+      "question": "The study used brain imaging to measure participants' neural responses.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states participants' 'brain activity was monitored using functional MRI,' which is a form of brain imaging."
+    },
+    {
+      "id": "vr-6-4",
+      "type": "true-false-cant-tell",
+      "passage": "A meta-analysis published in Psychological Bulletin examined 47 studies on the relationship between mindfulness meditation and emotional regulation. The analysis, which included over 3,000 participants across diverse age groups, found a moderate positive effect of mindfulness practice on reducing negative emotions, with an average effect size of 0.43. Benefits were strongest for anxiety reduction, followed by depression and anger management. Interestingly, the analysis revealed that meditation sessions shorter than 20 minutes showed minimal benefit, while sessions of 30-45 minutes produced the most consistent improvements. Long-term meditators with over 1,000 hours of practice did not show significantly greater benefits than those with 200-500 hours, suggesting a ceiling effect.",
+      "question": "The meta-analysis found that mindfulness meditation was equally effective for all age groups.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage mentions participants were 'across diverse age groups' but does not report whether effectiveness varied by age."
+    },
+    {
+      "id": "vr-6-5",
+      "type": "true-false-cant-tell",
+      "passage": "A meta-analysis published in Psychological Bulletin examined 47 studies on the relationship between mindfulness meditation and emotional regulation. The analysis, which included over 3,000 participants across diverse age groups, found a moderate positive effect of mindfulness practice on reducing negative emotions, with an average effect size of 0.43. Benefits were strongest for anxiety reduction, followed by depression and anger management. Interestingly, the analysis revealed that meditation sessions shorter than 20 minutes showed minimal benefit, while sessions of 30-45 minutes produced the most consistent improvements. Long-term meditators with over 1,000 hours of practice did not show significantly greater benefits than those with 200-500 hours, suggesting a ceiling effect.",
+      "question": "Meditation sessions of 15 minutes were found to be equally effective as sessions of 45 minutes.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states sessions 'shorter than 20 minutes showed minimal benefit, while sessions of 30-45 minutes produced the most consistent improvements,' indicating they were not equally effective."
+    },
+    {
+      "id": "vr-6-6",
+      "type": "true-false-cant-tell",
+      "passage": "A meta-analysis published in Psychological Bulletin examined 47 studies on the relationship between mindfulness meditation and emotional regulation. The analysis, which included over 3,000 participants across diverse age groups, found a moderate positive effect of mindfulness practice on reducing negative emotions, with an average effect size of 0.43. Benefits were strongest for anxiety reduction, followed by depression and anger management. Interestingly, the analysis revealed that meditation sessions shorter than 20 minutes showed minimal benefit, while sessions of 30-45 minutes produced the most consistent improvements. Long-term meditators with over 1,000 hours of practice did not show significantly greater benefits than those with 200-500 hours, suggesting a ceiling effect.",
+      "question": "The analysis found that mindfulness was most effective for managing anger.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states benefits were 'strongest for anxiety reduction, followed by depression and anger management,' meaning anger management had the weakest benefit of the three."
+    },
+    {
+      "id": "vr-6-7",
+      "type": "true-false-cant-tell",
+      "passage": "A meta-analysis published in Psychological Bulletin examined 47 studies on the relationship between mindfulness meditation and emotional regulation. The analysis, which included over 3,000 participants across diverse age groups, found a moderate positive effect of mindfulness practice on reducing negative emotions, with an average effect size of 0.43. Benefits were strongest for anxiety reduction, followed by depression and anger management. Interestingly, the analysis revealed that meditation sessions shorter than 20 minutes showed minimal benefit, while sessions of 30-45 minutes produced the most consistent improvements. Long-term meditators with over 1,000 hours of practice did not show significantly greater benefits than those with 200-500 hours, suggesting a ceiling effect.",
+      "question": "The meta-analysis examined more than 40 studies.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the analysis 'examined 47 studies,' which is more than 40."
+    },
+    {
+      "id": "vr-6-8",
+      "type": "true-false-cant-tell",
+      "passage": "A meta-analysis published in Psychological Bulletin examined 47 studies on the relationship between mindfulness meditation and emotional regulation. The analysis, which included over 3,000 participants across diverse age groups, found a moderate positive effect of mindfulness practice on reducing negative emotions, with an average effect size of 0.43. Benefits were strongest for anxiety reduction, followed by depression and anger management. Interestingly, the analysis revealed that meditation sessions shorter than 20 minutes showed minimal benefit, while sessions of 30-45 minutes produced the most consistent improvements. Long-term meditators with over 1,000 hours of practice did not show significantly greater benefits than those with 200-500 hours, suggesting a ceiling effect.",
+      "question": "The analysis found that meditation benefits plateau after a certain amount of practice.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states meditators with over 1,000 hours did not show significantly greater benefits than those with 200-500 hours, suggesting a ceiling effect."
+    },
+    {
+      "id": "vr-6-9",
+      "type": "true-false-cant-tell",
+      "passage": "Developmental psychologists at the University of Auckland tracked the social behaviour of 180 children from ages 3 to 7 to investigate the origins of sharing behaviour. The study found that children who engaged in regular pretend play were 45% more likely to share resources with peers by age 5 compared to children who rarely engaged in imaginative play. The researchers hypothesised that pretend play develops 'theory of mind' — the ability to understand others' perspectives — which in turn promotes prosocial behaviour. Notably, children from larger families showed slightly higher sharing rates regardless of pretend play frequency, suggesting that sibling interaction provides an additional pathway to developing cooperative tendencies.",
+      "question": "Children who engaged in pretend play were more likely to share by age 5.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states children who engaged in regular pretend play were '45% more likely to share resources with peers by age 5.'"
+    },
+    {
+      "id": "vr-6-10",
+      "type": "true-false-cant-tell",
+      "passage": "Developmental psychologists at the University of Auckland tracked the social behaviour of 180 children from ages 3 to 7 to investigate the origins of sharing behaviour. The study found that children who engaged in regular pretend play were 45% more likely to share resources with peers by age 5 compared to children who rarely engaged in imaginative play. The researchers hypothesised that pretend play develops 'theory of mind' — the ability to understand others' perspectives — which in turn promotes prosocial behaviour. Notably, children from larger families showed slightly higher sharing rates regardless of pretend play frequency, suggesting that sibling interaction provides an additional pathway to developing cooperative tendencies.",
+      "question": "The study found that pretend play is the only factor that influences sharing behaviour in children.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states children from larger families showed higher sharing rates 'regardless of pretend play frequency,' indicating sibling interaction is an additional pathway to sharing."
+    }
+  ]
+}

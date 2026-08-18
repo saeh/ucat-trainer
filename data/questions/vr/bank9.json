@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-9-1",
+      "type": "true-false-cant-tell",
+      "passage": "NASA's James Webb Space Telescope has transformed our understanding of distant galaxies since becoming operational in 2022. Using its infrared imaging capabilities, the telescope detected light from a galaxy designated JADES-GS-z14-0, emitted just 290 million years after the Big Bang — making it the most distant galaxy ever observed at the time of its discovery. The galaxy's unexpectedly high mass and luminosity challenged existing models of early galaxy formation, which predicted that such young galaxies should be far smaller and dimmer. Astronomers at the Space Telescope Science Institute suggested that the findings may require a revision of current theories about how quickly matter coalesced into structured galaxies in the early universe.",
+      "question": "JADES-GS-z14-0 was observed as it appeared fewer than 500 million years after the Big Bang.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the galaxy's light was 'emitted just 290 million years after the Big Bang,' which is fewer than 500 million years."
+    },
+    {
+      "id": "vr-9-2",
+      "type": "true-false-cant-tell",
+      "passage": "NASA's James Webb Space Telescope has transformed our understanding of distant galaxies since becoming operational in 2022. Using its infrared imaging capabilities, the telescope detected light from a galaxy designated JADES-GS-z14-0, emitted just 290 million years after the Big Bang — making it the most distant galaxy ever observed at the time of its discovery. The galaxy's unexpectedly high mass and luminosity challenged existing models of early galaxy formation, which predicted that such young galaxies should be far smaller and dimmer. Astronomers at the Space Telescope Science Institute suggested that the findings may require a revision of current theories about how quickly matter coalesced into structured galaxies in the early universe.",
+      "question": "The findings were consistent with existing models of early galaxy formation.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the galaxy's mass and luminosity 'challenged existing models' and findings 'may require a revision of current theories,' indicating they were not consistent."
+    },
+    {
+      "id": "vr-9-3",
+      "type": "true-false-cant-tell",
+      "passage": "NASA's James Webb Space Telescope has transformed our understanding of distant galaxies since becoming operational in 2022. Using its infrared imaging capabilities, the telescope detected light from a galaxy designated JADES-GS-z14-0, emitted just 290 million years after the Big Bang — making it the most distant galaxy ever observed at the time of its discovery. The galaxy's unexpectedly high mass and luminosity challenged existing models of early galaxy formation, which predicted that such young galaxies should be far smaller and dimmer. Astronomers at the Space Telescope Science Institute suggested that the findings may require a revision of current theories about how quickly matter coalesced into structured galaxies in the early universe.",
+      "question": "The telescope is expected to operate for at least 20 years.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage does not mention the expected operational lifespan of the James Webb Space Telescope."
+    },
+    {
+      "id": "vr-9-4",
+      "type": "true-false-cant-tell",
+      "passage": "NASA's James Webb Space Telescope has transformed our understanding of distant galaxies since becoming operational in 2022. Using its infrared imaging capabilities, the telescope detected light from a galaxy designated JADES-GS-z14-0, emitted just 290 million years after the Big Bang — making it the most distant galaxy ever observed at the time of its discovery. The galaxy's unexpectedly high mass and luminosity challenged existing models of early galaxy formation, which predicted that such young galaxies should be far smaller and dimmer. Astronomers at the Space Telescope Science Institute suggested that the findings may require a revision of current theories about how quickly matter coalesced into structured galaxies in the early universe.",
+      "question": "The telescope was launched more than five years before the discovery of JADES-GS-z14-0.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the telescope became 'operational in 2022' and discovered the galaxy, so the telescope was operational for less than five years. However, the telescope was launched in December 2021, and the discovery was announced in 2024, meaning the launch was more than two years before but not necessarily five. Since the passage only says 'operational in 2022' and does not give the launch date or discovery date, we cannot confirm the five-year gap."
+    },
+    {
+      "id": "vr-9-5",
+      "type": "true-false-cant-tell",
+      "passage": "The European Space Agency's Rosetta mission, which concluded in 2016, provided the first close-up observations of a comet's surface and interior. The spacecraft orbited Comet 67P/Churyumov-Gerasimenko for two years, mapping its surface and deploying a lander called Philae. Analysis of data collected by Rosetta's Rosina instrument revealed that the comet's water has a different deuterium-to-hydrogen ratio than Earth's oceans, undermining the long-standing hypothesis that comets delivered most of Earth's water. However, scientists noted that some carbon-rich asteroids also sampled during the mission showed water ratios more similar to Earth's, suggesting that asteroids may have played a larger role in supplying water to our planet than previously thought.",
+      "question": "Rosetta confirmed that comets were the primary source of Earth's water.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the comet's water ratio 'undermined the long-standing hypothesis that comets delivered most of Earth's water,' meaning it contradicted rather than confirmed the hypothesis."
+    },
+    {
+      "id": "vr-9-6",
+      "type": "true-false-cant-tell",
+      "passage": "The European Space Agency's Rosetta mission, which concluded in 2016, provided the first close-up observations of a comet's surface and interior. The spacecraft orbited Comet 67P/Churyumov-Gerasimenko for two years, mapping its surface and deploying a lander called Philae. Analysis of data collected by Rosetta's Rosina instrument revealed that the comet's water has a different deuterium-to-hydrogen ratio than Earth's oceans, undermining the long-standing hypothesis that comets delivered most of Earth's water. However, scientists noted that some carbon-rich asteroids also sampled during the mission showed water ratios more similar to Earth's, suggesting that asteroids may have played a larger role in supplying water to our planet than previously thought.",
+      "question": "The Rosetta mission cost more than €1 billion to develop and operate.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage does not mention the total cost of the Rosetta mission."
+    },
+    {
+      "id": "vr-9-7",
+      "type": "true-false-cant-tell",
+      "passage": "The European Space Agency's Rosetta mission, which concluded in 2016, provided the first close-up observations of a comet's surface and interior. The spacecraft orbited Comet 67P/Churyumov-Gerasimenko for two years, mapping its surface and deploying a lander called Philae. Analysis of data collected by Rosetta's Rosina instrument revealed that the comet's water has a different deuterium-to-hydrogen ratio than Earth's oceans, undermining the long-standing hypothesis that comets delivered most of Earth's water. However, scientists noted that some carbon-rich asteroids also sampled during the mission showed water ratios more similar to Earth's, suggesting that asteroids may have played a larger role in supplying water to our planet than previously thought.",
+      "question": "Some asteroids have water compositions more similar to Earth's oceans than some comets.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states some asteroids 'showed water ratios more similar to Earth's' compared to the comet, confirming this."
+    },
+    {
+      "id": "vr-9-8",
+      "type": "true-false-cant-tell",
+      "passage": "Space debris has become a growing concern for orbital operations. The European Space Agency estimates that there are currently over 36,000 objects larger than 10 centimetres orbiting Earth, travelling at speeds up to 28,000 km/h. A collision with even a small piece of debris can cause catastrophic damage to operational satellites and the International Space Station. In 2009, a defunct Russian satellite collided with a communications satellite, generating over 2,000 trackable debris fragments. To address this problem, several companies are developing active debris removal technologies, including robotic arms and nets designed to capture and deorbit large pieces of junk. The first commercial debris removal mission is planned for 2026.",
+      "question": "There are more than 30,000 large debris objects in Earth orbit.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states there are 'over 36,000 objects larger than 10 centimetres orbiting Earth,' which exceeds 30,000."
+    },
+    {
+      "id": "vr-9-9",
+      "type": "true-false-cant-tell",
+      "passage": "Space debris has become a growing concern for orbital operations. The European Space Agency estimates that there are currently over 36,000 objects larger than 10 centimetres orbiting Earth, travelling at speeds up to 28,000 km/h. A collision with even a small piece of debris can cause catastrophic damage to operational satellites and the International Space Station. In 2009, a defunct Russian satellite collided with a communications satellite, generating over 2,000 trackable debris fragments. To address this problem, several companies are developing active debris removal technologies, including robotic arms and nets designed to capture and deorbit large pieces of junk. The first commercial debris removal mission is planned for 2026.",
+      "question": "The 2009 satellite collision involved two operational satellites.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the collision involved 'a defunct Russian satellite' and a communications satellite, meaning one was not operational."
+    },
+    {
+      "id": "vr-9-10",
+      "type": "true-false-cant-tell",
+      "passage": "Space debris has become a growing concern for orbital operations. The European Space Agency estimates that there are currently over 36,000 objects larger than 10 centimetres orbiting Earth, travelling at speeds up to 28,000 km/h. A collision with even a small piece of debris can cause catastrophic damage to operational satellites and the International Space Station. In 2009, a defunct Russian satellite collided with a communications satellite, generating over 2,000 trackable debris fragments. To address this problem, several companies are developing active debris removal technologies, including robotic arms and nets designed to capture and deorbit large pieces of junk. The first commercial debris removal mission is planned for 2026.",
+      "question": "A commercial debris removal mission has already been successfully completed.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states the first commercial debris removal mission 'is planned for 2026,' meaning it has not yet been completed."
+    }
+  ]
+}

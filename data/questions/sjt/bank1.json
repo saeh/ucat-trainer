@@ -90,6 +90,51 @@
       "options": ["Very important", "Important", "Of minor importance", "Not important"],
       "correct": "Very important",
       "explanation": "Effective communication is essential for accurate clinical assessment. Using available language skills directly impacts the quality and safety of patient care in this immediate situation."
+    },
+    {
+      "id": "sjt-011",
+      "type": "importance",
+      "passage": "You are handing over a complex patient at the end of your night shift. You notice that the morning handover list is very long and you are worried that a critical piece of information about a patient's deteriorating blood results might be missed.",
+      "question": "How important is it to ensure the registrar directly receives the update about the deteriorating blood results before you leave?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Critical clinical information about a deteriorating patient must be communicated directly to the receiving clinician. Relying on written handover alone risks the information being overlooked, which could delay treatment and compromise patient safety."
+    },
+    {
+      "id": "sjt-012",
+      "type": "appropriateness",
+      "passage": "An elderly patient with capacity refuses a blood transfusion on religious grounds. The surgical team feels the transfusion is medically necessary before an upcoming procedure and asks you to try to persuade the patient to change their mind.",
+      "question": "How appropriate is it to respect the patient's informed refusal and advocate for their decision to the surgical team?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "A competent adult has the right to refuse treatment, even if it may result in serious harm or death. Advocating for the patient's autonomous decision upholds a fundamental ethical principle and ensures the patient's rights are respected."
+    },
+    {
+      "id": "sjt-013",
+      "type": "importance",
+      "passage": "You are working on a ward and notice that a senior nurse has been consistently not washing their hands between patient interactions. Other junior staff members have noticed but no one has said anything.",
+      "question": "How important is it to raise this infection control concern with the nurse or their line manager?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Hand hygiene is one of the most critical measures for preventing healthcare-associated infections. Regardless of seniority, infection control breaches must be addressed to protect patient safety. Failing to act enables a culture where safety standards are compromised."
+    },
+    {
+      "id": "sjt-014",
+      "type": "appropriateness",
+      "passage": "A patient's family member pulls you aside and asks you to explain why their relative has not been improving. You are a medical student and are not fully up to date with the latest changes to the patient's management plan.",
+      "question": "How appropriate is it to honestly tell the family member that you are not the best person to provide this update and offer to find the responsible doctor?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Being honest about the limits of your knowledge and role, while facilitating access to the correct person, is very appropriate. Attempting to explain something you are not confident about could lead to misinformation and undermine trust."
+    },
+    {
+      "id": "sjt-015",
+      "type": "importance",
+      "passage": "You see a colleague post a photo on social media from inside the hospital. The photo shows a unique piece of equipment but also includes a patient's whiteboard with their name and diagnosis partially visible in the background.",
+      "question": "How important is it to ask your colleague to remove the post and remind them about patient confidentiality policies?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Posting identifiable patient information on social media is a serious breach of patient confidentiality and professional boundaries. Immediate action is needed to prevent ongoing exposure and to reinforce the importance of information governance."
     }
   ]
 }

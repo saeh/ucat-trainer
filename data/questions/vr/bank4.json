@@ -1,0 +1,95 @@
+{
+  "section": "vr",
+  "questions": [
+    {
+      "id": "vr-4-1",
+      "type": "true-false-cant-tell",
+      "passage": "A report by McKinsey Global Institute estimates that generative AI could automate tasks currently consuming 60-70% of workers' time in customer service, software development, and content creation. The report analysed over 800 occupations and found that roughly 30% of work activities in the US economy could be automatable by 2030. However, the report emphasised that full job displacement is unlikely for most roles; instead, AI is expected to augment human capabilities, with workers shifting toward supervisory, creative, and interpersonal tasks. The authors cautioned that the transition could exacerbate income inequality if reskilling programmes are not implemented at scale, potentially displacing 12 million workers who lack access to training.",
+      "question": "Generative AI is expected to fully replace human workers in most occupations.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage explicitly states 'full job displacement is unlikely for most roles' and that AI is expected to 'augment human capabilities.'"
+    },
+    {
+      "id": "vr-4-2",
+      "type": "true-false-cant-tell",
+      "passage": "A report by McKinsey Global Institute estimates that generative AI could automate tasks currently consuming 60-70% of workers' time in customer service, software development, and content creation. The report analysed over 800 occupations and found that roughly 30% of work activities in the US economy could be automatable by 2030. However, the report emphasised that full job displacement is unlikely for most roles; instead, AI is expected to augment human capabilities, with workers shifting toward supervisory, creative, and interpersonal tasks. The authors cautioned that the transition could exacerbate income inequality if reskilling programmes are not implemented at scale, potentially displacing 12 million workers who lack access to training.",
+      "question": "The report covered more than 500 occupations in its analysis.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the report 'analysed over 800 occupations,' which is more than 500."
+    },
+    {
+      "id": "vr-4-3",
+      "type": "true-false-cant-tell",
+      "passage": "A report by McKinsey Global Institute estimates that generative AI could automate tasks currently consuming 60-70% of workers' time in customer service, software development, and content creation. The report analysed over 800 occupations and found that roughly 30% of work activities in the US economy could be automatable by 2030. However, the report emphasised that full job displacement is unlikely for most roles; instead, AI is expected to augment human capabilities, with workers shifting toward supervisory, creative, and interpersonal tasks. The authors cautioned that the transition could exacerbate income inequality if reskilling programmes are not implemented at scale, potentially displacing 12 million workers who lack access to training.",
+      "question": "The report predicted that AI will reduce the need for interpersonal skills in the workplace.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states workers will shift toward 'supervisory, creative, and interpersonal tasks,' indicating interpersonal skills will become more important, not less."
+    },
+    {
+      "id": "vr-4-4",
+      "type": "true-false-cant-tell",
+      "passage": "A report by McKinsey Global Institute estimates that generative AI could automate tasks currently consuming 60-70% of workers' time in customer service, software development, and content creation. The report analysed over 800 occupations and found that roughly 30% of work activities in the US economy could be automatable by 2030. However, the report emphasised that full job displacement is unlikely for most roles; instead, AI is expected to augment human capabilities, with workers shifting toward supervisory, creative, and interpersonal tasks. The authors cautioned that the transition could exacerbate income inequality if reskilling programmes are not implemented at scale, potentially displacing 12 million workers who lack access to training.",
+      "question": "Reskilling programmes are considered essential to mitigating the negative effects of AI automation.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the transition 'could exacerbate income inequality if reskilling programmes are not implemented at scale,' implying reskilling is essential."
+    },
+    {
+      "id": "vr-4-5",
+      "type": "true-false-cant-tell",
+      "passage": "The development of large language models (LLMs) has raised concerns about energy consumption and environmental impact. Training a single state-of-the-art LLM is estimated to emit approximately 300 tonnes of CO2, equivalent to the lifetime emissions of five average cars. A study published in Nature Machine Intelligence found that optimising training hardware and using renewable energy sources could reduce these emissions by up to 80%. The researchers also noted that inference costs — the energy required to run the model after training — represent a growing proportion of total energy use as models are deployed at scale. They called for mandatory carbon disclosure reporting for AI companies to promote transparency.",
+      "question": "Training one large language model produces more CO2 than five cars produce in their entire lifetimes.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states training a single LLM emits 'approximately 300 tonnes of CO2, equivalent to the lifetime emissions of five average cars.' This means it produces the same amount, not more."
+    },
+    {
+      "id": "vr-4-6",
+      "type": "true-false-cant-tell",
+      "passage": "The development of large language models (LLMs) has raised concerns about energy consumption and environmental impact. Training a single state-of-the-art LLM is estimated to emit approximately 300 tonnes of CO2, equivalent to the lifetime emissions of five average cars. A study published in Nature Machine Intelligence found that optimising training hardware and using renewable energy sources could reduce these emissions by up to 80%. The researchers also noted that inference costs — the energy required to run the model after training — represent a growing proportion of total energy use as models are deployed at scale. They called for mandatory carbon disclosure reporting for AI companies to promote transparency.",
+      "question": "Using renewable energy can completely eliminate the carbon emissions from training LLMs.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "False",
+      "explanation": "The passage states optimising hardware and using renewables could 'reduce these emissions by up to 80%,' not eliminate them entirely."
+    },
+    {
+      "id": "vr-4-7",
+      "type": "true-false-cant-tell",
+      "passage": "The development of large language models (LLMs) has raised concerns about energy consumption and environmental impact. Training a single state-of-the-art LLM is estimated to emit approximately 300 tonnes of CO2, equivalent to the lifetime emissions of five average cars. A study published in Nature Machine Intelligence found that optimising training hardware and using renewable energy sources could reduce these emissions by up to 80%. The researchers also noted that inference costs — the energy required to run the model after training — represent a growing proportion of total energy use as models are deployed at scale. They called for mandatory carbon disclosure reporting for AI companies to promote transparency.",
+      "question": "The study was published in a peer-reviewed journal.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states the study was 'published in Nature Machine Intelligence,' which is a peer-reviewed scientific journal."
+    },
+    {
+      "id": "vr-4-8",
+      "type": "true-false-cant-tell",
+      "passage": "Autonomous vehicles have completed over 20 million miles of public road testing in the United States, yet consumer adoption remains limited. A survey by the Pew Research Centre found that 44% of Americans would not ride in a fully self-driving vehicle, with safety concerns cited as the primary barrier. Among those willing to try the technology, 62% said they would use it primarily for daily commuting. Industry analysts note that current autonomous systems perform well in clear weather but struggle with heavy rain, snow, and complex urban intersections. Waymo, the leading autonomous vehicle company, has stated that achieving full autonomy in all conditions remains 'a significant engineering challenge' requiring advances in sensor technology and AI decision-making.",
+      "question": "The majority of Americans are willing to ride in a fully self-driving vehicle.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "True",
+      "explanation": "The passage states 44% would not ride in a fully self-driving vehicle, meaning 56% (the majority) would be willing to."
+    },
+    {
+      "id": "vr-4-9",
+      "type": "true-false-cant-tell",
+      "passage": "Autonomous vehicles have completed over 20 million miles of public road testing in the United States, yet consumer adoption remains limited. A survey by the Pew Research Centre found that 44% of Americans would not ride in a fully self-driving vehicle, with safety concerns cited as the primary barrier. Among those willing to try the technology, 62% said they would use it primarily for daily commuting. Industry analysts note that current autonomous systems perform well in clear weather but struggle with heavy rain, snow, and complex urban intersections. Waymo, the leading autonomous vehicle company, has stated that achieving full autonomy in all conditions remains 'a significant engineering challenge' requiring advances in sensor technology and AI decision-making.",
+      "question": "Autonomous vehicles perform equally well in all weather conditions.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage discusses performance in clear weather versus heavy rain and snow, but does not provide a comprehensive assessment of all weather conditions."
+    },
+    {
+      "id": "vr-4-10",
+      "type": "true-false-cant-tell",
+      "passage": "Autonomous vehicles have completed over 20 million miles of public road testing in the United States, yet consumer adoption remains limited. A survey by the Pew Research Centre found that 44% of Americans would not ride in a fully self-driving vehicle, with safety concerns cited as the primary barrier. Among those willing to try the technology, 62% said they would use it primarily for daily commuting. Industry analysts note that current autonomous systems perform well in clear weather but struggle with heavy rain, snow, and complex urban intersections. Waymo, the leading autonomous vehicle company, has stated that achieving full autonomy in all conditions remains 'a significant engineering challenge' requiring advances in sensor technology and AI decision-making.",
+      "question": "Waymo has claimed that full autonomy has already been achieved.",
+      "options": ["True", "False", "Can't Tell"],
+      "correct": "Can't Tell",
+      "explanation": "The passage quotes Waymo on the challenges of achieving full autonomy but does not provide Waymo's official position on whether they have achieved it."
+    }
+  ]
+}

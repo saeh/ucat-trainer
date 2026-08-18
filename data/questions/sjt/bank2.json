@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-2-01",
+      "type": "appropriateness",
+      "passage": "You are a medical student on a surgical ward. During a pre-operative briefing, you notice that the consent form for a patient lists the wrong procedure. The surgeon has not yet spoken to the patient.",
+      "question": "How appropriate is it to raise this discrepancy with the surgeon before the patient signs the consent form?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Patient safety requires accurate consent. Raising the error directly with the surgeon before the patient signs prevents a serious safety incident and is well within your role as a vigilant member of the team."
+    },
+    {
+      "id": "sjt-2-02",
+      "type": "importance",
+      "passage": "You are reviewing a patient's notes and notice that a medication allergy documented in the GP letter has not been recorded on the hospital drug chart.",
+      "question": "How important is it to flag this omission to the prescribing team immediately?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "An unrecorded allergy poses a direct and immediate risk of a potentially fatal allergic reaction. Escalating this without delay is essential for patient safety."
+    },
+    {
+      "id": "sjt-2-03",
+      "type": "appropriateness",
+      "passage": "An elderly patient's family member asks you not to tell the patient about their new cancer diagnosis, saying it would distress them too much. The patient appears alert and has been asking questions about their test results.",
+      "question": "How appropriate is it to agree with the family's request and withhold the diagnosis from the patient?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very inappropriate",
+      "explanation": "Competent patients have a legal and ethical right to be informed about their own diagnosis. Withholding this information, even at a family's request, violates patient autonomy and informed consent principles."
+    },
+    {
+      "id": "sjt-2-04",
+      "type": "importance",
+      "passage": "You are working a night shift and your senior registrar asks you to prescribe a medication you have not encountered before. They tell you the dose verbally and ask you to prescribe it quickly.",
+      "question": "How important is it to look up the medication and verify the dose independently before prescribing?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Prescribing is a personal legal responsibility. You must never prescribe a medication without verifying the dose yourself, regardless of who has suggested it. Patient safety depends on this."
+    },
+    {
+      "id": "sjt-2-05",
+      "type": "appropriateness",
+      "passage": "During a clinic, you notice that a consultant has been running 40 minutes behind schedule. A patient who has been waiting becomes increasingly distressed and tells you they need to leave soon for a carer commitment.",
+      "question": "How appropriate is it to speak with the consultant's nurse to see if the patient can be prioritised or given an estimated time?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Advocating for a patient's practical needs by seeking information through appropriate channels is proactive and empathetic, while respecting the team's workflow."
+    },
+    {
+      "id": "sjt-2-06",
+      "type": "importance",
+      "passage": "You witness a senior nurse speaking harshly to a patient with dementia who is confused and agitated. No other staff seem to be paying attention.",
+      "question": "How important is it to report this interaction to the nurse's line manager?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Patients with dementia are vulnerable and cannot always advocate for themselves. Reporting potential mistreatment is essential to protect patient welfare and uphold professional standards."
+    },
+    {
+      "id": "sjt-2-07",
+      "type": "appropriateness",
+      "passage": "A fellow medical student asks to copy your coursework submission, saying they are overwhelmed and will fail without help. The deadline is in two hours.",
+      "question": "How appropriate is it to share your completed assignment for them to copy?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very inappropriate",
+      "explanation": "Submitting work that is not your own constitutes academic dishonesty. It also undermines the student's own learning and professional development. Supporting them to seek an extension or help from a tutor would be more appropriate."
+    },
+    {
+      "id": "sjt-2-08",
+      "type": "appropriateness",
+      "passage": "You are taking a history from a patient who becomes tearful when discussing their recent bereavement. You feel uncertain about how to respond sensitively.",
+      "question": "How appropriate is it to sit with the patient, offer tissues, and allow them time to express their feelings without rushing the consultation?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Allowing patients space to express emotion, while showing empathetic presence, is a core communication skill. It builds trust and does not require specialist training to do effectively."
+    },
+    {
+      "id": "sjt-2-09",
+      "type": "importance",
+      "passage": "After a complex paediatric resuscitation, you are asked to document the events in the patient's notes. You were assisting and observed several team members' actions throughout.",
+      "question": "How important is it to document only what you directly observed, rather than relying on what others told you happened?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Medical documentation must be accurate and based on direct observation. Recording hearsay could lead to inaccuracies in the patient record, which has significant medicolegal implications."
+    },
+    {
+      "id": "sjt-2-10",
+      "type": "appropriateness",
+      "passage": "You are on a GP placement and notice that the GP consistently spends less than 5 minutes with patients, often interrupting them. A patient leaves looking confused about their treatment plan.",
+      "question": "How appropriate is it to raise your observations with the GP in a constructive manner?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Raising concerns about clinical practice with a supervisor is appropriate and demonstrates professional development. However, as a student, it requires careful framing and should be done sensitively, which is why it may not rank as 'very appropriate'."
+    },
+    {
+      "id": "sjt-2-11",
+      "type": "importance",
+      "passage": "A patient who speaks limited English has been admitted. An interpreter is not immediately available and the team is considering using the patient's teenage child to translate.",
+      "question": "How important is it to advocate for waiting for a professional interpreter rather than using the child?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Using family members, especially children, as interpreters risks inaccurate translation and places emotional burden on the child. Professional interpretation ensures accurate communication and patient safety."
+    },
+    {
+      "id": "sjt-2-12",
+      "type": "appropriateness",
+      "passage": "During a handover, you realise that a task assigned to you overnight — checking a patient's observations — was not completed because you forgot. The patient was stable and no harm resulted.",
+      "question": "How appropriate is it to document the missed task and inform the incoming team at the next handover?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Acknowledging and documenting your own omissions, even when no harm occurred, demonstrates professional integrity and accountability. It also ensures the team can follow up appropriately."
+    },
+    {
+      "id": "sjt-2-13",
+      "type": "importance",
+      "passage": "You are asked to take a blood sample from an anxious patient. The patient asks if you have done this before. This is only your second week of clinical placement.",
+      "question": "How important is it to be honest about your level of experience?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Honesty about competence is fundamental to informed consent. Patients have the right to know the experience level of those performing procedures on them."
+    },
+    {
+      "id": "sjt-2-14",
+      "type": "appropriateness",
+      "passage": "A consultant invites you to be first author on a case report for a patient you clerked. You contributed significantly but another student also helped collect data.",
+      "question": "How appropriate is it to discuss authorship credit openly with both the consultant and the other student?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Transparent discussion about authorship ensures fair attribution and prevents future disputes. It reflects research integrity and collegial professionalism."
+    },
+    {
+      "id": "sjt-2-15",
+      "type": "appropriateness",
+      "passage": "You notice a patient on the ward has deteriorating observations but the assigned nurse is on a break and the other nurses are busy. The patient's colour looks noticeably worse.",
+      "question": "How appropriate is it to escalate the patient's deteriorating observations to the on-call medical team immediately?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Escalating concerns about a deteriorating patient takes no account of staff availability — patient safety is paramount. You do not need to wait for the assigned nurse to return."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-4-01",
+      "type": "strongest-argument",
+      "passage": "Should paramedics be authorised to prescribe antibiotics at the scene of an emergency?",
+      "question": "Which is the strongest argument FOR allowing paramedics to prescribe antibiotics?",
+      "options": [
+        "Timely antibiotic administration in sepsis cases can significantly reduce mortality",
+        "Paramedics already carry a wide range of medications in their ambulances",
+        "Patients trust paramedics and would likely accept their prescriptions",
+        "GPs are sometimes unavailable, so someone else needs to fill the gap"
+      ],
+      "correct": "Timely antibiotic administration in sepsis cases can significantly reduce mortality",
+      "explanation": "This provides a direct clinical justification grounded in patient outcomes. The other options are weaker — carrying medications doesn't justify prescribing, patient trust is not a clinical reason, and GP unavailability doesn't establish paramedic competence."
+    },
+    {
+      "id": "dm-4-02",
+      "type": "logic-puzzle",
+      "passage": "Three patients — X, Y, and Z — are assigned to three rooms numbered 1, 2, and 3. Patient X is not in room 1 or room 2. Patient Y is in a room with a higher number than Patient Z. Each patient is in a different room.",
+      "question": "Which room is Patient Z in?",
+      "options": ["Room 1", "Room 2", "Room 3", "Cannot be determined"],
+      "correct": "Room 1",
+      "explanation": "Patient X must be in Room 3 (not 1 or 2). Patient Y has a higher room number than Z, so Y is in Room 2 and Z is in Room 1."
+    },
+    {
+      "id": "dm-4-03",
+      "type": "probabilistic-reasoning",
+      "passage": "A rapid strep test has a sensitivity of 95% and specificity of 90%. In a school clinic, 20% of children presenting with a sore throat actually have strep throat.",
+      "question": "If a child tests positive, what is the approximate probability they have strep throat?",
+      "options": ["About 35%", "About 50%", "About 68%", "About 83%"],
+      "correct": "About 68%",
+      "explanation": "Of 100 children with sore throats: 20 have strep (19 true positives). 80 don't (8 false positives). P(strep|positive) = 19/(19+8) ≈ 70.4%. Closest is 68%."
+    },
+    {
+      "id": "dm-4-04",
+      "type": "venn-diagram",
+      "passage": "In a group of 100 patients: 55 have hypertension, 40 have diabetes, 20 have both conditions, and 25 have neither condition.",
+      "question": "How many patients have hypertension but not diabetes?",
+      "options": ["15", "20", "25", "35"],
+      "correct": "35",
+      "explanation": "Hypertension only = Total hypertension - Both = 55 - 20 = 35."
+    },
+    {
+      "id": "dm-4-05",
+      "type": "inference",
+      "passage": "A hospital's quarterly report shows:\n- Emergency department waiting times increased 25%\n- Staffing levels decreased by 10%\n- Patient satisfaction scores dropped from 82% to 71%\n- Bed occupancy rate rose from 88% to 97%",
+      "question": "Which inference is best supported by the data?",
+      "options": [
+        "The hospital should hire more administrative staff",
+        "Increased bed occupancy and reduced staffing likely contributed to longer wait times and lower satisfaction",
+        "Patient satisfaction is not affected by wait times",
+        "The hospital is becoming more efficient"
+      ],
+      "correct": "Increased bed occupancy and reduced staffing likely contributed to longer wait times and lower satisfaction",
+      "explanation": "Higher occupancy (97%) and lower staffing (-10%) logically explain increased wait times (+25%) and decreased satisfaction (82%→71%). These data points together support this causal inference."
+    },
+    {
+      "id": "dm-4-06",
+      "type": "syllogism",
+      "passage": "All patients with Type 1 diabetes need insulin. Some patients who need insulin also need glucose monitoring. No patient who monitors glucose should skip meals.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All Type 1 diabetics should not skip meals",
+        "Some Type 1 diabetics should not skip meals",
+        "Some Type 1 diabetics need glucose monitoring",
+        "All patients who skip meals do not monitor glucose"
+      ],
+      "correct": "Some Type 1 diabetics should not skip meals",
+      "explanation": "Some patients needing insulin also need glucose monitoring, and glucose monitors should not skip meals. Since Type 1 diabetics need insulin, some of them may need glucose monitoring and thus should not skip meals."
+    },
+    {
+      "id": "dm-4-07",
+      "type": "chart-interpretation",
+      "passage": "A mental health service tracks referral sources:\n\n| Source | Q1 | Q2 | Q3 | Q4 |\n|--------|-----|-----|-----|-----|\n| GP | 120 | 135 | 150 | 160 |\n| Self | 80 | 90 | 95 | 110 |\n| Hospital | 45 | 40 | 50 | 55 |\n| School | 30 | 35 | 25 | 20 |\n| Other | 25 | 20 | 15 | 10 |",
+      "question": "Which referral source showed the most consistent quarter-on-quarter growth?",
+      "options": ["GP", "Self", "Hospital", "School"],
+      "correct": "GP",
+      "explanation": "GP referrals increased every quarter: 120→135→150→160. Self-referrals also grew but more slowly in Q3. Hospital had a dip in Q2. School declined in Q3-Q4."
+    },
+    {
+      "id": "dm-4-08",
+      "type": "strongest-argument",
+      "passage": "Should hospitals implement a policy of mandatory flu vaccination for all healthcare workers?",
+      "question": "Which is the strongest argument AGAINST the mandate?",
+      "options": [
+        "Mandatory vaccination may violate individual bodily autonomy and informed consent principles",
+        "Flu vaccination is not 100% effective in preventing transmission",
+        "Some healthcare workers have religious objections to vaccination",
+        "The cost of administering vaccines to all staff is significant"
+      ],
+      "correct": "Mandatory vaccination may violate individual bodily autonomy and informed consent principles",
+      "explanation": "This raises a fundamental ethical concern about personal autonomy and consent, which is a serious counterargument. The other options are weaker — imperfect efficacy is a reason for other measures not against vaccination itself, religious objections can sometimes be accommodated, and cost is relatively minor."
+    },
+    {
+      "id": "dm-4-09",
+      "type": "venn-diagram",
+      "passage": "Of 90 medical students on placement: 60 are at a metropolitan hospital, 35 are at a rural hospital, 15 are at both locations, and 10 are at neither location.",
+      "question": "How many students are at the metropolitan hospital only?",
+      "options": ["20", "25", "35", "45"],
+      "correct": "45",
+      "explanation": "Metropolitan only = Total metropolitan - Both = 60 - 15 = 45."
+    },
+    {
+      "id": "dm-4-10",
+      "type": "logic-puzzle",
+      "passage": "Four doctors — Dr. Evans, Dr. Foster, Dr. Grant, and Dr. Hughes — are on a rota covering four consecutive shifts on Monday. Dr. Hughes works before Dr. Evans but after Dr. Grant. Dr. Foster does not work first or last.",
+      "question": "Who works the first shift?",
+      "options": ["Dr. Evans", "Dr. Foster", "Dr. Grant", "Dr. Hughes"],
+      "correct": "Dr. Grant",
+      "explanation": "Dr. Grant before Dr. Hughes before Dr. Evans. Dr. Foster can't be first or last. So the order must be Grant, Foster, Hughes, Evans. Dr. Grant works first."
+    }
+  ]
+}

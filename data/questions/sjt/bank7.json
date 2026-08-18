@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-7-01",
+      "type": "importance",
+      "passage": "You are on a cardiology placement. An elderly patient with heart failure is admitted for the third time in a month. The medical team plans to discharge them with the same medication regimen. The patient seems resigned and says 'I'll just end up back here again'.",
+      "question": "How important is it to raise the patient's psychosocial circumstances and potential medication adherence issues with the team before discharge?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Repeated readmissions suggest an underlying issue such as social isolation, medication complexity, or inadequate support. Addressing this proactively could prevent the next admission and improve quality of life."
+    },
+    {
+      "id": "sjt-7-02",
+      "type": "appropriateness",
+      "passage": "You are a medical student asked to perform a venepuncture. You attempt the procedure but are unable to find a vein after two attempts. The patient is becoming distressed.",
+      "question": "How appropriate is it to stop after two unsuccessful attempts and ask a more experienced colleague to take over?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Recognising your limitations and stopping before causing further distress is a mark of professionalism. Persisting beyond your competence would prioritise your ego over patient comfort."
+    },
+    {
+      "id": "sjt-7-03",
+      "type": "appropriateness",
+      "passage": "During a ward round, a consultant asks you to perform a rectal examination on a patient. The patient has not been asked for consent and seems surprised when the examination begins.",
+      "question": "How appropriate is it to pause and ensure that the patient has given informed consent before proceeding?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "No examination should proceed without informed consent. Pausing to ensure consent has been obtained protects the patient's autonomy and is a non-negotiable professional standard."
+    },
+    {
+      "id": "sjt-7-04",
+      "type": "importance",
+      "passage": "You discover that a ward has been using a batch of blood products that were stored at the incorrect temperature for several hours. No transfusions have yet been given from this batch.",
+      "question": "How important is it to immediately quarantine the blood products and inform the transfusion lab?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Incorrectly stored blood products pose a severe risk of infection or haemolytic reaction. Immediate quarantine and reporting is essential to prevent patient harm."
+    },
+    {
+      "id": "sjt-7-05",
+      "type": "appropriateness",
+      "passage": "You are on a psychiatry placement. A patient who has been involuntarily admitted asks you to help them leave by pretending to be their relative and signing them out.",
+      "question": "How appropriate is it to refuse the patient's request and explain the legal reasons for their detention?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Helping a sectioned patient leave illegally would breach your professional and legal obligations. Explaining the reasons for detention compassionately is the correct approach."
+    },
+    {
+      "id": "sjt-7-06",
+      "type": "appropriateness",
+      "passage": "A senior registrar is clearly hungover during a morning ward round. Their clinical decision-making appears slow and their notes contain several errors. You are a medical student on the team.",
+      "question": "How appropriate is it to discreetly mention your concerns to the consultant leading the round?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Patient safety must take priority over collegial discomfort. An impaired clinician, regardless of seniority, poses a risk. Reporting concerns discreetly to a senior is the appropriate pathway."
+    },
+    {
+      "id": "sjt-7-07",
+      "type": "importance",
+      "passage": "You are helping to prepare a patient for transfer to intensive care. You notice that the transfer documentation is incomplete — the patient's current observations and a medication list are missing.",
+      "question": "How important is it to complete the documentation before the transfer proceeds?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Incomplete transfer documentation is a well-recognised cause of patient safety incidents. Ensuring all information is accurate and complete before transfer is critical."
+    },
+    {
+      "id": "sjt-7-08",
+      "type": "appropriateness",
+      "passage": "During a GP consultation, a patient tells you they have been taking herbal supplements that may interact with their prescribed medication. They are worried about being told off by the GP.",
+      "question": "How appropriate is it to reassure the patient that being honest about supplements is important and that the GP needs to know for their safety?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Encouraging patients to disclose all medications and supplements is essential for safe prescribing. Reassuring them reduces barriers to honest communication."
+    },
+    {
+      "id": "sjt-7-09",
+      "type": "appropriateness",
+      "passage": "You are on an infectious diseases ward. A patient with tuberculosis has removed their face mask and is coughing freely in a shared day room. Other patients are present.",
+      "question": "How appropriate is it to politely remind the patient about wearing their mask and ensure other patients are aware of the situation?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Infection control is a collective responsibility. Reminding the patient kindly and alerting staff ensures the safety of other vulnerable patients on the ward."
+    },
+    {
+      "id": "sjt-7-10",
+      "type": "importance",
+      "passage": "You are presenting a case at a multidisciplinary team meeting. A senior nurse challenges your assessment and suggests you have missed an important aspect of the patient's care plan.",
+      "question": "How important is it to acknowledge the nurse's input and reflect on whether their point has merit?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Multidisciplinary teamwork relies on mutual respect and openness to challenge. Nurses often have insights that doctors may miss, and dismissing their input undermines team functioning."
+    },
+    {
+      "id": "sjt-7-11",
+      "type": "appropriateness",
+      "passage": "A patient who is being palliated asks you to tell their family that they are 'at peace' and 'ready to go'. You have only met the patient once during a brief clerking.",
+      "question": "How appropriate is it to pass on this message, given your limited relationship with the patient?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Passing on a patient's wishes to their family is a kind and meaningful act, even with a limited relationship. However, ensuring the message is accurately conveyed and checking with the nursing team about context would strengthen this."
+    },
+    {
+      "id": "sjt-7-12",
+      "type": "importance",
+      "passage": "You are working in a busy emergency department when a patient collapses in the waiting room. You are the closest clinically trained person available.",
+      "question": "How important is it to begin basic life support immediately while calling for help?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "In a medical emergency, immediate action saves lives. Waiting for someone more senior while a patient deteriorates is never acceptable."
+    },
+    {
+      "id": "sjt-7-13",
+      "type": "appropriateness",
+      "passage": "You are a medical student and have been told by a consultant that you should come to a social event hosted by the department. You do not feel comfortable attending but are worried about the professional implications of declining.",
+      "question": "How appropriate is it to politely decline the invitation without providing a detailed reason?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "You are not obligated to attend social events. A polite decline is professional and sets appropriate boundaries without requiring justification."
+    },
+    {
+      "id": "sjt-7-14",
+      "type": "appropriateness",
+      "passage": "During a post-mortem discussion, a colleague makes a joke about the deceased patient's weight. The pathologist appears uncomfortable but does not respond.",
+      "question": "How appropriate is it to calmly state that the comment is inappropriate and redirect the conversation?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Disrespectful comments about deceased patients are unprofessional. Speaking up, even against a peer, upholds dignity and models appropriate behaviour for the team."
+    },
+    {
+      "id": "sjt-7-15",
+      "type": "importance",
+      "passage": "You are involved in a clinical incident where a medication error occurred. You were not directly responsible but were part of the team. The incident needs to be reported on the hospital's safety reporting system.",
+      "question": "How important is it to contribute to the incident report, even though you were not the primary person involved?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Important",
+      "explanation": "Contributing to safety reports improves future patient care. While you may not have primary responsibility, your perspective as part of the team could provide valuable context for preventing recurrence."
+    }
+  ]
+}

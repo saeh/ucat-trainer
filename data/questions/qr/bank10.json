@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-10-1",
+      "type": "data-interpretation",
+      "passage": "The table shows an audit on antimicrobial prescribing:\n\n| Department | Patients Treated | Appropriate Prescribing | Duration ≤7 days |\n|------------|-----------------|------------------------|------------------|\n| General Medicine | 450 | 315 | 270 |\n| Surgery | 380 | 266 | 228 |\n| ICU | 120 | 90 | 60 |\n| Elderly Care | 280 | 182 | 168 |\n| Respiratory | 200 | 160 | 140 |",
+      "question": "Which department had the highest percentage of appropriate prescribing?",
+      "options": ["General Medicine", "Surgery", "ICU", "Respiratory"],
+      "correct": "Respiratory",
+      "explanation": "General Medicine: 315/450=70%. Surgery: 266/380=70%. ICU: 90/120=75%. Elderly Care: 182/280=65%. Respiratory: 160/200=80%. Respiratory is highest at 80%."
+    },
+    {
+      "id": "qr-10-2",
+      "type": "percentage",
+      "passage": "A hospital's emergency department saw 2,400 patients in January. 30% were admitted, 5% were transferred, and the rest were discharged. Of those admitted, 20% went to the surgical ward.",
+      "question": "How many patients were admitted to the surgical ward?",
+      "options": ["108", "120", "144", "180"],
+      "correct": "144",
+      "explanation": "Admitted = 2,400 × 0.30 = 720. Surgical ward = 720 × 0.20 = 144."
+    },
+    {
+      "id": "qr-10-3",
+      "type": "unit-conversion",
+      "passage": "A patient requires insulin sliding scale. Blood glucose 8-10 mmol/L requires 2 units, 10-12 mmol/L requires 4 units, 12-14 mmol/L requires 6 units, and >14 mmol/L requires 8 units. Insulin is 100 units/mL.",
+      "question": "If a patient's blood glucose is 13 mmol/L, how many mL of insulin should be drawn up?",
+      "options": ["0.02 mL", "0.04 mL", "0.06 mL", "0.08 mL"],
+      "correct": "0.06 mL",
+      "explanation": "Blood glucose 13 mmol/L falls in the 12-14 range → 6 units. Volume = 6 ÷ 100 = 0.06 mL."
+    },
+    {
+      "id": "qr-10-4",
+      "type": "rate",
+      "passage": "A blood bank processes blood units. Each unit requires 15 minutes of processing time. The bank operates for 6 hours per day and has 3 processing stations running simultaneously.",
+      "question": "What is the maximum number of units that can be processed per day?",
+      "options": ["36", "54", "72", "108"],
+      "correct": "72",
+      "explanation": "Time per station per day = 6 × 60 = 360 minutes. Units per station = 360 ÷ 15 = 24 units. Total = 3 stations × 24 = 72 units."
+    },
+    {
+      "id": "qr-10-5",
+      "type": "data-interpretation",
+      "passage": "The table shows birth statistics for a hospital trust:\n\n| Year | Live Births | Neonatal Deaths | Stillbirths | Maternal Deaths |\n|------|------------|-----------------|-------------|------------------|\n| 2020 | 4,500 | 18 | 36 | 2 |\n| 2021 | 4,200 | 15 | 32 | 1 |\n| 2022 | 4,800 | 20 | 40 | 2 |\n| 2023 | 5,000 | 16 | 35 | 0 |",
+      "question": "What was the stillbirth rate per 1,000 total births in 2023? (Total births = live births + stillbirths)",
+      "options": ["6.5", "7.0", "7.5", "8.0"],
+      "correct": "7.0",
+      "explanation": "Total births 2023 = 5,000 + 35 = 5,035. Stillbirth rate = (35 ÷ 5,035) × 1,000 = 6.95 ≈ 7.0."
+    },
+    {
+      "id": "qr-10-6",
+      "type": "ratio",
+      "passage": "A hospital's research department has 70 staff. The ratio of clinical researchers : laboratory scientists : data analysts : support staff = 4:3:2:1.",
+      "question": "How many laboratory scientists are there?",
+      "options": ["14", "18", "21", "25"],
+      "correct": "21",
+      "explanation": "Total parts = 4+3+2+1 = 10. Each part = 70 ÷ 10 = 7. Lab scientists = 3 × 7 = 21."
+    },
+    {
+      "id": "qr-10-7",
+      "type": "percentage",
+      "passage": "A hospital introduced electronic prescribing in 2022. Before implementation, there were 48 prescribing errors per 1,000 prescriptions. After implementation, errors dropped to 12 per 1,000 prescriptions. The hospital issues 20,000 prescriptions per quarter.",
+      "question": "How many fewer prescribing errors are there per quarter after implementation?",
+      "options": ["480", "600", "720", "960"],
+      "correct": "720",
+      "explanation": "Before: 20,000 × (48/1000) = 960 errors. After: 20,000 × (12/1000) = 240 errors. Reduction = 960 - 240 = 720."
+    },
+    {
+      "id": "qr-10-8",
+      "type": "unit-conversion",
+      "passage": "A patient requires IV fluids at 125 mL/hr. The available bag contains 500 mL of normal saline.",
+      "question": "How many hours will the IV fluid bag last?",
+      "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+      "correct": "4 hours",
+      "explanation": "Volume = 500 mL. Rate = 125 mL/hr. Time = 500 ÷ 125 = 4 hours."
+    },
+    {
+      "id": "qr-10-9",
+      "type": "data-interpretation",
+      "passage": "The table shows A&E performance by month:\n\n| Month | Patients | Seen <4 hrs | Seen 4-12 hrs | Seen >12 hrs |\n|-------|----------|-------------|---------------|---------------|\n| Jan | 3,800 | 3,040 | 608 | 152 |\n| Feb | 3,500 | 2,870 | 525 | 105 |\n| Mar | 4,200 | 3,150 | 756 | 294 |\n| Apr | 3,900 | 3,120 | 624 | 156 |",
+      "question": "In which month was the proportion of patients seen in over 12 hours the highest?",
+      "options": ["January", "February", "March", "April"],
+      "correct": "March",
+      "explanation": "Jan: 152/3800=4.0%. Feb: 105/3500=3.0%. Mar: 294/4200=7.0%. Apr: 156/3900=4.0%. March is highest at 7.0%."
+    },
+    {
+      "id": "qr-10-10",
+      "type": "rate",
+      "passage": "A pathology lab processes blood samples. Routine samples take 20 minutes to process and urgent samples take 10 minutes. The lab receives 80 samples per day: 60 routine and 20 urgent.",
+      "question": "How many total minutes of processing time are needed for all samples?",
+      "options": ["1,000", "1,200", "1,400", "1,600"],
+      "correct": "1,400",
+      "explanation": "Routine: 60 × 20 = 1,200 min. Urgent: 20 × 10 = 200 min. Total = 1,200 + 200 = 1,400 minutes."
+    }
+  ]
+}

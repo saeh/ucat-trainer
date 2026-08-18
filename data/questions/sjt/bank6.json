@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-6-01",
+      "type": "appropriateness",
+      "passage": "You are a medical student on a general surgery firm. You notice that a patient's surgical site has become increasingly red and swollen over the past day, but the team has not been informed. The patient says they assumed it was 'normal after surgery'.",
+      "question": "How appropriate is it to examine the wound, document your findings, and escalate to the surgical team immediately?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "A potentially infected surgical wound requires timely assessment and escalation. Waiting for the patient to raise the concern or for a formal review round could delay treatment."
+    },
+    {
+      "id": "sjt-6-02",
+      "type": "importance",
+      "passage": "You are preparing for a procedure and cannot find the patient's consent form. The procedure is scheduled to start in 15 minutes. The patient is in the pre-operative bay.",
+      "question": "How important is it to confirm that valid consent has been obtained before the procedure proceeds?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "No procedure should proceed without valid, documented consent. This is a legal and ethical requirement. If the consent form cannot be located, the procedure should not go ahead until consent is re-confirmed."
+    },
+    {
+      "id": "sjt-6-03",
+      "type": "appropriateness",
+      "passage": "A patient recovering from a stroke is making slow progress with physiotherapy. Their spouse tells you privately that they are feeling overwhelmed and burnt out as a carer, and asks you not to tell the patient.",
+      "question": "How appropriate is it to listen empathetically and then suggest speaking with the hospital social worker about available support services?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Supporting carers is part of holistic patient care. Listening and signposting to appropriate services addresses the carer's needs without breaching their confidence unnecessarily."
+    },
+    {
+      "id": "sjt-6-04",
+      "type": "importance",
+      "passage": "You are in a teaching hospital where a medical student from your year has been observed taking medication from a drug cupboard on the ward without asking a nurse or doctor.",
+      "question": "How important is it to report this to the clinical lead for the placement?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Taking medication without authorisation is a serious safety and professional conduct concern. It could indicate a substance misuse issue or a fundamental misunderstanding of prescribing laws."
+    },
+    {
+      "id": "sjt-6-05",
+      "type": "appropriateness",
+      "passage": "You are clerked into an emergency department patient who describes chest pain and shortness of breath. You notice the triage category is 4 (non-urgent) but the clinical picture suggests this may be a pulmonary embolism.",
+      "question": "How appropriate is it to flag your clinical suspicion with the triage nurse and request reassessment of the category?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Re-triage based on clinical findings is a patient safety mechanism. Voicing your concern, even as a student, could prevent a dangerous delay in treatment."
+    },
+    {
+      "id": "sjt-6-06",
+      "type": "appropriateness",
+      "passage": "A consultant asks you to present a patient's case at a multidisciplinary team meeting. During your presentation, you realise you have not been able to obtain a key piece of information — the patient's social circumstances — because the patient refused to discuss it.",
+      "question": "How appropriate is it to honestly state that the patient declined to share this information rather than omitting or guessing?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Honesty about gaps in information is essential. Guessing or omitting the fact that the patient declined could lead to inappropriate care decisions."
+    },
+    {
+      "id": "sjt-6-07",
+      "type": "importance",
+      "passage": "You are on a ward round and a consultant makes a sexist remark about a female patient's symptoms being 'probably just anxiety'. The patient is present and looks uncomfortable.",
+      "question": "How important is it to address the consultant's remark at the earliest appropriate opportunity?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Dismissive and biased remarks about patients undermine trust and can lead to diagnostic errors. Addressing this, even when directed at a senior colleague, is essential for patient safety and dignity."
+    },
+    {
+      "id": "sjt-6-08",
+      "type": "appropriateness",
+      "passage": "You are a medical student and you accidentally send a message about a patient to a group chat instead of a clinical colleague. The message contains the patient's name and diagnosis.",
+      "question": "How appropriate is it to immediately alert the IT department and delete the message from the group chat?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Immediate action to contain a confidentiality breach — including notifying IT and attempting to remove the message — demonstrates accountability and urgency in protecting patient information."
+    },
+    {
+      "id": "sjt-6-09",
+      "type": "appropriateness",
+      "passage": "During a clinic, a patient asks if they can have a chaperone during an intimate examination. The doctor seems annoyed and says they do not have time to find one.",
+      "question": "How appropriate is it to offer to find a chaperone for the patient yourself?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Patients have the right to a chaperone during intimate examinations. Facilitating this, even when the doctor is reluctant, protects both the patient's dignity and the doctor's professional standing."
+    },
+    {
+      "id": "sjt-6-10",
+      "type": "importance",
+      "passage": "You are on a mental health ward. A patient who has been sectioned asks you to help them leave the ward. They say they feel fine and want to go home.",
+      "question": "How important is it to explain the legal framework around their detention rather than simply helping them leave?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Understanding and explaining the legal basis for detention is essential. Simply helping a sectioned patient leave would be illegal and potentially dangerous."
+    },
+    {
+      "id": "sjt-6-11",
+      "type": "appropriateness",
+      "passage": "You are working a night shift and discover that a patient has been prescribed two different antibiotics that have a known serious interaction. The prescriptions were written by different teams.",
+      "question": "How appropriate is it to contact both prescribing teams urgently to resolve the drug interaction before the next scheduled dose?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Drug interactions can cause serious patient harm. Proactively contacting both teams demonstrates thoroughness and a commitment to patient safety."
+    },
+    {
+      "id": "sjt-6-12",
+      "type": "appropriateness",
+      "passage": "A fellow medical student confides in you that they are experiencing burnout and have been drinking heavily to cope. They say they are still managing to complete their clinical work.",
+      "question": "How appropriate is it to encourage your colleague to seek support from the university's occupational health service?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Signposting a colleague to appropriate support services is caring and responsible. Burnout and substance misuse can compromise patient safety and the colleague's own health."
+    },
+    {
+      "id": "sjt-6-13",
+      "type": "importance",
+      "passage": "You are a medical student and have been asked to help translate for a patient who speaks your native language. The translation involves sensitive discussions about the patient's sexual history.",
+      "question": "How important is it to seek a professional medical interpreter rather than translating yourself?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Important",
+      "explanation": "Professional medical interpreters ensure accuracy and maintain appropriate professional boundaries. Translating sensitive content yourself may compromise both accuracy and the professional relationship."
+    },
+    {
+      "id": "sjt-6-14",
+      "type": "importance",
+      "passage": "During a handover, the outgoing team mentions that a patient has expressed frustration with their care and is considering making a formal complaint. The patient is due to be seen by your team shortly.",
+      "question": "How important is it to approach the patient's concerns openly and with an open mind during your review?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Approaching a dissatisfied patient with openness and empathy can prevent escalation and demonstrates genuine patient-centred care. It also provides an opportunity to address legitimate concerns."
+    },
+    {
+      "id": "sjt-6-15",
+      "type": "appropriateness",
+      "passage": "You are observing a procedure and the operating surgeon asks you to 'close up' the final layer of skin, even though you have never done this before and the patient is still under general anaesthetic.",
+      "question": "How appropriate is it to explain that you have not performed this procedure before and ask for direct supervision?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Being transparent about your competence level is essential for patient safety. Undertaking a procedure without the necessary skills, even under supervision, is inappropriate if you have not been adequately trained."
+    }
+  ]
+}

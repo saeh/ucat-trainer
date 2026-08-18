@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-4-01",
+      "type": "appropriateness",
+      "passage": "You are a medical student shadowing a GP. The GP tells a patient that their test results are 'probably fine' without actually having seen the results yet, to reassure the anxious patient.",
+      "question": "How appropriate is it to speak with the GP afterwards about the importance of only communicating confirmed results to patients?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Giving patients unconfirmed information risks damaging trust and could lead to inappropriate reassurance or missed follow-up. Raising this constructively promotes accurate patient communication."
+    },
+    {
+      "id": "sjt-4-02",
+      "type": "importance",
+      "passage": "You are at the end of a long on-call shift. A new patient arrives who needs a thorough assessment. You feel fatigued and your concentration is reduced.",
+      "question": "How important is it to inform the team about your fatigue before undertaking the assessment?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Fatigue compromises clinical judgement and patient safety. Being transparent about your fitness to practise is a professional responsibility, not a sign of weakness."
+    },
+    {
+      "id": "sjt-4-03",
+      "type": "appropriateness",
+      "passage": "During a community health placement, you visit a patient at home who is living in poor sanitary conditions. They are receiving home care visits but you feel the current care plan is inadequate.",
+      "question": "How appropriate is it to document your concerns and discuss them with the community nursing team at your next opportunity?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Documenting and escalating concerns about a patient's living conditions through the appropriate channels is professional and patient-centred, while respecting the boundaries of your role."
+    },
+    {
+      "id": "sjt-4-04",
+      "type": "importance",
+      "passage": "A patient with a learning disability is having bloods taken. The phlebotomist is struggling and the patient is becoming distressed. You notice the patient's distress is escalating but no one else is stepping in.",
+      "question": "How important is it to intervene to help de-escalate the situation and support the patient?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Patients with learning disabilities are particularly vulnerable to distress during procedures. Stepping in to help is part of your duty of care, regardless of whose task it formally is."
+    },
+    {
+      "id": "sjt-4-05",
+      "type": "appropriateness",
+      "passage": "You discover that a patient has been prescribed a drug they are allergic to, but the prescription was written by a consultant you know to be very senior and experienced.",
+      "question": "How appropriate is it to question the prescription regardless of the prescriber's seniority?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Patient safety is not determined by the seniority of the prescriber. Allergies on drug charts must be respected, and questioning a potentially dangerous prescription is always appropriate."
+    },
+    {
+      "id": "sjt-4-06",
+      "type": "appropriateness",
+      "passage": "A registrar asks you to take a detailed history from a patient. While taking the history, the patient discloses that they are a victim of domestic violence. They are not in immediate danger.",
+      "question": "How appropriate is it to inform the registrar about this disclosure so that appropriate support can be arranged?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Domestic violence disclosures must be taken seriously and referred to the appropriate safeguarding channels. Informing the registrar allows the multidisciplinary team to provide appropriate support."
+    },
+    {
+      "id": "sjt-4-07",
+      "type": "importance",
+      "passage": "You are presenting a patient at a teaching session. A fellow student challenges your assessment and suggests you have missed an important differential diagnosis.",
+      "question": "How important is it to consider their suggestion seriously rather than dismissing it?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Medical education thrives on constructive challenge. Considering alternative viewpoints improves clinical reasoning and models the collaborative approach needed in practice."
+    },
+    {
+      "id": "sjt-4-08",
+      "type": "appropriateness",
+      "passage": "You are on a surgical placement. A patient asks you whether they should agree to the surgery being offered. You have only been involved in clerking the patient and have limited understanding of the full clinical picture.",
+      "question": "How appropriate is it to offer your own opinion about whether the patient should have the surgery?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very inappropriate",
+      "explanation": "Providing an opinion on a treatment decision without full clinical understanding could mislead the patient. You should encourage them to discuss their concerns with the surgical team."
+    },
+    {
+      "id": "sjt-4-09",
+      "type": "appropriateness",
+      "passage": "During a busy clinic, you notice that a registrar has not washed their hands between patients. This has happened multiple times during the session.",
+      "question": "How appropriate is it to remind the registrar about hand hygiene in a respectful and discreet manner?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Infection control is everyone's responsibility. A respectful, private reminder addresses the issue without causing unnecessary embarrassment and prioritises patient safety."
+    },
+    {
+      "id": "sjt-4-10",
+      "type": "importance",
+      "passage": "You are asked to write a reference for a colleague who is applying for a competitive training post. You know the colleague well but are aware they have had some concerns raised about their punctuality.",
+      "question": "How important is it to include the punctuality concerns in your reference alongside their strengths?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Important",
+      "explanation": "References should be honest and balanced. Including relevant concerns, while acknowledging strengths, allows the selection panel to make an informed decision. This is important for professional integrity, though it may not rise to the level of very important if the concerns are minor."
+    },
+    {
+      "id": "sjt-4-11",
+      "type": "importance",
+      "passage": "A patient refuses a blood transfusion on religious grounds. The medical team believes the transfusion is life-saving. You are asked to explain the risks of refusal to the patient.",
+      "question": "How important is it to ensure the patient's refusal is fully informed and documented, even if you disagree with their decision?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Patient autonomy must be respected even when the clinical team disagrees. Ensuring informed refusal involves clear communication and thorough documentation."
+    },
+    {
+      "id": "sjt-4-12",
+      "type": "appropriateness",
+      "passage": "You are on a paediatric ward. A child's parent becomes hostile towards you when you attempt to take a history from their 14-year-old, insisting they should speak to the child alone.",
+      "question": "How appropriate is it to calmly explain the rationale for taking a history with the parent present while also offering the teenager some private time?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Balancing the parent's involvement with the adolescent's emerging autonomy requires sensitivity. Offering both parental involvement and private time demonstrates respect for all parties."
+    },
+    {
+      "id": "sjt-4-13",
+      "type": "appropriateness",
+      "passage": "You notice that a patient's next of kin listed in the notes is someone the patient has specifically asked not to be contacted. The ward staff seem unaware of this.",
+      "question": "How appropriate is it to alert the nursing staff and clarify the patient's wishes regarding contact?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Protecting a patient's expressed wishes about who can access their information is a core confidentiality obligation. Alerting staff prevents a potential breach."
+    },
+    {
+      "id": "sjt-4-14",
+      "type": "importance",
+      "passage": "During a resuscitation attempt, you notice that the team leader has made an incorrect drug calculation. The drug has not yet been administered.",
+      "question": "How important is it to speak up about the calculation error before the drug is given?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Challenging errors in high-pressure situations requires courage but is essential for patient safety. The drug has not been given, making this the critical moment to intervene."
+    },
+    {
+      "id": "sjt-4-15",
+      "type": "appropriateness",
+      "passage": "A consultant invites you to observe a procedure but does not explain why the procedure is being done or obtain the patient's explicit consent for a student to observe.",
+      "question": "How appropriate is it to ask the consultant to confirm that the patient has consented to your presence before proceeding?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Patients must consent to student observation. Verifying consent before participating shows respect for patient autonomy and adherence to professional standards."
+    }
+  ]
+}

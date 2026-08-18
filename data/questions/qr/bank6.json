@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-6-1",
+      "type": "data-interpretation",
+      "passage": "The table shows smoking prevalence rates in a health survey:\n\n| Age Group | Males (%) | Females (%) | Sample Size |\n|-----------|-----------|-------------|-------------|\n| 18-24     | 22        | 18          | 800         |\n| 25-34     | 28        | 20          | 1,200       |\n| 35-44     | 30        | 25          | 1,000       |\n| 45-54     | 26        | 22          | 900         |\n| 55-64     | 18        | 15          | 700         |\n| 65+       | 12        | 8           | 600         |",
+      "question": "How many males aged 35-44 smoke?",
+      "options": ["225", "250", "300", "325"],
+      "correct": "300",
+      "explanation": "Males aged 35-44 = 1,000 sample. Smoking rate = 30%. Number = 1,000 × 0.30 = 300."
+    },
+    {
+      "id": "qr-6-2",
+      "type": "percentage",
+      "passage": "A hospital reduced its Clostridium difficile infections from 120 cases in 2022 to 84 cases in 2023.",
+      "question": "What was the percentage reduction in C. difficile infections?",
+      "options": ["20%", "25%", "30%", "35%"],
+      "correct": "30%",
+      "explanation": "Reduction = 120 - 84 = 36. Percentage = (36 ÷ 120) × 100 = 30%."
+    },
+    {
+      "id": "qr-6-3",
+      "type": "unit-conversion",
+      "passage": "A patient requires gentamicin at 5 mg/kg. The patient weighs 58 kg. Gentamicin is supplied in vials of 80 mg each.",
+      "question": "How many vials of gentamicin are needed? (Round up to nearest whole vial)",
+      "options": ["3", "4", "5", "6"],
+      "correct": "4",
+      "explanation": "Total dose = 58 × 5 = 290 mg. Vials needed = 290 ÷ 80 = 3.625. Round up to 4 vials."
+    },
+    {
+      "id": "qr-6-4",
+      "type": "rate",
+      "passage": "A phlebotomy team draws blood from 180 patients per day. Each blood draw takes approximately 8 minutes. The team works 8-hour shifts.",
+      "question": "How many phlebotomists are needed to complete all draws in one day?",
+      "options": ["2", "3", "4", "5"],
+      "correct": "3",
+      "explanation": "Total time needed = 180 × 8 = 1,440 minutes = 24 hours. Each phlebotomist works 8 hours. Number needed = 24 ÷ 8 = 3."
+    },
+    {
+      "id": "qr-6-5",
+      "type": "data-interpretation",
+      "passage": "The table shows patient flow through an emergency department:\n\n| Time Block | Arrivals | Admitted | Discharged | Still Waiting |\n|------------|----------|----------|------------|---------------|\n| 08:00-12:00 | 45      | 12       | 28         | 5             |\n| 12:00-16:00 | 38      | 10       | 25         | 3             |\n| 16:00-20:00 | 52      | 16       | 32         | 4             |\n| 20:00-00:00 | 30      | 8        | 20         | 2             |",
+      "question": "What percentage of all arrivals were admitted? (Round to nearest whole number)",
+      "options": ["22%", "25%", "28%", "31%"],
+      "correct": "28%",
+      "explanation": "Total arrivals = 45+38+52+30 = 165. Total admitted = 12+10+16+8 = 46. Percentage = (46 ÷ 165) × 100 = 27.9% ≈ 28%."
+    },
+    {
+      "id": "qr-6-6",
+      "type": "ratio",
+      "passage": "A hospital's catering budget is divided between patient meals, staff canteen, and vending services in the ratio 6:3:1. The total annual budget is £500,000.",
+      "question": "How much is spent on the staff canteen?",
+      "options": ["£100,000", "£125,000", "£150,000", "£200,000"],
+      "correct": "£150,000",
+      "explanation": "Total parts = 6 + 3 + 1 = 10. Each part = £500,000 ÷ 10 = £50,000. Staff canteen = 3 × £50,000 = £150,000."
+    },
+    {
+      "id": "qr-6-7",
+      "type": "unit-conversion",
+      "passage": "A neonate weighing 2.8 kg requires caffeine citrate at 20 mg/kg loading dose. Caffeine citrate solution is 20 mg/mL.",
+      "question": "How many mL is the loading dose?",
+      "options": ["1.4 mL", "2.0 mL", "2.8 mL", "3.5 mL"],
+      "correct": "2.8 mL",
+      "explanation": "Loading dose = 2.8 kg × 20 mg/kg = 56 mg. Volume = 56 mg ÷ 20 mg/mL = 2.8 mL."
+    },
+    {
+      "id": "qr-6-8",
+      "type": "percentage",
+      "passage": "A hospital's emergency department saw 15,000 patients last year. 60% were triaged as Category 3 (urgent). Of these, 85% were seen within the target time of 60 minutes.",
+      "question": "How many Category 3 patients were seen within the target time?",
+      "options": ["7,650", "8,500", "9,000", "10,200"],
+      "correct": "7,650",
+      "explanation": "Category 3 patients = 15,000 × 0.60 = 9,000. Seen within target = 9,000 × 0.85 = 7,650."
+    },
+    {
+      "id": "qr-6-9",
+      "type": "data-interpretation",
+      "passage": "The table shows ward occupancy rates:\n\n| Ward | Total Beds | Occupied | Staffed Beds |\n|------|-----------|----------|--------------|\n| A    | 30        | 28       | 30           |\n| B    | 25        | 22       | 25           |\n| C    | 35        | 33       | 30           |\n| D    | 20        | 19       | 20           |",
+      "question": "In which ward is the number of occupied beds above the number of staffed beds?",
+      "options": ["Ward A", "Ward B", "Ward C", "Ward D"],
+      "correct": "Ward C",
+      "explanation": "Ward C has 33 occupied beds but only 30 staffed beds, exceeding staffed capacity by 3."
+    },
+    {
+      "id": "qr-6-10",
+      "type": "rate",
+      "passage": "A laboratory processes blood samples at a rate of 45 samples per hour. The laboratory receives 1,350 samples during a day.",
+      "question": "How many hours would it take to process all samples if running at full capacity?",
+      "options": ["20 hours", "25 hours", "30 hours", "35 hours"],
+      "correct": "30 hours",
+      "explanation": "Total samples = 1,350. Rate = 45 samples/hour. Time = 1,350 ÷ 45 = 30 hours."
+    }
+  ]
+}

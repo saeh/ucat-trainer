@@ -1,0 +1,140 @@
+{
+  "section": "sjt",
+  "questions": [
+    {
+      "id": "sjt-9-01",
+      "type": "importance",
+      "passage": "You are on an emergency department placement. A 15-year-old patient presents alone requesting contraception. They tell you they do not want their parents to know. They appear to be Gillick competent.",
+      "question": "How important is it to assess the patient's Gillick competence before deciding whether to maintain confidentiality?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Gillick competence determines whether a minor can consent to treatment independently. A proper assessment is essential before deciding whether parental notification is required."
+    },
+    {
+      "id": "sjt-9-02",
+      "type": "appropriateness",
+      "passage": "You are on a surgical ward. A patient's relative approaches you in the corridor and asks you to find out what their mother's blood test results are. You have access to the results on the electronic system.",
+      "question": "How appropriate is it to share the blood results with the relative?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very inappropriate",
+      "explanation": "Patient information can only be shared with explicit patient consent or through proper channels. Sharing results with a relative, even with good intentions, is a confidentiality breach."
+    },
+    {
+      "id": "sjt-9-03",
+      "type": "appropriateness",
+      "passage": "During a busy on-call shift, you are asked to review a patient with a headache. After assessment, you are fairly confident it is tension-type headache, but you are aware that serious causes must be excluded. You have limited experience with neurological examination.",
+      "question": "How appropriate is it to perform a focused neurological examination and discuss your findings with your registrar before making any management decisions?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Performing an assessment within your competence and seeking senior input for clinical decision-making is exactly the right approach. It ensures patient safety while allowing you to develop your skills."
+    },
+    {
+      "id": "sjt-9-04",
+      "type": "importance",
+      "passage": "You are working on a medical ward and notice that a patient's pressure area is deteriorating despite being on a pressure-relieving mattress. The nursing care plan has not been updated.",
+      "question": "How important is it to escalate your concerns about the pressure sore to the nursing team and highlight the need for a care plan review?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Deteriorating pressure areas indicate that current interventions are insufficient. Early escalation can prevent progression to a serious wound that could lead to sepsis."
+    },
+    {
+      "id": "sjt-9-05",
+      "type": "appropriateness",
+      "passage": "A consultant invites you to present a case report at an international conference. You are flattered but realise that another medical student did most of the clinical data collection for this case.",
+      "question": "How appropriate is it to discuss fair authorship or acknowledgement with the consultant before accepting?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Ensuring fair recognition for all contributors is a cornerstone of research ethics. Discussing authorship transparently prevents future disputes and upholds integrity."
+    },
+    {
+      "id": "sjt-9-06",
+      "type": "appropriateness",
+      "passage": "You are on a mental health ward. A patient who has been recovering well suddenly becomes withdrawn, stops eating, and refuses to engage with staff. You have built a good rapport with them over several weeks.",
+      "question": "How appropriate is it to spend some time with the patient to explore what may have changed, and then share your observations with the nursing staff?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Using your rapport to identify changes in a patient's mental state is valuable. Communicating your observations to the clinical team ensures timely review and intervention."
+    },
+    {
+      "id": "sjt-9-07",
+      "type": "importance",
+      "passage": "You are reviewing blood results on a ward and notice that a patient's INR is critically elevated at 8.0. The patient is on warfarin and has no signs of bleeding at present.",
+      "question": "How important is it to immediately escalate this result to the medical team?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A critically elevated INR carries a high risk of major haemorrhage. Even without current symptoms, urgent medical review is required to manage this safely."
+    },
+    {
+      "id": "sjt-9-08",
+      "type": "appropriateness",
+      "passage": "During a placement, you are asked to provide feedback on a fellow medical student's clinical skills. You noticed they were quite rough when examining a patient, causing the patient visible discomfort.",
+      "question": "How appropriate is it to give honest but constructive feedback about the need for a more gentle examination technique?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Honest, constructive peer feedback improves patient care and is expected in medical education. Failing to mention the issue could result in continued patient discomfort."
+    },
+    {
+      "id": "sjt-9-09",
+      "type": "appropriateness",
+      "passage": "A patient tells you they have been taking their prescribed antibiotics intermittently because they make them feel unwell. They are being treated for a serious infection and the antibiotics are essential.",
+      "question": "How appropriate is it to encourage them to discuss the side effects with their doctor so an alternative can be considered, rather than just agreeing that stopping is fine?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Medication non-adherence for a serious infection needs addressing, but so do the patient's concerns about side effects. Directing them to the prescriber allows both issues to be resolved."
+    },
+    {
+      "id": "sjt-9-10",
+      "type": "importance",
+      "passage": "You are on a labour ward and observe that a newly qualified midwife is struggling to manage a complicated delivery. They appear overwhelmed but are not asking for help.",
+      "question": "How important is it to offer support and ensure that senior midwifery or obstetric staff are involved?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Patient safety during a complicated delivery requires senior involvement. Offering support and escalating proactively can prevent harm to both mother and baby."
+    },
+    {
+      "id": "sjt-9-11",
+      "type": "appropriateness",
+      "passage": "You are on a geriatric ward. A patient with moderate dementia repeatedly asks where their deceased spouse is. The nursing staff have been telling the patient that their spouse is 'just out shopping'.",
+      "question": "How appropriate is it to gently redirect the patient's conversation rather than continuing the deception?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Appropriate",
+      "explanation": "Approaches to dementia care vary — some guidelines support therapeutic fibbing to reduce distress, while others favour gentle redirection. Your instinct to redirect is reasonable but the ward's established approach should be respected."
+    },
+    {
+      "id": "sjt-9-12",
+      "type": "appropriateness",
+      "passage": "During a clinic, a patient tells you they have been self-medicating with prescription medication they bought online. They say it has helped their symptoms significantly.",
+      "question": "How appropriate is it to discuss the risks of unregulated medication and advise them to speak with their GP about a proper prescription?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Unregulated medications may be contaminated, incorrect dose, or counterfeit. Advising the patient to seek proper medical care addresses both their symptoms and the safety risks."
+    },
+    {
+      "id": "sjt-9-13",
+      "type": "importance",
+      "passage": "You are part of a trauma team. During the primary survey, you notice that no one has log-rolled the patient to check for a spinal injury, despite the mechanism of injury suggesting this should be done.",
+      "question": "How important is it to prompt the team to complete the spinal check?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "Missing a spinal injury assessment in trauma can result in catastrophic harm. Speaking up during the primary survey, regardless of your role, is essential."
+    },
+    {
+      "id": "sjt-9-14",
+      "type": "appropriateness",
+      "passage": "A consultant asks you to write a discharge summary for a patient you have not been involved in caring for. The consultant says they will review it afterwards.",
+      "question": "How appropriate is it to politely decline and explain that you cannot accurately summarise care you were not part of?",
+      "options": ["Very appropriate", "Appropriate", "Inappropriate", "Very inappropriate"],
+      "correct": "Very appropriate",
+      "explanation": "Writing a discharge summary for a patient you have not treated would produce an inaccurate document. Politely declining and suggesting the summary be done by someone directly involved is the right thing to do."
+    },
+    {
+      "id": "sjt-9-15",
+      "type": "importance",
+      "passage": "You are attending a patient at the end of life. The patient is unconscious but appears to be in pain based on their facial expressions. The last pain medication was given some time ago.",
+      "question": "How important is it to ensure that a review of the patient's pain management is requested urgently?",
+      "options": ["Very important", "Important", "Of minor importance", "Not important"],
+      "correct": "Very important",
+      "explanation": "A patient who cannot advocate for themselves and appears to be in pain requires urgent attention. Ensuring adequate analgesia at the end of life is a fundamental aspect of compassionate care."
+    }
+  ]
+}

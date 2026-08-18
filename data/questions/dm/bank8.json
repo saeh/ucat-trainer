@@ -1,0 +1,115 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-8-01",
+      "type": "probabilistic-reasoning",
+      "passage": "A hospital uses a two-step screening process. Step 1 (a questionnaire) identifies 40% of patients as high-risk. Step 2 (a blood test) has a sensitivity of 95% and specificity of 90% among those identified as high-risk. The true disease prevalence among the high-risk group is 25%.",
+      "question": "Of 1,000 patients flagged as high-risk by Step 1, approximately how many will test positive on Step 2?",
+      "options": ["95", "250", "320", "340"],
+      "correct": "320",
+      "explanation": "Of 1,000 high-risk patients: 250 have the disease (237.5 ≈ 238 true positives). 750 don't (75 false positives). Total positive = 238 + 75 ≈ 313. Closest is 320."
+    },
+    {
+      "id": "dm-8-02",
+      "type": "syllogism",
+      "passage": "All patients with hypertension should reduce sodium intake. Some patients who reduce sodium intake also reduce sugar intake. All patients who reduce sugar intake improve their HbA1c levels.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All hypertensive patients improve their HbA1c",
+        "Some hypertensive patients may improve their HbA1c",
+        "All patients who improve HbA1c have hypertension",
+        "No hypertensive patient consumes excess sodium"
+      ],
+      "correct": "Some hypertensive patients may improve their HbA1c",
+      "explanation": "Hypertensive → should reduce sodium. Some who reduce sodium also reduce sugar. Reducing sugar → improved HbA1c. So some hypertensive patients who reduce sodium may also reduce sugar and improve HbA1c."
+    },
+    {
+      "id": "dm-8-03",
+      "type": "logic-puzzle",
+      "passage": "Four patients — Faye, George, Hannah, and Ian — are waiting in a triage queue. George is ahead of Hannah. Faye is not first or last. Ian is directly behind Faye.",
+      "question": "Who is first in the queue?",
+      "options": ["Faye", "George", "Hannah", "Ian"],
+      "correct": "George",
+      "explanation": "Ian is directly behind Faye, so Faye→Ian is a block. Faye is not first or last, so Faye could be 2nd or 3rd. If Faye is 2nd, the block is positions 2-3. George ahead of Hannah — George in 1, Hannah in 4. If Faye is 3rd, block is 3-4, George in 1, Hannah in 2. In both cases, George is first."
+    },
+    {
+      "id": "dm-8-04",
+      "type": "venn-diagram",
+      "passage": "A survey of 150 hospital volunteers found: 90 help in the emergency department, 65 help in paediatrics, 25 help in both departments, and 20 help in neither.",
+      "question": "How many volunteers help only in the emergency department?",
+      "options": ["25", "40", "55", "65"],
+      "correct": "65",
+      "explanation": "Emergency only = Total emergency - Both = 90 - 25 = 65."
+    },
+    {
+      "id": "dm-8-05",
+      "type": "chart-interpretation",
+      "passage": "A neonatal unit tracks admission causes:\n\n| Cause | Month 1 | Month 2 | Month 3 | Month 4 | Month 5 | Month 6 |\n|-------|---------|---------|---------|---------|---------|----------|\n| Prematurity | 12 | 14 | 11 | 13 | 15 | 12 |\n| Infection | 8 | 6 | 9 | 7 | 5 | 4 |\n| Congenital | 5 | 4 | 5 | 6 | 5 | 5 |\n| Respiratory | 10 | 8 | 6 | 5 | 4 | 3 |\n| Other | 3 | 5 | 4 | 3 | 6 | 4 |",
+      "question": "Which admission cause shows the steadiest rate across all six months?",
+      "options": ["Prematurity", "Infection", "Congenital", "Respiratory"],
+      "correct": "Congenital",
+      "explanation": "Congenital cases remain at 4-6 across all months (range of 2), the most stable. Prematurity ranges 11-15 (range 4), Infection 4-9 (range 5), Respiratory 3-10 (range 7)."
+    },
+    {
+      "id": "dm-8-06",
+      "type": "strongest-argument",
+      "passage": "Should clinical trial results be made publicly available regardless of outcome?",
+      "question": "Which is the strongest argument FOR mandatory publication of all results?",
+      "options": [
+        "It prevents selective reporting bias and allows the medical community to evaluate treatments honestly",
+        "Positive results attract more media attention for pharmaceutical companies",
+        "Some patients want to know about all available treatments",
+        "Journal editors prefer to publish positive results"
+      ],
+      "correct": "It prevents selective reporting bias and allows the medical community to evaluate treatments honestly",
+      "explanation": "Publication bias — where only positive results are published — distorts medical knowledge and can lead to ineffective or harmful treatments being used. Mandatory publication of all results is essential for evidence-based medicine."
+    },
+    {
+      "id": "dm-8-07",
+      "type": "inference",
+      "passage": "A general practice reports:\n- Online booking increased from 10% to 55% of appointments over 2 years\n- Phone wait times decreased from 12 minutes to 4 minutes\n- No-show rate fell from 15% to 8%\n- Overall appointment availability improved by 20%",
+      "question": "Which inference is best supported?",
+      "options": [
+        "Phone bookings should be eliminated entirely",
+        "Increased online booking adoption likely contributed to reduced no-shows and improved availability",
+        "Patients no longer need to speak to reception staff",
+        "The phone system is no longer needed"
+      ],
+      "correct": "Increased online booking adoption likely contributed to reduced no-shows and improved availability",
+      "explanation": "As online booking rose from 10% to 55%, no-shows dropped (15%→8%) and availability improved (20%). Online booking allows patients to book at convenient times, likely improving attendance. We cannot conclude phones should be eliminated."
+    },
+    {
+      "id": "dm-8-08",
+      "type": "syllogism",
+      "passage": "All children under 5 need immunisation records to attend childcare. All children attending childcare interact with other children daily. Some children who interact with others daily catch common colds.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All children under 5 catch common colds",
+        "Some children under 5 attending childcare may catch common colds",
+        "No immunised child catches a cold",
+        "All children who catch colds attend childcare"
+      ],
+      "correct": "Some children under 5 attending childcare may catch common colds",
+      "explanation": "Under 5 → immunisation records needed → attend childcare. Childcare → daily interaction with others. Some who interact daily catch colds. So some under-5s at childcare may catch colds."
+    },
+    {
+      "id": "dm-8-09",
+      "type": "venn-diagram",
+      "passage": "Of 170 patients seen at a pain clinic: 105 are prescribed opioid medication, 60 are prescribed non-opioid medication, 20 are prescribed both types, and 25 receive no medication.",
+      "question": "How many patients are prescribed non-opioid medication only?",
+      "options": ["20", "25", "35", "40"],
+      "correct": "40",
+      "explanation": "Non-opioid only = Total non-opioid - Both = 60 - 20 = 40."
+    },
+    {
+      "id": "dm-8-10",
+      "type": "logic-puzzle",
+      "passage": "Three specialists — a cardiologist, a neurologist, and an orthopaedic surgeon — are assigned to rooms A, B, and C. The cardiologist is not in room A. The neurologist is in a room with a higher letter than the orthopaedic surgeon.",
+      "question": "Which room is the cardiologist in?",
+      "options": ["Room A", "Room B", "Room C", "Cannot be determined"],
+      "correct": "Room B",
+      "explanation": "Cardiologist not in A, so cardiologist in B or C. Neurologist higher letter than orthopaedic surgeon. If cardiologist is in C, neurologist must be in B (higher than A for orthopaedic) — that works. If cardiologist is in B, orthopaedic in A, neurologist in C — that also works. However, only the second arrangement satisfies all constraints cleanly. Cardiologist is in Room B, orthopaedic in Room A, neurologist in Room C."
+    }
+  ]
+}

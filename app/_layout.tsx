@@ -32,7 +32,14 @@ export default function RootLayout() {
             options={{ headerShown: false }}
           />
           <Stack.Screen
-            name="practice/[section]"
+            name="practice/[section]/index"
+            options={{
+              title: 'Question Banks',
+              headerBackTitle: 'Back',
+            }}
+          />
+          <Stack.Screen
+            name="practice/[section]/[bank]"
             options={{
               title: 'Quiz',
               headerBackTitle: 'Back',

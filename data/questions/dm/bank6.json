@@ -1,0 +1,115 @@
+{
+  "section": "dm",
+  "questions": [
+    {
+      "id": "dm-6-01",
+      "type": "venn-diagram",
+      "passage": "A study of 200 patients found: 110 had a history of smoking, 75 had a history of alcohol use, 30 had a history of both smoking and alcohol use, and 20 had neither history.",
+      "question": "How many patients had a history of smoking but not alcohol use?",
+      "options": ["45", "55", "75", "80"],
+      "correct": "80",
+      "explanation": "Smoking only = Total smoking - Both = 110 - 30 = 80."
+    },
+    {
+      "id": "dm-6-02",
+      "type": "logic-puzzle",
+      "passage": "Five beds in a ward — 1, 2, 3, 4, 5 — are assigned to patients requiring different observation frequencies: hourly, 2-hourly, 3-hourly, 4-hourly, and 6-hourly. The most critical patient (hourly) is in bed 1. The least critical (6-hourly) is not in bed 5. The 3-hourly patient is in a bed with an even number.",
+      "question": "In which bed is the 2-hourly patient?",
+      "options": ["Bed 2", "Bed 3", "Bed 4", "Bed 5"],
+      "correct": "Bed 3",
+      "explanation": "Hourly is in bed 1. 3-hourly is in bed 2 or 4 (even). 6-hourly is not in bed 5. If 3-hourly is in bed 2, the remaining beds 3, 4, 5 hold 2-hourly, 4-hourly, 6-hourly. 6-hourly can't be in bed 5, so 6-hourly in 3 or 4. If 6-hourly in 4, 2-hourly and 4-hourly in 3 and 5. This works. If 3-hourly in bed 4, 6-hourly not in 5, so 6-hourly in 2 or 3. In valid arrangements, 2-hourly ends up in bed 3."
+    },
+    {
+      "id": "dm-6-03",
+      "type": "strongest-argument",
+      "passage": "Should pharmacists be allowed to prescribe certain medications directly to patients without a GP consultation?",
+      "question": "Which is the strongest argument FOR pharmacist prescribing?",
+      "options": [
+        "It would reduce the burden on overstretched GP services and improve patient access to care",
+        "Pharmacists have completed extensive training in pharmacology and therapeutics",
+        "Patients already buy over-the-counter medications without prescriptions",
+        "Some patients find it difficult to get a timely GP appointment"
+      ],
+      "correct": "It would reduce the burden on overstretched GP services and improve patient access to care",
+      "explanation": "This addresses both the systemic benefit (reducing GP burden) and the patient benefit (improved access). While pharmacist training supports competence, the strongest argument combines practical system-level and patient-level advantages."
+    },
+    {
+      "id": "dm-6-04",
+      "type": "probabilistic-reasoning",
+      "passage": "A screening test for lung cancer has a sensitivity of 92% and specificity of 88%. In a high-risk population, 5% actually have lung cancer.",
+      "question": "If 5,000 people are screened, approximately how many will receive a true positive result?",
+      "options": ["230", "250", "460", "600"],
+      "correct": "230",
+      "explanation": "Of 5,000: 250 have lung cancer. Sensitivity of 92% means 250 × 0.92 = 230 true positives."
+    },
+    {
+      "id": "dm-6-05",
+      "type": "inference",
+      "passage": "A children's hospital reports:\n- Readmission rates for asthma fell from 18% to 9% over 3 years\n- An asthma education programme was introduced in year 1\n- Inhaler technique checks were added to discharge procedures in year 2\n- Prescribing of preventer medications increased by 40%",
+      "question": "Which inference is best supported?",
+      "options": [
+        "Asthma has been eradicated as a cause of hospital readmission",
+        "The combined education programme, inhaler checks, and medication changes likely contributed to reduced readmissions",
+        "Only the education programme was responsible for the improvement",
+        "Preventer medications are unnecessary since readmissions fell"
+      ],
+      "correct": "The combined education programme, inhaler checks, and medication changes likely contributed to reduced readmissions",
+      "explanation": "Multiple interventions were introduced over the same period that readmissions halved (18%→9%). It is most reasonable to attribute the improvement to the combination of factors rather than any single one."
+    },
+    {
+      "id": "dm-6-06",
+      "type": "syllogism",
+      "passage": "All patients with suspected fractures need X-rays. All patients who need X-rays must wait for a radiologist. Some patients who wait for a radiologist leave before being seen.",
+      "question": "Which conclusion definitely follows?",
+      "options": [
+        "All patients with suspected fractures leave before being seen",
+        "Some patients with suspected fractures may leave before being seen",
+        "No patient with a suspected fracture gets an X-ray",
+        "All radiologists see every patient who waits"
+      ],
+      "correct": "Some patients with suspected fractures may leave before being seen",
+      "explanation": "Suspected fractures → need X-rays → wait for radiologist. Some who wait leave. Therefore some patients with suspected fractures may leave. We cannot say all leave or none get X-rays."
+    },
+    {
+      "id": "dm-6-07",
+      "type": "chart-interpretation",
+      "passage": "A hospital tracks emergency department (ED) presentations by age group:\n\n| Age Group | Mon | Tue | Wed | Thu | Fri |\n|-----------|-----|-----|-----|-----|-----|\n| 0-17 | 15 | 18 | 20 | 16 | 22 |\n| 18-44 | 30 | 35 | 28 | 32 | 45 |\n| 45-64 | 25 | 22 | 24 | 20 | 18 |\n| 65+ | 20 | 18 | 22 | 25 | 15 |",
+      "question": "Which age group shows the most pronounced increase in presentations on Fridays compared to the weekly average for that group?",
+      "options": ["0-17", "18-44", "45-64", "65+"],
+      "correct": "18-44",
+      "explanation": "18-44 average = (30+35+28+32+45)/5 = 34. Friday = 45, which is 11 above average (32% increase). 0-17 average = 18.2, Friday 22 (21% increase). 45-64 average = 21.8, Friday 18 (below average). 65+ average = 20, Friday 15 (below average)."
+    },
+    {
+      "id": "dm-6-08",
+      "type": "venn-diagram",
+      "passage": "Of 180 patients at a rehabilitation centre: 100 do physiotherapy, 70 do occupational therapy, 30 do both, and 40 do neither.",
+      "question": "How many patients do only physiotherapy?",
+      "options": ["30", "40", "50", "70"],
+      "correct": "70",
+      "explanation": "Physio only = Total physio - Both = 100 - 30 = 70."
+    },
+    {
+      "id": "dm-6-09",
+      "type": "logic-puzzle",
+      "passage": "Three patients are scheduled for procedures at 09:00, 10:00, and 11:00. Patient A's procedure is scheduled before Patient B's. Patient C's procedure is not at 09:00 or 11:00.",
+      "question": "What time is Patient B's procedure?",
+      "options": ["09:00", "10:00", "11:00", "Cannot be determined"],
+      "correct": "11:00",
+      "explanation": "Patient C must be at 10:00 (not 09:00 or 11:00). Patient A is before Patient B, so Patient A is at 09:00 and Patient B is at 11:00."
+    },
+    {
+      "id": "dm-6-10",
+      "type": "inference",
+      "passage": "A surgical unit's data shows:\n- Average waiting time for elective surgery: 45 days (national target: 30 days)\n- Theatre utilisation rate: 65% (national target: 85%)\n- Cancellation rate on the day of surgery: 12%\n- Staff satisfaction survey: 62% report adequate resources",
+      "question": "Which inference is best supported?",
+      "options": [
+        "The unit should hire more surgeons to reduce waiting times",
+        "The low theatre utilisation rate despite long waiting times suggests an efficiency or scheduling problem",
+        "Staff satisfaction is the main cause of long waiting times",
+        "The national waiting time target is unrealistic"
+      ],
+      "correct": "The low theatre utilisation rate despite long waiting times suggests an efficiency or scheduling problem",
+      "explanation": "If theatres are only used 65% of the time while patients wait 45 days (vs 30-day target), there is clearly unused capacity that could reduce waiting times. This suggests an efficiency or scheduling issue rather than a simple capacity problem."
+    }
+  ]
+}

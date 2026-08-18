@@ -1,0 +1,95 @@
+{
+  "section": "qr",
+  "questions": [
+    {
+      "id": "qr-7-1",
+      "type": "data-interpretation",
+      "passage": "The table shows vaccination coverage by region:\n\n| Region | Target Population | Vaccinated |\n|--------|------------------|------------|\n| North  | 50,000           | 42,500     |\n| South  | 45,000           | 38,250     |\n| East   | 35,000           | 26,250     |\n| West   | 40,000           | 30,400     |\n| Central | 30,000          | 25,500     |",
+      "question": "What is the total number of people vaccinated across all regions?",
+      "options": ["152,650", "158,400", "162,900", "170,000"],
+      "correct": "162,900",
+      "explanation": "Total = 42,500 + 38,250 + 26,250 + 30,400 + 25,500 = 162,900."
+    },
+    {
+      "id": "qr-7-2",
+      "type": "percentage",
+      "passage": "A hospital pharmacy dispensed 8,400 items in January. In February, dispensing increased by 12%. In March, it decreased by 8% from February.",
+      "question": "How many items were dispensed in March? (Round to nearest whole number)",
+      "options": ["8,655", "8,740", "8,920", "9,174"],
+      "correct": "8,655",
+      "explanation": "February = 8,400 × 1.12 = 9,408. March = 9,408 × 0.92 = 8,655.36 ≈ 8,655."
+    },
+    {
+      "id": "qr-7-3",
+      "type": "unit-conversion",
+      "passage": "A patient requires a saline drip at 1.5 mL/kg/hr. The patient weighs 60 kg. Normal saline bags are 1,000 mL.",
+      "question": "How long will one 1,000 mL bag last? (Round down to nearest whole hour)",
+      "options": ["8 hours", "9 hours", "10 hours", "11 hours"],
+      "correct": "11 hours",
+      "explanation": "Rate = 60 × 1.5 = 90 mL/hr. Time = 1,000 ÷ 90 = 11.11 hours. Round down to 11 hours."
+    },
+    {
+      "id": "qr-7-4",
+      "type": "ratio",
+      "passage": "A hospital has 120 medical staff in the ratio of consultants:registrars:junior doctors = 2:5:3.",
+      "question": "How many registrars are there?",
+      "options": ["24", "40", "60", "75"],
+      "correct": "60",
+      "explanation": "Total parts = 2 + 5 + 3 = 10. Each part = 120 ÷ 10 = 12. Registrars = 5 × 12 = 60."
+    },
+    {
+      "id": "qr-7-5",
+      "type": "rate",
+      "passage": "A renal unit performs haemodialysis sessions of 4 hours each. The unit has 10 dialysis machines and operates 6 days per week. Each machine can run 2 sessions per day.",
+      "question": "How many dialysis sessions can the unit perform per week?",
+      "options": ["60", "80", "100", "120"],
+      "correct": "120",
+      "explanation": "Sessions per machine per day = 2. Total per day = 10 × 2 = 20. Per week = 20 × 6 = 120."
+    },
+    {
+      "id": "qr-7-6",
+      "type": "data-interpretation",
+      "passage": "The table shows cause-specific mortality data:\n\n| Cause | Deaths | Population |\n|-------|--------|------------|\n| Cardiovascular | 1,200 | 100,000 |\n| Cancer | 980 | 100,000 |\n| Respiratory | 420 | 100,000 |\n| Infections | 180 | 100,000 |\n| Other | 220 | 100,000 |",
+      "question": "What is the crude mortality rate per 1,000 population for all causes combined?",
+      "options": ["20", "25", "30", "35"],
+      "correct": "30",
+      "explanation": "Total deaths = 1,200 + 980 + 420 + 180 + 220 = 3,000. Rate per 1,000 = (3,000 ÷ 100,000) × 1,000 = 30."
+    },
+    {
+      "id": "qr-7-7",
+      "type": "percentage",
+      "passage": "A clinical trial enrolled 400 patients. 200 received the active drug, 200 received placebo. In the drug group, 150 completed the trial. In the placebo group, 170 completed.",
+      "question": "What was the overall completion rate across both groups?",
+      "options": ["75%", "78%", "80%", "82.5%"],
+      "correct": "80%",
+      "explanation": "Total completed = 150 + 170 = 320. Overall rate = (320 ÷ 400) × 100 = 80%."
+    },
+    {
+      "id": "qr-7-8",
+      "type": "unit-conversion",
+      "passage": "A child weighing 12 kg requires salbutamol nebuliser at 2.5 mg. Salbutamol solution comes as 5 mg in 2.5 mL.",
+      "question": "How many mL of salbutamol solution should be drawn up for one nebulisation?",
+      "options": ["0.625 mL", "1.25 mL", "2.5 mL", "5.0 mL"],
+      "correct": "1.25 mL",
+      "explanation": "Required = 2.5 mg. Concentration = 5 mg per 2.5 mL = 2 mg/mL. Volume = 2.5 ÷ 2 = 1.25 mL."
+    },
+    {
+      "id": "qr-7-9",
+      "type": "data-interpretation",
+      "passage": "The table shows blood product usage per month:\n\n| Blood Product | Units Used | Cost per Unit |\n|---------------|-----------|---------------|\n| Packed Red Cells | 200    | £120          |\n| Fresh Frozen Plasma | 80  | £30           |\n| Platelets | 50         | £250          |\n| Cryoprecipitate | 30    | £40           |",
+      "question": "What is the total monthly cost for all blood products?",
+      "options": ["£38,100", "£40,100", "£42,100", "£44,100"],
+      "correct": "£40,100",
+      "explanation": "PRC: 200×120=£24,000. FFP: 80×30=£2,400. Platelets: 50×250=£12,500. Cryo: 30×40=£1,200. Total = 24,000+2,400+12,500+1,200 = £40,100."
+    },
+    {
+      "id": "qr-7-10",
+      "type": "rate",
+      "passage": "A surgical list has 5 cases scheduled. The average case takes 40 minutes, with 10 minutes between cases for cleaning. The list starts at 08:00.",
+      "question": "At what time is the list expected to finish?",
+      "options": ["11:40", "12:00", "12:20", "12:40"],
+      "correct": "12:00",
+      "explanation": "5 cases × 40 min = 200 min. 4 gaps × 10 min = 40 min. Total = 200 + 40 = 240 min = 4 hours. 08:00 + 4:00 = 12:00."
+    }
+  ]
+}
