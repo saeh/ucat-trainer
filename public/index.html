@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>UCAT Trainer</title>
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        overflow: hidden;
+        background-color: #0f0f23;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+    <link rel="icon" href="/favicon.ico" />
+    <script>
+      (function () {
+        try {
+          var origCreateElement = document.createElement.bind(document);
+          document.createElement = function (tagName, options) {
+            var el = origCreateElement(tagName, options);
+            if (el && el.style && el.style.constructor && el.style.constructor.name === 'CSSStyleDeclaration') {
+              var origStyle = el.style;
+              el.style = new Proxy(origStyle, {
+                set: function (target, prop, value) {
+                  if (typeof prop === 'string' && /^\d+$/.test(prop)) {
+                    return true;
+                  }
+                  try {
+                    target[prop] = value;
+                  } catch (e) {}
+                  return true;
+                },
+                get: function (target, prop) {
+                  if (typeof prop === 'string' && /^\d+$/.test(prop)) {
+                    return undefined;
+                  }
+                  var val = target[prop];
+                  if (typeof val === 'function') {
+                    return val.bind(target);
+                  }
+                  return val;
+                },
+              });
+            }
+            return el;
+          };
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
