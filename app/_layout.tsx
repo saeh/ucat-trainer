@@ -20,9 +20,11 @@ export default function RootLayout() {
             headerStyle: { backgroundColor: Colors.background },
             headerTintColor: Colors.text,
             contentStyle: { backgroundColor: Colors.background },
+            headerShadowVisible: false,
           }}
         >
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="index" options={{ headerShown: false }} />
           <Stack.Screen
             name="(auth)/sign-in"
             options={{ headerShown: false }}
@@ -34,14 +36,14 @@ export default function RootLayout() {
           <Stack.Screen
             name="practice/[section]/index"
             options={{
-              title: 'Question Banks',
+              title: '',
               headerBackTitle: 'Back',
             }}
           />
           <Stack.Screen
             name="practice/[section]/[bank]"
             options={{
-              title: 'Quiz',
+              title: '',
               headerBackTitle: 'Back',
             }}
           />
