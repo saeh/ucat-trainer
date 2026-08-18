@@ -18,7 +18,7 @@ export default function QuizScreen() {
   const { section, bank } = useLocalSearchParams<{ section: string; bank: string }>();
   const sectionInfo = getSectionByKey(section ?? '');
   const bankInfo = getBankInfo(bank ?? '');
-  const timer = useTimer((bankInfo?.timeMinutes ?? sectionInfo?.timeMinutes ?? 22) * 60);
+  const timer = useTimer(5 * 60);
   const { addResult } = useScores();
 
   const [started, setStarted] = useState(false);
@@ -72,7 +72,7 @@ export default function QuizScreen() {
         date: new Date().toISOString(),
         totalQuestions: questions.length,
         correctAnswers: totalCorrect,
-        timeSpent: (bankInfo?.timeMinutes ?? sectionInfo?.timeMinutes ?? 22) * 60 - timer.seconds,
+        timeSpent: 5 * 60 - timer.seconds,
         percentage: Math.round((totalCorrect / questions.length) * 100),
       };
       addResult(result);
@@ -115,7 +115,7 @@ export default function QuizScreen() {
             {totalCorrect} correct out of {questions.length}
           </Text>
           <Text style={styles.resultsTime}>
-            Time: {Math.floor(((bankInfo.timeMinutes * 60) - timer.seconds) / 60)}m {((bankInfo.timeMinutes * 60) - timer.seconds) % 60}s
+            Time: {Math.floor((5 * 60 - timer.seconds) / 60)}m {(5 * 60 - timer.seconds) % 60}s
           </Text>
         </View>
 
@@ -168,11 +168,11 @@ export default function QuizScreen() {
               <Text style={styles.startStatLabel}>Questions</Text>
             </View>
             <View style={styles.startStat}>
-              <Text style={styles.startStatNum}>{bankInfo.timeMinutes}</Text>
+              <Text style={styles.startStatNum}>5</Text>
               <Text style={styles.startStatLabel}>Minutes</Text>
             </View>
             <View style={styles.startStat}>
-              <Text style={styles.startStatNum}>~{Math.round(bankInfo.timeMinutes * 60 / questions.length)}s</Text>
+              <Text style={styles.startStatNum}>30s</Text>
               <Text style={styles.startStatLabel}>Per Question</Text>
             </View>
           </View>
