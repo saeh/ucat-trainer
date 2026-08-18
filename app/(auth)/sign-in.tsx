@@ -1,6 +1,7 @@
 import { View, StyleSheet } from 'react-native';
 import { SignIn } from '@clerk/react';
 import { Colors } from '../../constants/colors';
+import { clerkAppearance } from '../../constants/clerkTheme';
 
 export default function SignInScreen() {
   return (
@@ -8,21 +9,7 @@ export default function SignInScreen() {
       <SignIn
         routing="hash"
         fallbackRedirectUrl="/"
-        appearance={{
-          elements: {
-            rootBox: { width: '100%', maxWidth: 400 },
-            card: {
-              backgroundColor: Colors.surface,
-              boxShadow: 'none',
-              border: `1px solid ${Colors.border}`,
-            },
-            formButtonPrimary: {
-              backgroundColor: Colors.primary,
-              '&:hover': { backgroundColor: Colors.primaryDark },
-            },
-            footerActionLink: { color: Colors.primary },
-          },
-        }}
+        appearance={clerkAppearance}
       />
     </View>
   );
